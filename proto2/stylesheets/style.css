@@ -74,11 +74,17 @@ body {
 }
 
 /* line 8, ../sass/base/_base.scss */
+.cf {
+  overflow: auto;
+  zoom: 1;
+}
+
+/* line 13, ../sass/base/_base.scss */
 header {
   padding: 15px;
   background: #333333;
 }
-/* line 12, ../sass/base/_base.scss */
+/* line 17, ../sass/base/_base.scss */
 header h2 {
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
@@ -87,7 +93,7 @@ header h2 {
   text-transform: uppercase;
 }
 
-/* line 22, ../sass/base/_base.scss */
+/* line 27, ../sass/base/_base.scss */
 .container {
   width: 375px;
   height: 667px;
@@ -96,26 +102,26 @@ header h2 {
   background: #ffffff;
 }
 
-/* line 30, ../sass/base/_base.scss */
+/* line 35, ../sass/base/_base.scss */
 .main {
   padding: 0 20px;
 }
 
-/* line 34, ../sass/base/_base.scss */
+/* line 39, ../sass/base/_base.scss */
 .search {
   padding: 20px 0 10px 0;
   background: #ffffff;
   text-transform: uppercase;
 }
-/* line 39, ../sass/base/_base.scss */
+/* line 44, ../sass/base/_base.scss */
 .search input:focus {
   outline: none;
 }
-/* line 40, ../sass/base/_base.scss */
+/* line 45, ../sass/base/_base.scss */
 .search input[placeholder] {
   color: #333333;
 }
-/* line 41, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 .search input[type=text] {
   width: 98.4%;
   height: 30px;
@@ -125,7 +131,31 @@ header h2 {
   text-align: center;
 }
 
-/* line 54, ../sass/base/_base.scss */
+/* line 58, ../sass/base/_base.scss */
+.lang-selector {
+  width: 100%;
+  margin: 10px 0;
+  background: #30A9DC;
+  border-radius: 5px;
+}
+/* line 65, ../sass/base/_base.scss */
+.lang-selector .lang {
+  width: 50%;
+  float: left;
+  padding: 12px 0;
+  background: #30A9DC;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 77, ../sass/base/_base.scss */
+.lang-selector .lang.is-active {
+  background: #0C73B8;
+}
+
+/* line 84, ../sass/base/_base.scss */
 ul li {
   padding: 10px 5px;
   color: #333333;

@@ -5,6 +5,11 @@ body {
 	font-weight: $site-light;
 	letter-spacing: 1px;
 }
+.cf {
+	overflow: auto;
+	zoom: 1;
+}
+
 header {
 	padding: 15px;
 	background: $coal;
@@ -47,6 +52,31 @@ header {
 
 		font-size: 16px;
 		text-align: center;
+	}
+}
+
+.lang-selector {
+	width: 100%;
+	margin: 10px 0;
+
+	background: $blue;
+	border-radius: 5px;
+
+	.lang {
+		width: 50%;
+		float: left;
+		padding: 12px 0;
+
+		background: $blue;
+		color: $white;
+
+		font-size: 20px;
+		font-weight: $site-med;
+		text-align: center;
+		cursor: pointer;
+		&.is-active {
+			background: $dark-blue;
+		}
 	}
 }
 
