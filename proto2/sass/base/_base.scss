@@ -1,0 +1,62 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: $site-font;
+	font-weight: $site-light;
+	letter-spacing: 1px;
+}
+header {
+	padding: 15px;
+	background: $coal;
+
+	h2 {
+		font-size: 25px;
+		font-family: $site-header;
+		color: $white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+
+.container {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+	border: 1px solid $coal;
+	background: $white;
+}
+
+.main {
+	padding: 0 20px;
+}
+
+.search {
+	padding: 20px 0 10px 0;
+	background: $white;
+	text-transform: uppercase;
+
+	input:focus {outline: none;}
+	input[placeholder] { color: $coal; }
+	input[type=text] {
+		width: 98.4%;
+		height: 30px;
+
+		border: 2px solid $coal;
+		border-radius: 5px;
+
+		font-size: 16px;
+		text-align: center;
+	}
+}
+
+ul {
+	li {
+		padding: 10px 5px;
+		color: $coal;
+		background: $white;
+		border-bottom: 1px solid $blue;
+
+		text-overflow: ellipsis;
+	}
+}
