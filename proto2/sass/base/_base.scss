@@ -81,6 +81,13 @@ header {
 }
 
 ul {
+	display: none;
+	overflow: scroll;
+	max-height: 400px;
+
+	&.is-active {
+		display: block;
+	}
 	li {
 		padding: 10px 5px;
 		color: $coal;

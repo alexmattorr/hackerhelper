@@ -1,7 +1,7 @@
 var phonecatApp = angular.module('protoApp', []);
 
 phonecatApp.controller('ProtoAppCtrl', function ($scope) {
-	$scope.items = [
+	$scope.cssLang = [
 		{
 			'name': ':active'
 		}, {
@@ -22,6 +22,25 @@ phonecatApp.controller('ProtoAppCtrl', function ($scope) {
 			'name': 'animation-direction'
 		}, {
 			'name': 'animation-duration'
+		}
+	];
+	$scope.sassLang = [
+		{
+			'name': 'preprocessing'
+		}, {
+			'name': 'variables'
+		}, {
+			'name': 'nesting'
+		}, {
+			'name': 'partials'
+		}, {
+			'name': 'import'
+		}, {
+			'name': 'mixins'
+		}, {
+			'name': 'inheritence'
+		}, {
+			'name': 'operators'
 		}
 	];
 });

@@ -28,7 +28,8 @@
 			</div>
 			
 			<!-- Use angular to bring in URL to next page with item content -->
-			<ul><li ng-repeat="item in items | filter:query | orderBy: orderList">{{item.name}}</li></ul>
+			<ul class="lang-items is-active"><li ng-repeat="css in cssLang | filter:query | orderBy: orderList">{{css.name}}</li></ul>
+			<ul class="lang-items"><li ng-repeat="sass in sassLang | filter:query | orderBy: orderList">{{sass.name}}</li></ul>
 		</div>
 	</div>
 </body>

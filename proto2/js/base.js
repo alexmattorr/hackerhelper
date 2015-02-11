@@ -4,6 +4,7 @@ function baseJS() {
 			$(".lang").click(function() {
 				$(".is-active").removeClass("is-active");
 				$(this).addClass("is-active");
+				$("lang-items").addClass("is-active");
 			});
 		};
 		changeTab();
@@ -11,6 +12,3 @@ function baseJS() {
 };
 
 baseJS();
-
-$("li.active").removeClass("active");
-      $(this).addClass('active');
