@@ -1,0 +1,46 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: $site-font;
+	letter-spacing: 1px;
+}
+header {
+	padding: 15px;
+	background: $red;
+
+	h2 {
+		font-size: 25px;
+		font-weight: $site-bold;
+		color: $white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+input:focus {outline: none; }
+.container {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+	border: 1px solid darken($cloud, 70%);
+	background: $cloud;
+}
+
+.search {
+	background: $white;
+	border-bottom: 1px solid darken($cloud, 40%);
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
+
+	input[type=text] {
+		width: 94%;
+	}
+}
+
+ul {
+	text-align: center;
+	li {
+		padding: 10px 0;
+		border-bottom: 1px solid darken($cloud, 40%);
+		background: $white;
+	}
+}
