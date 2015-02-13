@@ -158,14 +158,13 @@ header h2 {
 /* line 83, ../sass/base/_base.scss */
 ul {
   display: none;
-  overflow: scroll;
   max-height: 400px;
 }
-/* line 88, ../sass/base/_base.scss */
+/* line 87, ../sass/base/_base.scss */
 ul.is-active {
   display: block;
 }
-/* line 91, ../sass/base/_base.scss */
+/* line 90, ../sass/base/_base.scss */
 ul li {
   padding: 10px 5px;
   color: #333333;
