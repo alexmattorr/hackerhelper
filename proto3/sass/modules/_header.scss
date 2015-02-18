@@ -1,0 +1,14 @@
+header {
+	position: fixed;
+	width: 100%;
+	padding: 15px;
+	background: $coal;
+
+	h2 {
+		font-size: 25px;
+		font-family: $site-header;
+		color: $white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}

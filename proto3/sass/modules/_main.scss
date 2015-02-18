@@ -1,0 +1,26 @@
+.main {
+	max-width: $phone;
+	padding: 180px 20px 0 20px;
+	margin: 0 auto;
+
+	h2 {
+		font-size: 45px;
+		font-weight: bold;
+	}
+
+	ul {
+		display: none;
+		max-height: 400px;
+
+		&.is-active {
+			display: block;
+		}
+		li {
+			padding: 10px 5px;
+			color: $coal;
+			background: $white;
+			border-bottom: 1px solid $blue;
+			text-overflow: ellipsis;
+		}
+	}
+}

@@ -1,5 +1,19 @@
+// reset
 @import "compass/reset";
 
+// includes
 @import "includes/variables";
+@import "includes/mixins";
 
+// base
 @import "base/base";
+
+// layout
+
+
+// components
+@import "components/search-filter";
+
+// modules
+@import "modules/header";
+@import "modules/main";

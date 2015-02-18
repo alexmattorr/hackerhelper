@@ -1,0 +1,47 @@
+.search-filter {
+	position: fixed;
+	top: 55px;
+	width: 100%;
+	background: $white;
+	padding: 20px 0 10px 0;
+	background: $white;
+	text-transform: uppercase;
+	text-align: center;
+
+	input:focus {outline: none;}
+	input[placeholder] { color: $coal; }
+	input[type=text] {
+		width: 89%;
+		height: 30px;
+
+		border: 2px solid $coal;
+		border-radius: 5px;
+
+		font-size: 16px;
+		text-align: center;
+	}
+	.filter {
+		width: 90%;
+		margin: 10px auto;
+
+		background: $blue;
+		border-radius: 5px;
+
+		.lang {
+			width: 50%;
+			float: left;
+			padding: 12px 0;
+
+			background: $blue;
+			color: $white;
+
+			font-size: 20px;
+			font-weight: $site-med;
+			text-align: center;
+			cursor: pointer;
+			&.is-active {
+				background: $dark-blue;
+			}
+		}
+	}
+}

@@ -79,23 +79,7 @@ body {
   zoom: 1;
 }
 
-/* line 13, ../sass/base/_base.scss */
-header {
-  position: fixed;
-  width: 100%;
-  padding: 15px;
-  background: #333333;
-}
-/* line 19, ../sass/base/_base.scss */
-header h2 {
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-/* line 29, ../sass/base/_base.scss */
+/* line 12, ../sass/base/_base.scss */
 .container {
   width: 100%;
   height: auto;
@@ -103,8 +87,8 @@ header h2 {
   background: #ffffff;
 }
 
-/* line 36, ../sass/base/_base.scss */
-.search {
+/* line 1, ../sass/components/_search-filter.scss */
+.search-filter {
   position: fixed;
   top: 55px;
   width: 100%;
@@ -114,16 +98,16 @@ header h2 {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 46, ../sass/base/_base.scss */
-.search input:focus {
+/* line 11, ../sass/components/_search-filter.scss */
+.search-filter input:focus {
   outline: none;
 }
-/* line 47, ../sass/base/_base.scss */
-.search input[placeholder] {
+/* line 12, ../sass/components/_search-filter.scss */
+.search-filter input[placeholder] {
   color: #333333;
 }
-/* line 48, ../sass/base/_base.scss */
-.search input[type=text] {
+/* line 13, ../sass/components/_search-filter.scss */
+.search-filter input[type=text] {
   width: 89%;
   height: 30px;
   border: 2px solid #333333;
@@ -131,28 +115,15 @@ header h2 {
   font-size: 16px;
   text-align: center;
 }
-
-/* line 60, ../sass/base/_base.scss */
-.main {
-  max-width: 650px;
-  padding: 180px 20px 0 20px;
-  margin: 0 auto;
-}
-/* line 65, ../sass/base/_base.scss */
-.main h2 {
-  font-size: 45px;
-  font-weight: bold;
-}
-
-/* line 71, ../sass/base/_base.scss */
-.lang-selector {
+/* line 23, ../sass/components/_search-filter.scss */
+.search-filter .filter {
   width: 90%;
   margin: 10px auto;
   background: #30A9DC;
   border-radius: 5px;
 }
-/* line 78, ../sass/base/_base.scss */
-.lang-selector .lang {
+/* line 30, ../sass/components/_search-filter.scss */
+.search-filter .filter .lang {
   width: 50%;
   float: left;
   padding: 12px 0;
@@ -163,22 +134,49 @@ header h2 {
   text-align: center;
   cursor: pointer;
 }
-/* line 90, ../sass/base/_base.scss */
-.lang-selector .lang.is-active {
+/* line 42, ../sass/components/_search-filter.scss */
+.search-filter .filter .lang.is-active {
   background: #0C73B8;
 }
 
-/* line 96, ../sass/base/_base.scss */
-ul {
+/* line 1, ../sass/modules/_header.scss */
+header {
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  background: #333333;
+}
+/* line 7, ../sass/modules/_header.scss */
+header h2 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/modules/_main.scss */
+.main {
+  max-width: 650px;
+  padding: 180px 20px 0 20px;
+  margin: 0 auto;
+}
+/* line 6, ../sass/modules/_main.scss */
+.main h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+/* line 11, ../sass/modules/_main.scss */
+.main ul {
   display: none;
   max-height: 400px;
 }
-/* line 100, ../sass/base/_base.scss */
-ul.is-active {
+/* line 15, ../sass/modules/_main.scss */
+.main ul.is-active {
   display: block;
 }
-/* line 103, ../sass/base/_base.scss */
-ul li {
+/* line 18, ../sass/modules/_main.scss */
+.main ul li {
   padding: 10px 5px;
   color: #333333;
   background: #ffffff;
