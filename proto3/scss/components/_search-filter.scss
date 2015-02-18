@@ -12,6 +12,7 @@
 	input[placeholder] { color: $coal; }
 	input[type=text] {
 		width: 89%;
+		max-width: $phone;
 		height: 30px;
 
 		border: 2px solid $coal;
@@ -22,6 +23,7 @@
 	}
 	.filter {
 		width: 90%;
+		max-width: $phone;
 		margin: 10px auto;
 
 		background: $blue;
