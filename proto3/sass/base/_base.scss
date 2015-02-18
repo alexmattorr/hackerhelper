@@ -33,21 +33,20 @@ header {
 	background: $white;
 }
 
-.main {
-	max-width: $phone;
-	padding: 60px 20px 0 20px;
-	margin: 0 auto;
-}
-
 .search {
+	position: fixed;
+	top: 55px;
+	width: 100%;
+	background: $white;
 	padding: 20px 0 10px 0;
 	background: $white;
 	text-transform: uppercase;
+	text-align: center;
 
 	input:focus {outline: none;}
 	input[placeholder] { color: $coal; }
 	input[type=text] {
-		width: 98.4%;
+		width: 89%;
 		height: 30px;
 
 		border: 2px solid $coal;
@@ -58,9 +57,20 @@ header {
 	}
 }
 
+.main {
+	max-width: $phone;
+	padding: 180px 20px 0 20px;
+	margin: 0 auto;
+
+	h2 {
+		font-size: 45px;
+		font-weight: bold;
+	}
+}
+
 .lang-selector {
-	width: 100%;
-	margin: 10px 0;
+	width: 90%;
+	margin: 10px auto;
 
 	background: $blue;
 	border-radius: 5px;

@@ -104,29 +104,27 @@ header h2 {
 }
 
 /* line 36, ../sass/base/_base.scss */
-.main {
-  max-width: 650px;
-  padding: 60px 20px 0 20px;
-  margin: 0 auto;
-}
-
-/* line 42, ../sass/base/_base.scss */
 .search {
+  position: fixed;
+  top: 55px;
+  width: 100%;
+  background: #ffffff;
   padding: 20px 0 10px 0;
   background: #ffffff;
   text-transform: uppercase;
+  text-align: center;
 }
-/* line 47, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 .search input:focus {
   outline: none;
 }
-/* line 48, ../sass/base/_base.scss */
+/* line 47, ../sass/base/_base.scss */
 .search input[placeholder] {
   color: #333333;
 }
-/* line 49, ../sass/base/_base.scss */
+/* line 48, ../sass/base/_base.scss */
 .search input[type=text] {
-  width: 98.4%;
+  width: 89%;
   height: 30px;
   border: 2px solid #333333;
   border-radius: 5px;
@@ -134,14 +132,26 @@ header h2 {
   text-align: center;
 }
 
-/* line 61, ../sass/base/_base.scss */
+/* line 60, ../sass/base/_base.scss */
+.main {
+  max-width: 650px;
+  padding: 180px 20px 0 20px;
+  margin: 0 auto;
+}
+/* line 65, ../sass/base/_base.scss */
+.main h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+/* line 71, ../sass/base/_base.scss */
 .lang-selector {
-  width: 100%;
-  margin: 10px 0;
+  width: 90%;
+  margin: 10px auto;
   background: #30A9DC;
   border-radius: 5px;
 }
-/* line 68, ../sass/base/_base.scss */
+/* line 78, ../sass/base/_base.scss */
 .lang-selector .lang {
   width: 50%;
   float: left;
@@ -153,21 +163,21 @@ header h2 {
   text-align: center;
   cursor: pointer;
 }
-/* line 80, ../sass/base/_base.scss */
+/* line 90, ../sass/base/_base.scss */
 .lang-selector .lang.is-active {
   background: #0C73B8;
 }
 
-/* line 86, ../sass/base/_base.scss */
+/* line 96, ../sass/base/_base.scss */
 ul {
   display: none;
   max-height: 400px;
 }
-/* line 90, ../sass/base/_base.scss */
+/* line 100, ../sass/base/_base.scss */
 ul.is-active {
   display: block;
 }
-/* line 93, ../sass/base/_base.scss */
+/* line 103, ../sass/base/_base.scss */
 ul li {
   padding: 10px 5px;
   color: #333333;

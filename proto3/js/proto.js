@@ -3,44 +3,62 @@ var phonecatApp = angular.module('protoApp', []);
 phonecatApp.controller('ProtoAppCtrl', function ($scope) {
 	$scope.cssLang = [
 		{
-			'name': ':active'
+			'name': ':active',
+			'url': '../test.html'
 		}, {
-			'name': '::after (:after)'
+			'name': '::after (:after)',
+			'url': '../test.html'
 		}, {
-			'name': 'align-content'
+			'name': 'align-content',
+			'url': '../test.html'
 		}, {
-			'name': 'align-self'
+			'name': 'align-self',
+			'url': '../test.html'
 		}, {
-			'name': 'all'
+			'name': 'all',
+			'url': '../test.html'
 		}, {
-			'name': '<angle>'
+			'name': '<angle>',
+			'url': '../test.html'
 		}, {
-			'name': 'animation'
+			'name': 'animation',
+			'url': '../test.html'
 		}, {
-			'name': 'animation-delay'
+			'name': 'animation-delay',
+			'url': '../test.html'
 		}, {
-			'name': 'animation-direction'
+			'name': 'animation-direction',
+			'url': '../test.html'
 		}, {
-			'name': 'animation-duration'
+			'name': 'animation-duration',
+			'url': '../test.html'
 		}
 	];
 	$scope.sassLang = [
 		{
-			'name': 'preprocessing'
+			'name': 'preprocessing',
+			'url': '../test.html'
 		}, {
-			'name': 'variables'
+			'name': 'variables',
+			'url': '../test.html'
 		}, {
-			'name': 'nesting'
+			'name': 'nesting',
+			'url': '../test.html'
 		}, {
-			'name': 'partials'
+			'name': 'partials',
+			'url': '../test.html'
 		}, {
-			'name': 'import'
+			'name': 'import',
+			'url': '../test.html'
 		}, {
-			'name': 'mixins'
+			'name': 'mixins',
+			'url': '../test.html'
 		}, {
-			'name': 'inheritence'
+			'name': 'inheritence',
+			'url': '../test.html'
 		}, {
-			'name': 'operators'
+			'name': 'operators',
+			'url': '../test.html'
 		}
 	];
 });

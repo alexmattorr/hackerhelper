@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Prototype2</title>
+	<title>Prototype3</title>
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<script src="js/angular.min.js"></script>
 	<script src="js/jquery-2.1.1.min.js"></script>
@@ -16,8 +16,7 @@
 	<div class="container">
 		<header><h2>Hacker Helper</h2></header> 
 
-		<div class="main">
-			<div class="search">
+		<div class="search">
 				<input type="text" placeholder="search" id="query" ng-model="query" />
 
 				<div class="lang-selector cf">
@@ -25,10 +24,10 @@
 					<div class="lang">sass</div>
 				</div>
 			</div>
-			
-			<!-- Use angular to bring in URL to next page with item content -->
-			<ul class="lang-items is-active"><li ng-repeat="css in cssLang | filter:query | orderBy:'name' ">{{css.name}}</li></ul>
-			<ul class="lang-items"><li ng-repeat="sass in sassLang | filter:query | orderBy:'name' ">{{sass.name}}</li></ul>
+
+		<div class="main">
+			<ul class="lang-items is-active"><li ng-repeat="css in cssLang | filter:query | orderBy:'name' "><a ng-href="hackerhelper/{{css.url}}">{{css.name}}</a></li></ul>
+			<ul class="lang-items"><li ng-repeat="sass in sassLang | filter:query | orderBy:'name' "><a ng-href="hackerhelper/{{sass.url}}">{{sass.name}}</a></li></ul>
 		</div>
 	</div>
 </body>
