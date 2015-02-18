@@ -20,4 +20,37 @@ $site-header: 'Montserrat', sans-serif;
 $site-med: 400;
 $site-light: 300;
 
-$phone: 650px;
+// responsive
+$tiny: 320px;
+$small: 480px;
+$phone: 640px;
+$phone-l: 768px;
+$tablet: 960px;
+$tablet-l: 1024px;
+$full: 1080px;
+$desktop: 1280px;
+
+@mixin tiny() {
+	@include respond-to($tiny) { @content; }
+}
+@mixin small() {
+	@include respond-to($small) { @content; }
+}
+@mixin phone() {
+	@include respond-to($phone) { @content; }
+}
+@mixin phone-l() {
+	@include respond-to($phone-l) { @content; }
+}
+@mixin tablet() {
+	@include respond-to($tablet) { @content; }
+}
+@mixin tablet-l() {
+	@include respond-to($tablet-l) { @content; }
+}
+@mixin full() {
+	@include respond-to($full) { @content; }
+}
+@mixin desktop() {
+	@include respond-to($desktop) { @content; }
+}

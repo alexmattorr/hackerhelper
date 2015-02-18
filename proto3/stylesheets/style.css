@@ -157,7 +157,7 @@ header h2 {
 
 /* line 1, ../sass/modules/_main.scss */
 .main {
-  max-width: 650px;
+  max-width: 640px;
   padding: 180px 20px 0 20px;
   margin: 0 auto;
 }
@@ -182,4 +182,9 @@ header h2 {
   background: #ffffff;
   border-bottom: 1px solid #30A9DC;
   text-overflow: ellipsis;
+}
+/* line 24, ../sass/modules/_main.scss */
+.main ul li a {
+  display: block;
+  color: inherit;
 }

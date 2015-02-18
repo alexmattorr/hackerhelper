@@ -21,6 +21,10 @@
 			background: $white;
 			border-bottom: 1px solid $blue;
 			text-overflow: ellipsis;
+			a {
+				display: block;
+				color: inherit;
+			}
 		}
 	}
 }
