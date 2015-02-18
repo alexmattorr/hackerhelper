@@ -6,6 +6,12 @@ function baseJS() {
 				$(".lang-items").toggleClass("is-active");
 			});
 		};
+		function goBack() {
+			$(".go-back").click(function() {
+				window.history.back()
+			})	
+		}
+		goBack();
 		changeTab();
 	});
 };

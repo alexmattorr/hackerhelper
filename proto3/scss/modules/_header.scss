@@ -1,14 +1,21 @@
 header {
 	position: fixed;
 	width: 100%;
-	padding: 15px 0;
 	background: $coal;
+	color: $white;
+	text-align: center;
+
+	.fa {
+		padding: 15px;
+		float: left;
+		font-size: 25px;
+		cursor: pointer;
+	}
 
 	h2 {
+		padding-top: 15px;
 		font-size: 25px;
 		font-family: $site-header;
-		color: $white;
-		text-align: center;
 		text-transform: uppercase;
 	}
 }
