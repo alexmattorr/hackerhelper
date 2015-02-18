@@ -6,13 +6,25 @@ function baseJS() {
 				$(".lang-items").toggleClass("is-active");
 			});
 		};
+		function sideBarOpen() {
+			$(".fa-bars").click(function() {
+				$("aside").addClass("is-active");
+			});
+		}
+		function sideBarClose() {
+			$(".sidebar-close").click(function() {
+				$("aside").removeClass("is-active");
+			});
+		}
 		function goBack() {
 			$(".go-back").click(function() {
 				window.history.back()
 			})	
 		}
-		goBack();
 		changeTab();
+		sideBarOpen();
+		sideBarClose();
+		goBack();
 	});
 };
 

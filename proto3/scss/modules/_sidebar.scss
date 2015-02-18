@@ -3,24 +3,36 @@ aside {
 	width: 0;
 	height: 0;
 	z-index: -1;
-	background: rgba($coal, 0.5); 
 
 	&.is-active {
 		width: 100%;
 		height: 100%;
 		z-index: 100;
+
+		background: rgba($dark-coal, 0.5); 
+		transition-property: background;
+		transition-duration: .5s;
+		
+		.sidebar {
+			width: 70%;
+			height: 100%;
+			float: left;
+			background: $dark-coal;
+
+			transition-property: width;
+			transition-duration: .5s;
+		}
+		.sidebar-close {
+			width: 30%;
+			height: 100%;
+			float: left;
+		}
 	}
 }
 
 .sidebar {
-	width: 70%;
-	height: 100%;
-	float: left;
-	background: $coal;
+	width: 0;
+	transition-property: width;
+	transition-duration: .5s;
 }
 
-.sidebar-close {
-	width: 30%;
-	height: 100%;
-	float: left;
-}
