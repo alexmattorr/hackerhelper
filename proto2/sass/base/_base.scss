@@ -11,6 +11,8 @@ body {
 }
 
 header {
+	position: fixed;
+	width: 100%;
 	padding: 15px;
 	background: $coal;
 
@@ -25,15 +27,16 @@ header {
 
 
 .container {
-	width: 375px;
-	height: 667px;
+	width: 100%;
+	height: auto;
 	margin: 0 auto;
-	border: 1px solid $coal;
 	background: $white;
 }
 
 .main {
-	padding: 0 20px;
+	max-width: $phone;
+	padding: 60px 20px 0 20px;
+	margin: 0 auto;
 }
 
 .search {

@@ -81,10 +81,12 @@ body {
 
 /* line 13, ../sass/base/_base.scss */
 header {
+  position: fixed;
+  width: 100%;
   padding: 15px;
   background: #333333;
 }
-/* line 17, ../sass/base/_base.scss */
+/* line 19, ../sass/base/_base.scss */
 header h2 {
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
@@ -93,35 +95,36 @@ header h2 {
   text-transform: uppercase;
 }
 
-/* line 27, ../sass/base/_base.scss */
+/* line 29, ../sass/base/_base.scss */
 .container {
-  width: 375px;
-  height: 667px;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
-  border: 1px solid #333333;
   background: #ffffff;
 }
 
-/* line 35, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .main {
-  padding: 0 20px;
+  max-width: 650px;
+  padding: 60px 20px 0 20px;
+  margin: 0 auto;
 }
 
-/* line 39, ../sass/base/_base.scss */
+/* line 42, ../sass/base/_base.scss */
 .search {
   padding: 20px 0 10px 0;
   background: #ffffff;
   text-transform: uppercase;
 }
-/* line 44, ../sass/base/_base.scss */
+/* line 47, ../sass/base/_base.scss */
 .search input:focus {
   outline: none;
 }
-/* line 45, ../sass/base/_base.scss */
+/* line 48, ../sass/base/_base.scss */
 .search input[placeholder] {
   color: #333333;
 }
-/* line 46, ../sass/base/_base.scss */
+/* line 49, ../sass/base/_base.scss */
 .search input[type=text] {
   width: 98.4%;
   height: 30px;
@@ -131,14 +134,14 @@ header h2 {
   text-align: center;
 }
 
-/* line 58, ../sass/base/_base.scss */
+/* line 61, ../sass/base/_base.scss */
 .lang-selector {
   width: 100%;
   margin: 10px 0;
   background: #30A9DC;
   border-radius: 5px;
 }
-/* line 65, ../sass/base/_base.scss */
+/* line 68, ../sass/base/_base.scss */
 .lang-selector .lang {
   width: 50%;
   float: left;
@@ -150,21 +153,21 @@ header h2 {
   text-align: center;
   cursor: pointer;
 }
-/* line 77, ../sass/base/_base.scss */
+/* line 80, ../sass/base/_base.scss */
 .lang-selector .lang.is-active {
   background: #0C73B8;
 }
 
-/* line 83, ../sass/base/_base.scss */
+/* line 86, ../sass/base/_base.scss */
 ul {
   display: none;
   max-height: 400px;
 }
-/* line 87, ../sass/base/_base.scss */
+/* line 90, ../sass/base/_base.scss */
 ul.is-active {
   display: block;
 }
-/* line 90, ../sass/base/_base.scss */
+/* line 93, ../sass/base/_base.scss */
 ul li {
   padding: 10px 5px;
   color: #333333;
