@@ -4,6 +4,7 @@ aside {
 	height: 0;
 	z-index: -1;
 
+
 	&.is-active {
 		width: 100%;
 		height: 100%;
@@ -18,9 +19,6 @@ aside {
 			height: 100%;
 			float: left;
 			background: $dark-coal;
-
-			transition-property: width;
-			transition-duration: .5s;
 		}
 		.sidebar-close {
 			width: 30%;

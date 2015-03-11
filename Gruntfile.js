@@ -61,6 +61,7 @@ module.exports = function(grunt) {
 				]	
 			}
 		},
+/*		
 		uglify: {
 			options: {
 				mangle: true
@@ -71,6 +72,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+*/
 		watch: {
 			html: {
 				files: 'assets/html/*.html',
@@ -83,8 +85,8 @@ module.exports = function(grunt) {
 			},
 
 			css: {
-				files: 'assets/sass/*.scss',
-				tasks: ['compass']
+				files: 'assets/sass/**/*.scss',
+				tasks: ['compass', 'copy']
 			},
 
 			js: {
@@ -106,13 +108,13 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
+	// grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.registerTask('default',[
 		'concat',
 		'compass',
 		'copy',
-		'uglify',
+		// 'uglify',
 		'watch'
 	]);
 }
