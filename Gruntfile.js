@@ -27,7 +27,7 @@ module.exports = function(grunt) {
 					{
 						expand: true,
 						cwd: 'assets/html/',
-						src: ['*.html'],
+						src: ['**/*'],
 						dest: 'dist/',
 						filter: 'isFile'
 					},
@@ -73,7 +73,7 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			html: {
-				files: 'assets/html/*.html',
+				files: 'assets/html/*.**',
 				tasks: ['copy']
 			},
 
@@ -83,7 +83,8 @@ module.exports = function(grunt) {
 			},
 
 			js: {
-				files: 'assets/scripts/**.*'
+				files: 'assets/scripts/app/*.js',
+				tasks: ['concat', 'copy']
 			},
 
 			img: {

@@ -10,18 +10,8 @@
 </head>
 <body ng-controller="hackerCtrl">
 	<div class="container">
-		<header>
-			<i class="fa fa-bars"></i>
-			<h2>Hacker Helper</h2>
-		</header>
-
-		<aside>
-			<div class="sidebar">
-				
-			</div>
-			<div class="sidebar-close"></div>
-		</aside>
-
+		<div ng-include="'components/header.htm'"></div>
+		<div ng-include="'components/sidebar.htm'"></div>
 		<div class="search-filter">
 			<input type="text" placeholder="search" id="query" ng-model="query" />
 			<div class="filter cf">
