@@ -1,15 +1,26 @@
-# hackerhelper
-hackerhelper app
+Front-End Ammunition
+================================
 
-Tech we are using:
-http://sass-lang.com/
-https://angularjs.org/
+Requirements:
+-------------
+- node
+- npm
+- grunt
+- bower
 
-// Install
+Technologies being used.
+------------------------------------------------
+- node - http://nodejs.org/
+- stencil - http://olado.github.io/doT/index.html
+- sass - http://sass-lang.com/
+- compass - http://compass-style.org/
+- bower - http://bower.io/
+- grunt - http://gruntjs.com/getting-started
 
-gem install sass
 
-// Run for css change
-
-compass watch
-
+Installation:
+-------------
+- download node.js
+- npm install
+- bower-install
+- grunt
