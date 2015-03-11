@@ -73,7 +73,8 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			html: {
-				files: 'assets/html/*.**',
+				files: 'assets/html/*.html',
+				files: 'assets/html/components/*.htm',
 				tasks: ['copy']
 			},
 

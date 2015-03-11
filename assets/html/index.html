@@ -4,12 +4,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hacker Helper</title>
 	<link rel="stylesheet" href="assets/css/style.css">
-	<script src="assets/js/jquery-2.1.1.min.js"></script>
 	<script src="assets/js/angular.min.js"></script>
-	<script src="assets/js/app.min.js"></script>
+	<script src="assets/js/jquery-2.1.1.min.js"></script>
 </head>
-<body ng-controller="hackerCtrl">
-	<div class="container">
+<body>
+	<div class="container" ng-controller="cssCtrl">
 		<div ng-include="'components/header.htm'"></div>
 		<div ng-include="'components/sidebar.htm'"></div>
 		<div class="search-filter">
@@ -33,5 +32,6 @@
 			</ul>
 		</div>
 	</div>
+	<script src="assets/js/app.min.js"></script>
 </body>
 </html>

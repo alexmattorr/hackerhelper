@@ -1,6 +1,6 @@
 var hackerApp = angular.module('hackerApp', []);
 
-hackerApp.controller('hackerCtrl', function ($scope) {
+hackerApp.controller('cssCtrl', function ($scope) {
 	$scope.cssLang = [
 		{
 			'name': ':active',
