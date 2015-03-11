@@ -27,7 +27,24 @@
 			</div>
 		</div>
 
+		<div class="main">
+			<ul class="lang-items is-active">
+				<li ng-repeat="css in cssLang | filter:query | orderBy:'name' ">
+					<a ng-href="hackerhelper/{{css.url}}">{{css.name}}</a>
+				</li>
+			</ul>
+			<ul class="lang-items">
+				<li ng-repeat="sass in sassLang | filter:query | orderBy:'name' ">
+					<a ng-href="hackerhelper/{{sass.url}}">{{sass.name}}</a>
+				</li>
+			</ul>
+		</div>
+<!-- 
+	What I want it to look like
+		<div ng-include="'components/header.htm'"></div>
+		<div ng-include="'componetns/aside.htm'"></div>
 		<div ng-include="'pages/css.htm'"></div>
+-->
 	</div>
 </body>
 </html>
