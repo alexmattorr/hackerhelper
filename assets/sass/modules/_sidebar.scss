@@ -4,7 +4,6 @@ aside {
 	height: 0;
 	z-index: -1;
 
-
 	&.is-active {
 		width: 100%;
 		height: 100%;
@@ -19,6 +18,20 @@ aside {
 			height: 100%;
 			float: left;
 			background: $dark-coal;
+			ul {
+				width: 80%;
+				margin: 0 auto;
+				padding: 70px 0 20px 0;
+				li {
+					padding-bottom: 15px;
+					margin-bottom: 15px;
+					border-bottom: 1px solid $grey;
+					a {
+						display: block;
+						text-decoration: none;
+					}
+				}
+			}
 		}
 		.sidebar-close {
 			width: 30%;
@@ -31,6 +44,6 @@ aside {
 .sidebar {
 	width: 0;
 	transition-property: width;
-	transition-duration: .5s;
+	transition-duration: .2s;
 }
 
