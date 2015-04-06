@@ -7,25 +7,16 @@ function baseJS() {
 			});
 			$(".html").off();
 		};
-		function sideBarOpen() {
-			$(".fa-bars").click(function() {
-				$("aside").addClass("is-active");
-			});
-		}
-		function sideBarClose() {
-			$(".sidebar-close").click(function() {
-				$("aside").removeClass("is-active");
-			});
-		}
-		function goBack() {
-			$(".go-back").click(function() {
-				window.history.back()
-			})	
-		}
+		$(document).on("click", '.fa-bars', function() {
+  		$("aside").addClass("is-active");
+		});
+		$(document).on("click", '.sidebar-close', function() {
+  		$("aside").removeClass("is-active");
+		});
+		$(".go-back").on("click", function() {
+  		window.history.back()
+		});
 		changeTab();
-		sideBarOpen();
-		sideBarClose();
-		goBack();
 	});
 };
 

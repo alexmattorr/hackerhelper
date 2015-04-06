@@ -10,14 +10,8 @@
 </head>
 <body>
 	<div class="container" ng-controller="langCtrl">
-		<header>
-			<i class="fa fa-bars"></i>
-			<h2><a href="index.html">Hacker Helper</a></h2>
-		</header>
-		<aside>
-			<div class="sidebar"></div>
-			<div class="sidebar-close"></div>
-		</aside>
+		<header id="header"></header>
+		<aside id="sidebar"></aside>
 
 		<div class="search-filter">
 			<input type="text" placeholder="search" id="query" ng-model="query" /><i class="fa fa-search"></i>
@@ -39,12 +33,10 @@
 				</li>
 			</ul>
 		</div>
-<!-- 
-	What I want it to look like
-		<div ng-include="'components/header.htm'"></div>
-		<div ng-include="'componetns/aside.htm'"></div>
-		<div ng-include="'pages/css.htm'"></div>
--->
 	</div>
+<script>
+  $("#header").load("components/header.html"); 
+  $("#sidebar").load("components/sidebar.html");
+</script>
 </body>
 </html>
