@@ -16,8 +16,12 @@ header {
 
 	h2 {
 		padding-top: 14px;
-		font-size: 25px;
-		font-family: $site-header;
+		font-size: 1.3rem;
+		font-weight: bold;
 		text-transform: uppercase;
+		letter-spacing: 4px;
+		a {
+			color: $white;
+		}
 	}
 }

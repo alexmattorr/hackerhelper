@@ -6,17 +6,24 @@
 // html
 $orange: #F1672C;
 $dark-orange: #E55126;
+.orange{ color: $orange; }
+
 // css
 $blue: #30A9DC;
 $dark-blue: #0C73B8;
+.blue{ color: $blue; }
+
 // js
 $yellow: #F1BF26;
 $dark-yellow: #E5A228;
+.yellow{ color: $yellow; }
 
 $white: #ffffff;
 
 $coal: #333333;
 $dark-coal: #222222;
+
+$grey: lighten($coal, 5%);
 
 $site-font: 'Lato', sans-serif;
 $site-header: 'Montserrat', sans-serif;
