@@ -9,9 +9,21 @@
 	<script src="assets/js/app.min.js"></script>
 </head>
 <body>
-	<div class="container" ng-controller="langCtrl">
-		<div class="search-filter">
-			<input type="text" placeholder="search" id="query" ng-model="query" auto-complete ui-items="cssLang" />
+	<div class="container home" ng-controller="langCtrl">
+		<div class="home-wrapper">
+			<h1>Hacker Helper</h1>
+			<input type="text" placeholder="search" id="query" ng-model="query" />
+			<ul class="home language-group">
+				<li><a href="html.html">html5</a></li>
+				<li><a href="css.html">css3/sass</a></li>
+				<li><a href="js.html">js/jquery</a></li>
+			</ul>
+
+			<ul class="home additional-group">
+				<li><a href="saved.html">saved</a></li>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="donate.html">donate</a></li>
+			</ul>
 		</div>
 	</div>
 </body>

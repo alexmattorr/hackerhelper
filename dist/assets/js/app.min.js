@@ -5,6 +5,7 @@ function baseJS() {
 				$(".lang").toggleClass("is-active");
 				$(".lang-items").toggleClass("is-active");
 			});
+			$(".html").off();
 		};
 		function sideBarOpen() {
 			$(".fa-bars").click(function() {

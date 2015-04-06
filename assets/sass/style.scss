@@ -14,8 +14,13 @@
 
 // components
 @import "components/search-filter";
+@import "components/additional-group";
+@import "components/language-group";
 
 // modules
 @import "modules/header";
 @import "modules/sidebar";
 @import "modules/main";
+
+// pages
+@import "pages/home";

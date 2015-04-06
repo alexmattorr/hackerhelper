@@ -1,0 +1,17 @@
+.home-wrapper {
+	width: 90%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.home {
+	background: $dark-coal;
+	h1 {
+		padding: 25px 0;
+		color: $white;
+		font-size: 1.3rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 4px;
+	}
+}
