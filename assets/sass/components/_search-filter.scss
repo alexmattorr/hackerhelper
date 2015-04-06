@@ -25,24 +25,30 @@
 		width: 90%;
 		max-width: $phone;
 		margin: 10px auto;
-
-		background: $blue;
 		border-radius: 5px;
 
 		.lang {
 			width: 50%;
 			float: left;
 			padding: 12px 0;
-
-			background: $blue;
 			color: $white;
 
 			font-size: 20px;
 			font-weight: $site-med;
 			text-align: center;
 			cursor: pointer;
-			&.is-active {
-				background: $dark-blue;
+			&.html {
+				width: 100%;
+				background: $orange;
+				&.is-active { background: $dark-orange; }
+			}
+			&.css {
+				background: $blue;
+				&.is-active { background: $dark-blue; }
+			}
+			&.js {
+				background: $yellow;
+				&.is-active { background: $dark-yellow; }
 			}
 		}
 	}

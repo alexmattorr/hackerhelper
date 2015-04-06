@@ -22,20 +22,14 @@
 		<div class="search-filter">
 			<input type="text" placeholder="search" id="query" ng-model="query" />
 			<div class="filter cf">
-				<div class="lang is-active">css3</div>
-				<div class="lang">sass</div>
+				<div class="lang html">html</div>
 			</div>
 		</div>
 
 		<div class="main">
 			<ul class="lang-items is-active">
-				<li ng-repeat="css in cssLang | filter:query | orderBy:'name' ">
-					<a ng-href="hackerhelper/{{css.url}}">{{css.name}}</a>
-				</li>
-			</ul>
-			<ul class="lang-items">
-				<li ng-repeat="sass in sassLang | filter:query | orderBy:'name' ">
-					<a ng-href="hackerhelper/{{sass.url}}">{{sass.name}}</a>
+				<li class="html-border" ng-repeat="html in htmlLang | filter:query | orderBy:'name' ">
+					<a ng-href="hackerhelper/{{html.url}}">{{html.name}}</a>
 				</li>
 			</ul>
 		</div>

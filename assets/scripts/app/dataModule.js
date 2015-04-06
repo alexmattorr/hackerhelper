@@ -1,6 +1,4 @@
 var hackerApp = angular.module('hackerApp', []);
-
-
 hackerApp.controller('langCtrl', function ($scope) {
 	$scope.htmlLang = [
 		{

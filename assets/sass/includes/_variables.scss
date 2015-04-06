@@ -3,12 +3,13 @@
 // font-family: 'Montserrat', sans-serif;
 
 
+// html
 $orange: #F1672C;
 $dark-orange: #E55126;
-
+// css
 $blue: #30A9DC;
 $dark-blue: #0C73B8;
-
+// js
 $yellow: #F1BF26;
 $dark-yellow: #E5A228;
 
@@ -32,27 +33,11 @@ $tablet-l: 1024px;
 $full: 1080px;
 $desktop: 1280px;
 
-@mixin tiny() {
-	@include respond-to($tiny) { @content; }
-}
-@mixin small() {
-	@include respond-to($small) { @content; }
-}
-@mixin phone() {
-	@include respond-to($phone) { @content; }
-}
-@mixin phone-l() {
-	@include respond-to($phone-l) { @content; }
-}
-@mixin tablet() {
-	@include respond-to($tablet) { @content; }
-}
-@mixin tablet-l() {
-	@include respond-to($tablet-l) { @content; }
-}
-@mixin full() {
-	@include respond-to($full) { @content; }
-}
-@mixin desktop() {
-	@include respond-to($desktop) { @content; }
-}
+@mixin tiny() { @include respond-to($tiny) { @content; } }
+@mixin small() { @include respond-to($small) { @content; } }
+@mixin phone() { @include respond-to($phone) { @content; } }
+@mixin phone-l() { @include respond-to($phone-l) { @content; } }
+@mixin tablet() { @include respond-to($tablet) { @content; } }
+@mixin tablet-l() { @include respond-to($tablet-l) { @content; } }
+@mixin full() { @include respond-to($full) { @content; } }
+@mixin desktop() { @include respond-to($desktop) { @content; } }

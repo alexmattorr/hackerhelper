@@ -20,13 +20,16 @@
 			padding: 10px 5px;
 			color: $coal;
 			background: $white;
-			border-bottom: 1px solid $blue;
+			// border-bottom: 1px solid $blue;
 			text-overflow: ellipsis;
 			a {
 				display: block;
 				text-decoration: none;
 				color: inherit;
 			}
+			&.html-border { border-bottom: 1px solid $orange; }
+			&.css-border { border-bottom: 1px solid $blue; }
+			&.js-border { border-bottom: 1px solid $yellow; }
 		}
 	}
 }
