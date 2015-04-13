@@ -1,9 +1,8 @@
 .search-filter {
-	position: fixed;
 	top: 55px;
-	width: 100%;
-	background: $white;
-	padding: 20px 0 10px 0;
+	width: 85%;
+	margin: 0 auto;
+	padding: 85px 0 10px 0;
 	background: $white;
 	text-transform: uppercase;
 	text-align: center;
@@ -11,9 +10,9 @@
 	input:focus {outline: none;}
 	input[placeholder] { color: $coal; }
 	input[type=text] {
-	width: 75%;
+	width: 85%;
 	float: left;
-	margin: 0 0 15px 5%;
+	margin-bottom: 15px;
 	max-width: $phone;
 	height: 40px;
 	background: $white;
@@ -37,9 +36,8 @@
 		border-bottom-right-radius: 5px;
 	}
 	.filter {
-		width: 90%;
+		width: 100%;
 		max-width: $phone;
-		margin: 10px auto;
 		border-radius: 5px;
 
 		.lang {

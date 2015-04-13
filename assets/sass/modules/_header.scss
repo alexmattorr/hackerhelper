@@ -3,7 +3,6 @@ header {
 	width: 100%;
 	background: $dark-coal;
 	color: $white;
-	text-align: center;
 
 	.fa {
 		width: 25px;
@@ -15,7 +14,8 @@ header {
 	}
 
 	h2 {
-		padding-top: 14px;
+		display: inline-block;
+		padding: 14px 0 0 10px;
 		font-size: 1.3rem;
 		font-weight: bold;
 		text-transform: uppercase;
