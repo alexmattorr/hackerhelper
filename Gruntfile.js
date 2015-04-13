@@ -57,6 +57,15 @@ module.exports = function(grunt) {
 						src: ['**/*'],
 						dest: 'dist/assets/img/',
 						filter: 'isFile'
+					},
+
+					// svg
+					{
+						expand: true,
+						cwd: 'assets/svg/',
+						src: ['**/*'],
+						dest: 'dist/assets/svg/',
+						filter: 'isFile'
 					}
 				]	
 			}
@@ -94,12 +103,18 @@ module.exports = function(grunt) {
 				tasks: ['copy']
 			},
 
+			svg: {
+				files: 'assets/svg/**.*',
+				tasks: ['copy']
+			},
+
 			fonts: {
 				files: 'assets/fonts/*',
 				tasks: ['copy']
 			}
 		}
 	});
+ 
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-copy');

@@ -1,4 +1,27 @@
 $media-style: max-width;
-	@mixin respond-to($breakpoint) {
+@mixin respond-to($breakpoint) {
 	@media only screen and ($media-style: $breakpoint) { @content; }
 }
+
+@mixin tiny() { @include respond-to($tiny) { @content; } }
+@mixin small() { @include respond-to($small) { @content; } }
+@mixin phone() { @include respond-to($phone) { @content; } }
+@mixin phone-l() { @include respond-to($phone-l) { @content; } }
+@mixin tablet() { @include respond-to($tablet) { @content; } }
+@mixin tablet-l() { @include respond-to($tablet-l) { @content; } }
+@mixin full() { @include respond-to($full) { @content; } }
+@mixin desktop() { @include respond-to($desktop) { @content; } }
+
+@mixin colorTransition() {
+	transition-property: color;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+@mixin bgTransition() {
+	transition-property: background;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+

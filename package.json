@@ -1,9 +1,9 @@
 {
-  "name": "Front-End-Ammo",
+  "name": "Hacker Helper",
   "version": "0.0.1",
-  "description": "Front End Framework for build sweet websites",
+  "description": "Hacker Helper Angular Application",
   "main": "index.html",
-  "author": "Alexander Orr",
+  "author": "Alexander Orr & Minnie Laliphat",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-compass": "^1.0.1",

@@ -68,6 +68,9 @@ hackerApp.controller('langCtrl', function ($scope) {
 	];
 	$scope.sassLang = [
 		{
+			'name': 'z-index',
+			'url': '../test.html'
+		},{
 			'name': 'preprocessing',
 			'url': '../test.html'
 		}, {
