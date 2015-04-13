@@ -9,9 +9,11 @@ function baseJS() {
 		};
 		$(document).on("click", '.fa-bars', function() {
   		$("aside").addClass("is-active");
+  		$(".sidebar").addClass("is-active");
 		});
 		$(document).on("click", '.sidebar-close', function() {
   		$("aside").removeClass("is-active");
+  		$(".sidebar").removeClass("is-active");
 		});
 		$(".go-back").on("click", function() {
   		window.history.back()
