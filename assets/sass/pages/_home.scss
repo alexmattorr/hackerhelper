@@ -21,6 +21,8 @@
 		font-weight: $site-light;
 		letter-spacing: 2px;
 	}
+	input::-webkit-input-placeholder{ color: $white; }
+	input:-moz-placeholder { color: $white; }
 	input[type=text] {
 	width: 85%;
 	float: left;
