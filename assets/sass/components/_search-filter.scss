@@ -1,5 +1,7 @@
 .search-filter {
-	top: 55px;
+	position: fixed;
+	z-index: 80;
+	left: 7.5%;
 	width: 85%;
 	margin: 0 auto;
 	padding: 85px 0 10px 0;
