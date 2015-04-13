@@ -17,3 +17,6 @@ body {
 }
 
 a { text-decoration: none; }
+
+input::-webkit-input-placeholder{ color: $coal; }
+input:-moz-placeholder { color: $coal; }

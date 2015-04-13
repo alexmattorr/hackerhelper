@@ -75,12 +75,7 @@ module.exports = function(grunt) {
 */
 		watch: {
 			html: {
-				files: 'assets/html/*.html',
-				tasks: ['copy']
-			},
-
-			htm: {
-				files: 'assets/html/**/*.htm',
+				files: 'assets/html/**/*.html',
 				tasks: ['copy']
 			},
 
