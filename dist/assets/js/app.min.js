@@ -1,5 +1,11 @@
 function baseJS() {
 	$(document).ready(function() {
+		function loadScreen() {
+			setTimeout(function() {
+				$(".loading-screen").fadeOut();
+				$(".home-wrapper").fadeIn();
+			}, 3000);
+		}
 		function changeTab() {
 			$(".lang").click(function() {
 				$(".lang").toggleClass("is-active");
@@ -7,18 +13,25 @@ function baseJS() {
 			});
 			$(".html").off();
 		};
-		$(document).on("click", '.fa-bars', function() {
-  		$("aside").addClass("is-active");
-  		$(".sidebar").addClass("is-active");
-		});
-		$(document).on("click", '.sidebar-close', function() {
-  		$("aside").removeClass("is-active");
-  		$(".sidebar").removeClass("is-active");
-		});
-		$(".go-back").on("click", function() {
-  		window.history.back()
-		});
+		function sideBar() {
+			$(document).on("click", '.fa-bars', function() {
+	  		$("aside").addClass("is-active");
+	  		$(".sidebar").addClass("is-active");
+			});
+			$(document).on("click", '.sidebar-close', function() {
+	  		$("aside").removeClass("is-active");
+	  		$(".sidebar").removeClass("is-active");
+			});
+		}
+		function goBack() {
+			$(".go-back").on("click", function() {
+	  		window.history.back()
+			});
+		}
+		loadScreen();
 		changeTab();
+		sideBar();
+		goBack();
 	});
 };
 
