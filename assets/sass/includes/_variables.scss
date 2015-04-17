@@ -2,6 +2,7 @@
 // font-family: 'Lato', sans-serif;
 // font-family: 'Montserrat', sans-serif;
 
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
 
 // html
 $orange: #F1672C;
@@ -27,6 +28,7 @@ $grey: lighten($coal, 5%);
 
 $site-font: 'Lato', sans-serif;
 $site-header: 'Montserrat', sans-serif;
+$code-font:'PT Mono', monospace;
 $site-med: 400;
 $site-light: 300;
 

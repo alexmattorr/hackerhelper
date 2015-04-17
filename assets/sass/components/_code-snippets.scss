@@ -1,0 +1,55 @@
+pre, code {
+  overflow: auto;
+  white-space: pre-wrap;
+  font: 0.9em/1.5em $code-font;
+  font-weight: $site-light;
+}
+.code-block {
+	margin:25px auto;
+	background-color: $coal;
+	border-radius: 5px;
+} 
+
+
+.css-code {
+	padding-left: 15px;
+	border-left: 0.6em $dark-blue solid;
+	border-radius:5px;
+	.css-title {
+		color: $dark-blue;
+	}
+	.css-attribute {
+		color: $white;
+	}
+	.css-value {
+		color: $blue;
+	}
+}
+
+.html-code {
+	@extend .css-code;
+	border-left-color:$dark-orange;
+	.html-title {
+		color: $dark-orange;
+	}
+	.html-attribute {
+		color: $white;
+	}
+	.html-value {
+		color: $orange;
+	}
+}
+
+.js-code {
+	@extend .css-code;
+	border-left-color:$dark-yellow;
+	.js-title {
+		color: $dark-yellow;
+	}
+	.js-attribute {
+		color: $white;
+	}
+	.js-value {
+		color: $yellow;
+	}
+}
