@@ -1,0 +1,34 @@
+.see-also {
+	margin-top: 40px;
+	text-align: center;
+	li {
+		display: inline-block;
+		margin: 0 5px;
+		padding: 20px 0px;
+		width: 110px;
+		font-size: 16px;
+		text-align: center;
+		border-radius: 5px;
+		a {
+			color: $white;
+		}
+	}
+	&.css {
+		li {
+			background: $blue;	
+			&:hover { background: $dark-blue; }
+		}
+	}
+	&.html {
+		li {
+			background: $orange;
+			&:hover { background: $dark-orange;	}
+		}
+	}
+	&.js {
+		li {
+			background: $yellow;
+			&:hover {	background: $dark-yellow; }
+		}
+	}
+}

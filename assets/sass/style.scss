@@ -8,6 +8,7 @@
 // base
 @import "base/base";
 @import "base/font-awesome";
+@import "base/button";
 
 // layout
 
@@ -22,7 +23,7 @@
 @import "modules/header";
 @import "modules/sidebar";
 @import "modules/main";
-@import "modules/sub-pages";
+@import "modules/contact-form";
 
 // pages
 @import "pages/home";

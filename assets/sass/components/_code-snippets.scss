@@ -8,48 +8,25 @@ pre, code {
 	margin:25px auto;
 	background-color: $coal;
 	border-radius: 5px;
-} 
+}
 
-
-.css-code {
+.code {
 	padding-left: 15px;
-	border-left: 0.6em $dark-blue solid;
 	border-radius:5px;
-	.css-title {
-		color: $dark-blue;
+	.attribute { color: $white; }
+	&.css {
+		border-left: 0.6em $dark-blue solid;
+		.title { color: $dark-blue; }
+		.value { color: $blue; }
 	}
-	.css-attribute {
-		color: $white;
+	&.html {
+		border-left: 0.6em $dark-orange solid;
+		.title { color: $dark-orange; }
+		.value { color: $orange; }
 	}
-	.css-value {
-		color: $blue;
-	}
-}
-
-.html-code {
-	@extend .css-code;
-	border-left-color:$dark-orange;
-	.html-title {
-		color: $dark-orange;
-	}
-	.html-attribute {
-		color: $white;
-	}
-	.html-value {
-		color: $orange;
-	}
-}
-
-.js-code {
-	@extend .css-code;
-	border-left-color:$dark-yellow;
-	.js-title {
-		color: $dark-yellow;
-	}
-	.js-attribute {
-		color: $white;
-	}
-	.js-value {
-		color: $yellow;
+	&.js {
+		border-left: 0.6em $dark-yellow solid;
+		.title { color: $dark-yellow; }
+		.value { color: $yellow; }
 	}
 }
