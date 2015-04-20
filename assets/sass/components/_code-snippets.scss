@@ -1,0 +1,32 @@
+pre, code {
+  overflow: auto;
+  white-space: pre-wrap;
+  font: 0.9em/1.5em $code-font;
+  font-weight: $site-light;
+}
+.code-block {
+	margin:25px auto;
+	background-color: $coal;
+	border-radius: 5px;
+}
+
+.code {
+	padding-left: 15px;
+	border-radius:5px;
+	.attribute { color: $white; }
+	&.css {
+		border-left: 0.6em $dark-blue solid;
+		.title { color: $dark-blue; }
+		.value { color: $blue; }
+	}
+	&.html {
+		border-left: 0.6em $dark-orange solid;
+		.title { color: $dark-orange; }
+		.value { color: $orange; }
+	}
+	&.js {
+		border-left: 0.6em $dark-yellow solid;
+		.title { color: $dark-yellow; }
+		.value { color: $yellow; }
+	}
+}

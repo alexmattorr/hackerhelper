@@ -8,6 +8,7 @@
 // base
 @import "base/base";
 @import "base/font-awesome";
+@import "base/button";
 
 // layout
 
@@ -16,12 +17,13 @@
 @import "components/search-filter";
 @import "components/additional-group";
 @import "components/language-group";
+@import "components/code-snippets.scss";
 
 // modules
 @import "modules/header";
 @import "modules/sidebar";
 @import "modules/main";
-@import "modules/sub-pages";
+@import "modules/contact-form";
 
 // pages
 @import "pages/home";
