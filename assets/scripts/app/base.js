@@ -1,13 +1,6 @@
 function baseJS() {
 	$(document).ready(function() {
-/*
-		function loadScreen() {
-			setTimeout(function() {
-				$(".loading-screen").fadeOut();
-				$(".home-wrapper").fadeIn();
-			}, 3000);
-		}
-*/		
+
 		function changeTab() {
 			$(".lang").click(function() {
 				$(".lang").toggleClass("is-active");
@@ -25,18 +18,16 @@ function baseJS() {
 	  		$(".sidebar").removeClass("is-active");
 			});
 		}
-		
-/*
+
 		function goBack() {
 			$(".go-back").on("click", function() {
 	  		window.history.back()
 			});
 		}
-*/
-		// loadScreen();
+
 		changeTab();
 		sideBar();
-		// goBack();
+		goBack();
 	});
 };
 

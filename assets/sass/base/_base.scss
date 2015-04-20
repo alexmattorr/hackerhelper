@@ -9,14 +9,25 @@ body {
 	overflow: auto;
 	zoom: 1;
 }
-.container {
+.app {
+	display: none;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
 	background: $white;
 }
 
+.site {
+	display: block;
+}
+
 a { text-decoration: none; }
 
 input::-webkit-input-placeholder{ color: $coal; }
 input:-moz-placeholder { color: $coal; }
+
+
+@include phone() {
+	.app { display: block; }
+	.site { display: none; }
+}

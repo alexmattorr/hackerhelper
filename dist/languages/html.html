@@ -9,34 +9,29 @@
 	<script src="../assets/js/app.min.js"></script>
 </head>
 <body>
-	<div class="container" ng-controller="langCtrl">
+	<div class="app" ng-controller="langCtrl">
 		<header id="header"></header>
 		<aside id="sidebar"></aside>
-		
+
 		<div class="search-filter">
 			<input type="text" placeholder="search" id="query" ng-model="query" /><i class="fa fa-search"></i>
 			<div class="filter cf">
-				<div class="lang js is-active">JS</div>
-				<div class="lang js">JQuery</div>
+				<div class="lang html">html</div>
 			</div>
 		</div>
 
 		<div class="main">
 			<ul class="lang-items is-active">
-				<li class="js-border" ng-repeat="js in jsLang | filter:query | orderBy:'name' ">
-					<a ng-href="hackerhelper/{{js.url}}">{{js.name}}</a>
-				</li>
-			</ul>
-			<ul class="lang-items">
-				<li class="js-border" ng-repeat="jq in jqLang | filter:query | orderBy:'name' ">
-					<a ng-href="hackerhelper/{{jq.url}}">{{jq.name}}</a>
+				<li class="html-border" ng-repeat="html in htmlLang | filter:query | orderBy:'name' ">
+					<a ng-href="hackerhelper/{{html.url}}">{{html.name}}</a>
 				</li>
 			</ul>
 		</div>
 	</div>
+
 <script>
-  $("#header").load("../components/header.html"); 
-  $("#sidebar").load("../components/sidebar.html");
+  $("#header").load("../components/lang-header.html"); 
+  $("#sidebar").load("../components/lang-sidebar.html");
 </script>
 </body>
 </html>
