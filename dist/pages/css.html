@@ -33,6 +33,29 @@
 				</li>
 			</ul>
 		</div>
+
+		<div class="main sub-page" ng-controller="langCtrl">
+			<p ng-repeat="css in cssLang">{{css.desc}}</p>
+			<p ng-repeat="css in cssLang">{{css.descSub}}</p>
+			<p ng-repeat="css in cssLang">{{css.prop}}</p>
+			<div class="code-block">
+				<pre class="code css">
+					<code data-lang="css">
+						<span class="title">body {</span>
+							<span ng-repeat="css in Csslang" class="value">
+								{{css.code}}
+							</span>
+						<span class="title">}</span>
+					</code>
+				</pre>
+			</div>
+			<h5>See Also</h5>
+			<ul class="see-also css">
+				<li><a ng-repeat="css in cssLang" href="#/">{{css.suggestOne}}</a></li>
+				<li><a ng-repeat="css in cssLang" href="#/">{{css.suggestTwo}}</a></li>
+			</ul>
+		</div>
+
 	</div>
 <script>
   $("#header").load("../components/header.html"); 

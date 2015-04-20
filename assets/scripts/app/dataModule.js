@@ -35,8 +35,22 @@ hackerApp.controller('langCtrl', function ($scope) {
 	];
 	$scope.cssLang = [
 		{
-			'name': ':active',
-			'url': '../test.html'
+			name: ':active',
+			url: '../test.html',
+			desc: "CSS background properties are used to define the background effects of an element.",
+			descSub: "CSS properties used for background effects:",
+			prop: [
+				'background-color', 
+				'background-image', 
+				'background-repeat', 
+				'background-attachment', 
+				'background-position',
+				'background-clip', 
+				'background-origin'
+			],
+			code: [
+
+			]
 		}, {
 			'name': '::after (:after)',
 			'url': '../test.html'

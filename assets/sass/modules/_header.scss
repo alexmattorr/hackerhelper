@@ -16,13 +16,11 @@ header {
 
 	h2 {
 		display: inline-block;
-		padding: 18px 0 0 10px;
+		padding: 18px 0 0 25px;
 		font-size: 1.3rem;
 		font-weight: bold;
 		text-transform: uppercase;
 		letter-spacing: 4px;
-		a {
-			color: $white;
-		}
+		a { color: $white; }
 	}
 }
