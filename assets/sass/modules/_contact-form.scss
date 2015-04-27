@@ -39,6 +39,7 @@
 		cursor: pointer;
 		border: none;
 		outline: none;
+		@include bgTransition();
 		&:hover { background: $coal; }
 	}
 	.fa {

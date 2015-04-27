@@ -3,8 +3,13 @@ function baseJS() {
 
 		function changeTab() {
 			$(".lang").click(function() {
+				if($(this).hasClass("is-active")) {
+					preventDefault();
+					console.log("stopping click");
+				}
 				$(".lang").toggleClass("is-active");
 				$(".lang-items").toggleClass("is-active");
+				
 			});
 			$(".html").off();
 		};
@@ -32,3 +37,8 @@ function baseJS() {
 };
 
 baseJS();
+
+$('#tabmenu a').click(function(e) {
+    if($(this).hasClass('disabled'))
+        e.preventDefault();
+});
