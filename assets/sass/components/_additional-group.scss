@@ -1,0 +1,13 @@
+.additional-group {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	li {
+		a {
+			color: $white;
+			.fa {
+				width: 20px;
+				margin-right: 10px;
+			}
+		}
+	}
+}

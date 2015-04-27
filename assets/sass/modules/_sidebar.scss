@@ -13,7 +13,8 @@
 				display: block;
 				text-decoration: none;
 				@include totalTransition();
-				&:hover {
+				&:hover,
+				&.is-active {
 					background: $coal;
 					color: $white;
 					&.orange { background: $orange; }

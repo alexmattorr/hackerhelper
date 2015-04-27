@@ -1,0 +1,31 @@
+
+.button {
+	@include bgTransition();
+	margin-top: 40px;
+	text-align: center;
+}
+
+.see-also {
+	li {
+		@include bgTransition();
+		display: inline-block;
+		margin: 0 5px;
+		padding: 20px 0px;
+		width: 110px;
+		font-size: 16px;
+		border-radius: 5px;
+		cursor: pointer;
+		a { color: $white; }
+	}
+	&.css { li { background: $blue;	&:hover { background: $dark-blue; } } }
+	&.html { li { background: $orange; &:hover { background: $dark-orange;	} } }
+	&.js { li { background: $yellow; &:hover {	background: $dark-yellow; } } }
+}
+
+.paypal {
+	border: solid 1px $blue;
+	border-radius: 5px;
+	width: 280px;
+	padding: 20px;
+	&:hover { background: $blue; }
+}

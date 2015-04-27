@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700);
+// font-family: 'Lato', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+
+// html
+$orange: #F1672C;
+$dark-orange: #E55126;
+.orange{ color: $orange; }
+
+// css
+$blue: #30A9DC;
+$dark-blue: #0C73B8;
+.blue{ color: $blue; }
+
+// js
+$yellow: #F1BF26;
+$dark-yellow: #E5A228;
+.yellow{ color: $yellow; }
+
+$white: #ffffff;
+
+$coal: #333333;
+$dark-coal: #222222;
+
+$grey: lighten($coal, 5%);
+
+
+$site-font: 'Lato', sans-serif;
+$site-header: 'Montserrat', sans-serif;
+$code-font:'PT Mono', monospace;
+$site-med: 400;
+$site-light: 300;
+
+// responsive
+$tiny: 320px;
+$small: 480px;
+$phone: 640px;
+$phone-l: 768px;
+$tablet: 960px;
+$tablet-l: 1024px;
+$full: 1080px;
+$desktop: 1280px;
