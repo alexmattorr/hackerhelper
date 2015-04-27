@@ -3,9 +3,6 @@
 	width: 100%;
 	float: left;
 	background: $dark-coal;
-	transition-property: width;
-	transition-duration: .3s;
-	transition-timing-function: ease-in;
 	ul {
 		margin: 0 auto;
 		padding: 70px 0 20px 0;
@@ -15,6 +12,7 @@
 				padding: 15px 0 16px 15px;
 				display: block;
 				text-decoration: none;
+				@include totalTransition();
 				&:hover {
 					background: $coal;
 					color: $white;

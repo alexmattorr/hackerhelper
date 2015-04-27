@@ -4,6 +4,7 @@ body {
 	font-family: $site-font;
 	font-weight: $site-light;
 	letter-spacing: 1px;
+	-webkit-font-smoothing: antialiased;
 }
 .cf {
 	overflow: auto;
@@ -15,7 +16,7 @@ body {
 }
 
 aside {
-	width: 30%;
+	width: 35%;
 	max-width: 250px;
 	height: 100%;
 	float: left;
@@ -24,11 +25,11 @@ aside {
 article {
 	width: 90%;
 	height: 80%;
-	margin: 80px auto 0 auto;
+	margin: 12px auto 0 auto;
 }
 
 section {
-	width: 70%;
+	width: 65%;
 	max-width: $tablet;
 	height: 100%;
 	float: left;

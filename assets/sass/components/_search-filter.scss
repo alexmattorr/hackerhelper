@@ -1,10 +1,4 @@
 .search-filter {
-	position: fixed;
-	z-index: 80;
-	left: 7.5%;
-	width: 85%;
-	margin: 0 auto;
-	padding: 85px 0 10px 0;
 	background: $white;
 	text-transform: uppercase;
 	text-align: center;
@@ -15,16 +9,16 @@
 	width: 85%;
 	float: left;
 	margin-bottom: 15px;
-	max-width: $phone;
 	height: 40px;
 	background: $white;
 	border: 2px solid $dark-coal;
 	border-right: 0;
-	border-radius: 5px;
+	// border-radius: 5px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 	font-size: 16px;
-	text-align: center;
+	text-align: left;
+	padding-left: 5px;
 	}
 	.fa-search {
 		width: 15%;
@@ -34,13 +28,12 @@
 		color: $white;
 		font-size: 20px;
 		text-align: center;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
+		// border-top-right-radius: 5px;
+		// border-bottom-right-radius: 5px;
 	}
 	.filter {
 		width: 100%;
-		max-width: $phone;
-		border-radius: 5px;
+		// border-radius: 5px;
 
 		.lang {
 			width: 50%;
