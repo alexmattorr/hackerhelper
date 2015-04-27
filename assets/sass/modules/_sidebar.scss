@@ -1,37 +1,27 @@
-aside {
-	position: absolute;
-	opacity: 0;
-	width: 0;
-	height: 0;
-	z-index: -1;
-	background: rgba($dark-coal, 0.5); 
-	&.is-active {
-		width: 100%;
-		height: 100%;
-		z-index: 100;
-		opacity: 1;
-	}
-}
-
 .sidebar {
-	width: 0px;
 	height: 100%;
+	width: 100%;
 	float: left;
 	background: $dark-coal;
 	transition-property: width;
 	transition-duration: .3s;
 	transition-timing-function: ease-in;
 	ul {
-		width: 80%;
 		margin: 0 auto;
 		padding: 70px 0 20px 0;
 		li {
-			padding-bottom: 15px;
-			margin-bottom: 15px;
 			border-bottom: 1px solid $grey;
 			a {
+				padding: 15px 0 16px 15px;
 				display: block;
 				text-decoration: none;
+				&:hover {
+					background: $coal;
+					color: $white;
+					&.orange { background: $orange; }
+					&.blue { background: $blue; }
+					&.yellow { background: $yellow; }
+				}
 			}
 		}
 	}

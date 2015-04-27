@@ -13,6 +13,7 @@ function baseJS() {
 			});
 			$(".html").off();
 		};
+/*		
 		function sideBar() {
 			$(document).on("click", '.fa-bars', function() {
 	  		$("aside").addClass("is-active");
@@ -23,7 +24,7 @@ function baseJS() {
 	  		$(".sidebar").removeClass("is-active");
 			});
 		}
-
+*/
 		function goBack() {
 			$(".go-back").on("click", function() {
 	  		window.history.back()

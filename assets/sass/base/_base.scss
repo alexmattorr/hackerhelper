@@ -9,16 +9,29 @@ body {
 	overflow: auto;
 	zoom: 1;
 }
-.app {
-	display: none;
+.container {
 	width: 100%;
-	height: auto;
 	margin: 0 auto;
-	background: $white;
 }
 
-.site {
-	display: block;
+aside {
+	width: 30%;
+	max-width: 250px;
+	height: 100%;
+	float: left;
+}
+
+article {
+	width: 90%;
+	height: 80%;
+	margin: 80px auto 0 auto;
+}
+
+section {
+	width: 70%;
+	max-width: $tablet;
+	height: 100%;
+	float: left;
 }
 
 a { text-decoration: none; }
