@@ -1,6 +1,12 @@
 function baseJS() {
 	$(document).ready(function() {
 
+		(function init(){
+			changeTab();
+			disableClick();
+			// activeMenu();
+		})()
+
 		function changeTab() {
 			$(".lang").click(function() {
 				if($(this).hasClass("is-active")) {
@@ -13,33 +19,25 @@ function baseJS() {
 			});
 			$(".html").off();
 		};
-/*		
-		function sideBar() {
-			$(document).on("click", '.fa-bars', function() {
-	  		$("aside").addClass("is-active");
-	  		$(".sidebar").addClass("is-active");
-			});
-			$(document).on("click", '.sidebar-close', function() {
-	  		$("aside").removeClass("is-active");
-	  		$(".sidebar").removeClass("is-active");
-			});
-		}
-*/
-		function goBack() {
-			$(".go-back").on("click", function() {
-	  		window.history.back()
-			});
-		}
 
-		changeTab();
-		sideBar();
-		goBack();
+		function activeMenu() {
+			var path = window.location.pathname;
+			var url = window.location.href; 
+			if(url = 'index.html') {
+				console.log(url);
+				$(".orange").addClass("is-active");
+			}
+		};
+
+		function disableClick() {
+			$('#tabmenu a').click(function(e) {
+    		if($(this).hasClass('disabled')) {
+    			e.preventDefault();
+    		}
+			});
+		};
+		
 	});
 };
 
 baseJS();
-
-$('#tabmenu a').click(function(e) {
-    if($(this).hasClass('disabled'))
-        e.preventDefault();
-});

@@ -16,6 +16,7 @@ body {
 }
 
 aside {
+	position: fixed;
 	width: 35%;
 	max-width: 250px;
 	height: 100%;
@@ -32,6 +33,7 @@ section {
 	width: 65%;
 	max-width: $tablet;
 	height: 100%;
+	margin-left: 35%;
 	float: left;
 }
 
