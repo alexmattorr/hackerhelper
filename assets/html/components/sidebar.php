@@ -13,3 +13,5 @@
 		</ul>
 	</div>
 </aside>
+
+<div class="aside-bg"></div>

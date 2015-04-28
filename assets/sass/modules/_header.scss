@@ -10,7 +10,7 @@ header {
 		display: none;
 		width: 25px;
 		height: 25px;
-		padding: 15px;
+		padding: 14px;
 		float: left;
 		font-size: 25px;
 		cursor: pointer;
@@ -25,5 +25,18 @@ header {
 		text-align: left;
 		letter-spacing: 4px;
 		a { color: $white; }
+	}
+}
+
+@include phone-l() {
+	header { 
+		width: 100%;
+		max-width: initial;
+		.fa {
+			display: block;
+		}
+		h2 {
+			text-align: center;
+		}
 	}
 }

@@ -8,7 +8,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 	];
 	$scope.cssLang = [
 		{
-			name: ':active',
+			name: 'background',
 			url: '../lang/css/css-test.php'
 		}
 	];
