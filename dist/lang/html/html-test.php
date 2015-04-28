@@ -31,12 +31,12 @@
 		<pre class="code html">
 <code data-lang="html">
 <span class="title">body {</span>
-<span class="value">background-image: url(&quot;img_tree.png&quot;);
-background-repeat: no-repeat;
-background-position: right top;
-background-attachment: fixed;
-background-clip: padding-box;
-background-origin: padding-box;</span>
+	<span class="value">background-image: url(&quot;img_tree.png&quot;);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-clip: padding-box;
+	background-origin: padding-box;</span>
 <span class="title">}</span>
 </code>
 </pre>

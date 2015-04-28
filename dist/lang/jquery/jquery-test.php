@@ -28,8 +28,8 @@
 			<p>background-origin</p>
 		
 		<div class="code-block">
-		<pre class="code html">
-<code data-lang="html">
+		<pre class="code js">
+<code data-lang="js">
 <span class="title">body {</span>
 <span class="value">background-image: url(&quot;img_tree.png&quot;);
 background-repeat: no-repeat;
@@ -44,7 +44,7 @@ background-origin: padding-box;</span>
 		
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
+		<ul class="button see-also js">
 			<li><a href="#">Margin</a></li>
 			<li><a href="#">Padding</a></li>
 		</ul>

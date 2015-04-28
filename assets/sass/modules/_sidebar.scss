@@ -31,18 +31,6 @@ aside {
 			}
 		}
 	}
-	&.is-active {
-		width: 70%;
-		transition-property: width;
-		transition-duration: .3s;
-		transition-timing-function: ease-out;
-	}
-}
-
-.sidebar-close {
-	width: 30%;
-	height: 100%;
-	float: left;
 }
 
 

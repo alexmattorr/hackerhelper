@@ -35,7 +35,7 @@
 
 					<div class="main">
 						<ul class="lang-items is-active">
-							<li class="js-border" ng-repeat="js in cssLang | filter:query | orderBy:'name' ">
+							<li class="js-border" ng-repeat="js in jsLang | filter:query | orderBy:'name' ">
 								<a ng-href="hackerhelper/{{js.url}}">{{js.name}}</a>
 							</li>
 						</ul>
