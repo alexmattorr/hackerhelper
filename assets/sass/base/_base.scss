@@ -15,26 +15,15 @@ body {
 	margin: 0 auto;
 }
 
-aside {
-	position: fixed;
-	width: 35%;
-	max-width: 250px;
-	height: 100%;
-	float: left;
+section {
+	margin-left: 250px;
 }
 
 article {
 	width: 90%;
-	height: 80%;
-	margin: 12px auto 0 auto;
-}
-
-section {
-	width: 65%;
-	max-width: $tablet;
-	height: 100%;
-	margin-left: 35%;
-	float: left;
+	max-width: $full;
+	margin: 0 auto;
+	padding-top: 10px;
 }
 
 a { text-decoration: none; }
