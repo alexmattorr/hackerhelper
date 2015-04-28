@@ -20,6 +20,17 @@
 							<div class="lang js is-active">js</div>
 							<div class="lang js">jquery</div>
 						</div>
+						
+						<div class="lang-tri-wrap">
+							<div class="lang-tri-content yell-tri-content is-active">
+								<div class="lang-tri yell-tri-color"></div>
+							</div>
+							<div class="lang-tri-content yell-tri-content">
+								<div class="lang-tri yell-tri-color"></div>
+							</div>
+						</div>
+						<div class="lang-tri-wrap light-yellow"></div>
+
 					</div>
 
 					<div class="main">

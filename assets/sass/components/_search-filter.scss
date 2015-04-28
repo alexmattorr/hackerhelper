@@ -38,7 +38,7 @@
 		.lang {
 			width: 50%;
 			float: left;
-			padding: 12px 0;
+			padding: 12px 0 5px 0;
 			color: $white;
 
 			font-size: 20px;
@@ -61,3 +61,34 @@
 		}
 	}
 }
+
+.lang-tri-wrap {
+	width: 100%;
+	height: 10px;
+}
+
+.lang-tri-content {
+	width: 50%;
+	float: left;
+	&.orange-tri-content { background: $orange; width: 100%; }
+	&.blue-tri-content { background: $blue; }
+	&.yell-tri-content { background: $yellow; }
+	&.is-active {
+		&.blue-tri-content { background: $dark-blue; }
+		&.yell-tri-content { background: $dark-yellow; }
+		.lang-tri {
+			&.blue-tri-color { border-bottom: 10px solid $light-blue; }
+			&.yell-tri-color { border-bottom: 10px solid $light-yellow; }
+		}
+	}
+	.lang-tri {
+		width: 0; 
+		height: 0; 
+		margin: 0 auto;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		&.orange-tri-color { border-bottom: 10px solid $light-orange; }
+	}
+}
+

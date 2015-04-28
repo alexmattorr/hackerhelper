@@ -19,6 +19,14 @@
 						<div class="filter cf">
 							<div class="lang html">html</div>
 						</div>
+
+						<div class="lang-tri-wrap">
+							<div class="lang-tri-content orange-tri-content">
+								<div class="lang-tri orange-tri-color"></div>
+							</div>
+						</div>
+						<div class="lang-tri-wrap light-orange"></div>
+
 					</div>
 
 					<div class="main">

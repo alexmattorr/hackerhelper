@@ -3,8 +3,8 @@ function baseJS() {
 
 		(function init(){
 			changeTab();
+			activeMenu();
 			disableClick();
-			// activeMenu();
 		})()
 
 		function changeTab() {
@@ -13,20 +13,16 @@ function baseJS() {
 					preventDefault();
 					console.log("stopping click");
 				}
-				$(".lang").toggleClass("is-active");
-				$(".lang-items").toggleClass("is-active");
+				$(".lang, .lang-items, .lang-tri-content").toggleClass("is-active");
+				// $(".lang-items").toggleClass("is-active");
+				// $(".lang-tri-content").toggleClass("is-active");
 				
 			});
 			$(".html").off();
 		};
 
 		function activeMenu() {
-			var path = window.location.pathname;
-			var url = window.location.href; 
-			if(url = 'index.html') {
-				console.log(url);
-				$(".orange").addClass("is-active");
-			}
+			// var path = window.location.pathname;
 		};
 
 		function disableClick() {

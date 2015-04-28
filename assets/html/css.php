@@ -20,6 +20,17 @@
 							<div class="lang css is-active">css</div>
 							<div class="lang css">scss</div>
 						</div>
+
+						<div class="lang-tri-wrap">
+							<div class="lang-tri-content blue-tri-content is-active">
+								<div class="lang-tri blue-tri-color"></div>
+							</div>
+							<div class="lang-tri-content blue-tri-content">
+								<div class="lang-tri blue-tri-color"></div>
+							</div>
+						</div>
+						<div class="lang-tri-wrap light-blue"></div>
+
 					</div>
 
 					<div class="main">
