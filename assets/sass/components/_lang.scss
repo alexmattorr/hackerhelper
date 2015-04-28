@@ -1,0 +1,33 @@
+.lang {
+	width: 50%;
+	float: left;
+	padding: 12px 0 5px 0;
+	color: $white;
+
+	font-size: 20px;
+	font-weight: $site-med;
+	text-align: center;
+	cursor: pointer;
+	&.html {
+		width: 100%;
+		background: $orange;
+		&.is-active { 
+			background: $dark-orange; 
+			cursor: auto; 
+		}
+	}
+	&.css {
+		background: $blue;
+		&.is-active { 
+			background: $dark-blue; 
+			cursor: auto; 
+		}
+	}
+	&.js {
+		background: $yellow;
+		&.is-active { 
+			background: $dark-yellow; 
+			cursor: auto; 
+		}
+	}
+}
