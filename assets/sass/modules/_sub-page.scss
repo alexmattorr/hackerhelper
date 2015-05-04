@@ -1,0 +1,42 @@
+.sub-page {
+	padding-bottom: 25px;
+	.sub-page-header {
+		width: 100%;
+		float: left;
+		margin-bottom: 25px;
+		padding: 16px 0;
+		color: $white;
+		font-size: 20px;
+		font-weight: $site-med;
+		text-transform: uppercase;
+		text-align: center;
+		&.html { background: $dark-orange; }
+		&.css { background: $dark-blue; }
+		&.js { background: $dark-yellow; }
+	}
+	h4 {
+		font-size: 23px;
+		font-weight: bold;
+		text-align: center;
+	}
+	h5 {
+		margin-bottom: 20px;
+		font-size: 20px;	
+		line-height: 26px;
+	}
+
+	.sub-page-disc {
+		margin-bottom: 10px;
+		line-height: 22px;
+	}
+	.sub-page-ul {
+		&.html {color: $dark-orange;};
+		&.css {color: $dark-blue;};
+		&.js {color: $dark-yellow;};
+		li {
+			padding: 5px 0 5px 15px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+}

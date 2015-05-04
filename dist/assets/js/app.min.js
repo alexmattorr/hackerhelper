@@ -4,6 +4,7 @@ function baseJS() {
 		(function init(){
 			changeTab();
 			disableClick();
+			activePage();
 			aside();
 		})()
 
@@ -11,12 +12,8 @@ function baseJS() {
 			$(".lang").click(function() {
 				if($(this).hasClass("is-active")) {
 					preventDefault();
-					console.log("stopping click");
 				}
 				$(".lang, .lang-items, .lang-tri-content").toggleClass("is-active");
-				// $(".lang-items").toggleClass("is-active");
-				// $(".lang-tri-content").toggleClass("is-active");
-				
 			});
 			$(".html").off();
 		};
@@ -25,6 +22,14 @@ function baseJS() {
 			$('#tabmenu a').click(function(e) {
     		if($(this).hasClass('disabled')) {
     			e.preventDefault();
+    		}
+			});
+		};
+
+		function activePage() {
+			$(".language-group li a").each(function() {   
+    		if (this.href.search(location.href) != -1) {
+        	$(this).addClass("is-active");
     		}
 			});
 		};
@@ -45,7 +50,7 @@ function baseJS() {
 				$('.aside-toggle').toggleClass('fa-times');
 				$('.content').toggleClass('menu-active');
 			};
-		}
+		};
 		
 	});
 };

@@ -14,7 +14,7 @@
 			<?php include 'components/sidebar.php';?>
 			<section class="content">
 				<article>
-					<div class="search-filter">
+					<div class="search-filter cf">
 						<input type="text" placeholder="search" id="query" ng-model="query" /><i class="fa fa-search"></i>
 						<div class="filter cf">
 							<div class="lang css is-active">css</div>

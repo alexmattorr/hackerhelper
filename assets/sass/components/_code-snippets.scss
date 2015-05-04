@@ -28,4 +28,11 @@ pre, code {
 		.title { color: $dark-yellow; }
 		.value { color: $yellow; }
 	}
+	@include phone-l() {
+		font-size: 14px;
+	}
+
+	@include small() {
+		font-size: 10px;
+	}
 }

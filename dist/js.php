@@ -14,13 +14,13 @@
 			<?php include 'components/sidebar.php';?>
 			<section class="content">
 				<article>
-					<div class="search-filter">
+					<div class="search-filter cf">
 						<input type="text" placeholder="search" id="query" ng-model="query" /><i class="fa fa-search"></i>
 						<div class="filter cf">
 							<div class="lang js is-active">js</div>
 							<div class="lang js">jquery</div>
 						</div>
-						
+
 						<div class="lang-tri-wrap">
 							<div class="lang-tri-content yell-tri-content is-active">
 								<div class="lang-tri yell-tri-color"></div>
