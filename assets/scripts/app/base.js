@@ -36,13 +36,14 @@ function baseJS() {
 			});
 
 			$('.aside-bg').click(function() {
-				$('aside, .aside-bg').removeClass('is-active')
+				$('aside, .aside-bg').removeClass('is-active');
 				asideToggle();
 			});
 
 			function asideToggle() {
 				$('.aside-toggle').toggleClass('fa-bars');
 				$('.aside-toggle').toggleClass('fa-times');
+				$('.content').toggleClass('menu-active');
 			};
 		}
 		

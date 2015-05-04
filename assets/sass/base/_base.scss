@@ -19,6 +19,15 @@ section {
 	margin-left: 250px;
 }
 
+.content {
+	transition-property: margin;
+	transition-duration: .2s;
+	transition-timing-function: ease-in-out;
+	&.menu-active {
+		margin-left: 250px;
+	}
+}
+
 article {
 	width: 90%;
 	max-width: $full;

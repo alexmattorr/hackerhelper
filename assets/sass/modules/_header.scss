@@ -8,6 +8,7 @@ header {
 
 	.fa {
 		display: none;
+		z-index: 101;
 		width: 25px;
 		height: 25px;
 		padding: 14px;
@@ -17,12 +18,11 @@ header {
 	}
 
 	h2 {
-		float: left;
-		padding: 16px;
+		padding: 16px 0;
 		font-size: 1.3rem;
 		font-weight: bold;
 		text-transform: uppercase;
-		text-align: left;
+		text-align: center;
 		letter-spacing: 4px;
 		a { color: $white; }
 	}
