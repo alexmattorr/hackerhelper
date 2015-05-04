@@ -4,7 +4,7 @@ function baseJS() {
 		(function init(){
 			changeTab();
 			disableClick();
-			asideOpen();
+			aside();
 		})()
 
 		function changeTab() {
@@ -29,14 +29,21 @@ function baseJS() {
 			});
 		};
 
-		function asideOpen() {
-			$('.fa-bars').on('click', function() {
-				$('aside, .aside-bg').addClass('is-active');
+		function aside() {
+			$('.fa-bars').click(function() {
+				$('aside, .aside-bg').toggleClass('is-active');
+				asideToggle();
 			});
 
-			$('.aside-bg').on('click', function() {
+			$('.aside-bg').click(function() {
 				$('aside, .aside-bg').removeClass('is-active')
-			})
+				asideToggle();
+			});
+
+			function asideToggle() {
+				$('.aside-toggle').toggleClass('fa-bars');
+				$('.aside-toggle').toggleClass('fa-times');
+			};
 		}
 		
 	});

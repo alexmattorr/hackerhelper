@@ -47,7 +47,7 @@ aside {
 		opacity: 0;
 		width: 0;
 		transition-property: opacity, width;
-		transition-duration: .2s;
+		transition-duration: .1s;
 		transition-timing-function: ease-in-out;
 		&.is-active {
 			opacity: 1;
@@ -58,7 +58,7 @@ aside {
 
 	.aside-bg {
 		transition-property: opacity;
-		transition-duration: .2s;
+		transition-duration: .1s;
 		transition-timing-function: ease-in-out;
 		&.is-active {
 			z-index: 90;
