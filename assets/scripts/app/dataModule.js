@@ -2,8 +2,24 @@ var hackerApp = angular.module('hackerApp', []);
 hackerApp.controller('langCtrl', function ($scope) {
 	$scope.htmlLang = [
 		{
-			name: ':active',
-			url: '../lang/html/html-test.php'
+			name: 'formatting',
+			url: '../lang/html/formatting.php'
+		},
+		{
+			name: 'heading',
+			url: '../lang/html/heading.php'
+		},
+		{
+			name: 'paragraph',
+			url: '../lang/html/paragraph.php'
+		},
+		{
+			name: 'quotes & citations',
+			url: '../lang/html/quotes_citations.php'
+		},
+		{
+			name: 'style',
+			url: '../lang/html/style.php'
 		}
 	];
 	$scope.cssLang = [

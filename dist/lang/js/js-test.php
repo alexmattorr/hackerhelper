@@ -15,18 +15,20 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<p>CSS background properties are used to define the background effects of an element.</p>
-			<br />
-			<p>CSS properties used for background effects:</p>
-			<br />
-			<p>background-color</p>
-			<p>background-image</p>
-			<p>background-repeat</p>
-			<p>background-attachment</p>
-			<p>background-position</p>
-			<p>background-clip</p>
-			<p>background-origin</p>
-		
+			<div class="sub-page-header js">background</div>
+
+			<h5>CSS background properties are used to define the background effects of an element.</h5>
+			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<ul class="sub-page-ul js">
+				<li>background-color</li>
+				<li>background-image</li>
+				<li>background-repeat</li>
+				<li>background-attachmen</li>
+				<li>background-position</li>
+				<li>background-clip</li>
+				<li>background-origin</li>
+			</ul>
+
 		<div class="code-block">
 		<pre class="code js">
 <code data-lang="js">
@@ -37,11 +39,11 @@
 	background-attachment: fixed;
 	background-clip: padding-box;
 	background-origin: padding-box;</span>
-	<span class="title">}</span>
+<span class="title">}</span>
 </code>
 </pre>
 		</div>
-		
+
 		<h5>See Also</h5>
 
 		<ul class="button see-also js">
@@ -49,11 +51,11 @@
 			<li><a href="#">Padding</a></li>
 		</ul>
 		</div>
-			
+
 			</article>
 		</section>
 		<!-- <header><i class="fa fa-chevron-left go-back"></i><h2>Background</h2></header>  -->
-		
+
 	</div>
 </body>
 </html>

@@ -15,45 +15,38 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<p>CSS background properties are used to define the background effects of an element.</p>
-			<br />
-			<p>CSS properties used for background effects:</p>
-			<br />
-			<p>background-color</p>
-			<p>background-image</p>
-			<p>background-repeat</p>
-			<p>background-attachment</p>
-			<p>background-position</p>
-			<p>background-clip</p>
-			<p>background-origin</p>
-		
+			<div class="sub-page-header html">paragraphs</div>
+
+			<h5>Paragraphs hold portions of text.</h5>
+			<p class="sub-page-disc">HTML code used for paragraphs:</p>
+			<ul class="sub-page-ul html">
+				<li>&lt;p&gt; &lt;/p&gt;</li>
+			</ul>
+
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
-<span class="title">body {</span>
-	<span class="value">background-image: url(&quot;img_tree.png&quot;);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-	background-clip: padding-box;
-	background-origin: padding-box;</span>
-<span class="title">}</span>
+<span class="title">&lt;body&gt;</span>
+	<span class="value">
+	&lt;p&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit id ipsum est modi ullam, quo harum dolor soluta magni, magnam ipsa ex dolorum, impedit aut nisi. Itaque molestias ex, soluta. &lt;/p&gt;
+	</span>
+<span class="title">&lt;/body&gt;</span>
 </code>
 </pre>
 		</div>
-		
+
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="#">Margin</a></li>
-			<li><a href="#">Padding</a></li>
+			<li><a href="headings.php">Heading</a></li>
+			<li><a href="formatting.php">Formatting</a></li>
 		</ul>
 		</div>
-			
+
 			</article>
 		</section>
 		<!-- <header><i class="fa fa-chevron-left go-back"></i><h2>Background</h2></header>  -->
-		
+
 	</div>
 </body>
 </html>
