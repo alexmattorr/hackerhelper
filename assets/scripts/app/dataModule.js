@@ -6,8 +6,8 @@ hackerApp.controller('langCtrl', function ($scope) {
 			url: '../lang/html/formatting.php'
 		},
 		{
-			name: 'heading',
-			url: '../lang/html/heading.php'
+			name: 'headings',
+			url: '../lang/html/headings.php'
 		},
 		{
 			name: 'paragraph',
