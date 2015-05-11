@@ -6,8 +6,9 @@
 
 	.lang-items {
 		display: none;
-		max-height: 400px;
-
+		height: 80%;
+		overflow: scroll;
+		@include phone-l() { height: auto; }
 		&.is-active {
 			display: block;
 		}
