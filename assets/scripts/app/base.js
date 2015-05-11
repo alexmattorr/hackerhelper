@@ -4,7 +4,7 @@ function baseJS() {
 		(function init(){
 			changeTab();
 			disableClick();
-			activePage();
+			// activePage();
 			aside();
 		})()
 

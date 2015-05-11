@@ -58,10 +58,20 @@ hackerApp.controller('langCtrl', function ($scope) {
 		},{
 			name: 'encoding',
 			url: '../lang/html/encoding.php'
-		}, {
+		},{
 			name: 'forms',
 			url: '../lang/html/forms.php'
+		},{
+			name: 'media',
+			url: '../lang/html/media.php'
+		},{
+			name: 'canvas',
+			url: '../lang/html/canvas.php'
+		},{
+			name: 'svg',
+			url: '../lang/html/svg.php'
 		}
+
 	];
 	$scope.cssLang = [
 		{
