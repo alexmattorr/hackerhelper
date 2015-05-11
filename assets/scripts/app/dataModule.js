@@ -84,8 +84,20 @@ hackerApp.controller('langCtrl', function ($scope) {
 	];
 	$scope.sassLang = [
 		{
-			name: ':active',
-			url: '../lang/sass/sass-test.php'
+			name: 'variables',
+			url: '../lang/sass/variables.php'
+		},{
+			name: 'mixins',
+			url: '../lang/sass/mixins.php'
+		},{
+			name: 'include',
+			url: '../lang/sass/include.php'
+		},{
+			name: 'import',
+			url: '../lang/sass/import.php'
+		},{
+			name: 'extend',
+			url: '../lang/sass/extend.php'
 		}
 	];
 	$scope.jsLang = [
