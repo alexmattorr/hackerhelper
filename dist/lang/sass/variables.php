@@ -15,37 +15,28 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Media</div>
+			<div class="sub-page-header css">Variables</div>
 
-			<h5>Media allows you to embed videos inside of html</h5>
-			<p class="sub-page-disc">HTML code used for media:</p>
-			<ul class="sub-page-ul html">
-				<li>&lt;video&gt; &lt;/video&gt;</li>
-				<li>&lt;audio&gt; &lt;/audio&gt;</li>
-				<li>&lt;object&gt; &lt;/object&gt;</li>
-				<li>&lt;iframe&gt; &lt;/iframe&gt;</li>
+			<h5>Variables elements allow you to store information that can be reuse throughout stylesheet.</h5>
+			<p class="sub-page-disc">SASS code used for variables:</p>
+			<ul class="sub-page-ul css">
+				<li>&#36;variableName</li>
 			</ul>
 
 		<div class="code-block">
-		<pre class="code html">
-<code data-lang="html">
-<span class="title">&lt;body&gt;</span>
-	<span class="value">
-	&lt;video&gt;
-		&lt;h2&gt;Heading&lt;/h2&gt;
-		&lt;p&gt;A paragraph will go here&lt;/p&gt;
-	&lt;/video&gt;
-	</span>
-<span class="title">&lt;/body&gt;</span>
+		<pre class="code css">
+<code data-lang="css">
+<span class="title">&#36;blue:</span><span class="value">#0066CC</span><span class="title">;</span>
+<span class="title">&#36;pink:</span><span class="value">#FF6666</span><span class="title">;</span>
 </code>
 </pre>
 		</div>
 
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
-			<li><a href="formatting.php">Formatting</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+		<ul class="button see-also css">
+			<li><a href="mixins.php">Mixins</a></li>
+			<li><a href="import.php">Import</a></li>
 		</ul>
 		</div>
 

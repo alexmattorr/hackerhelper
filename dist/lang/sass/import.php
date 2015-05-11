@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,31 +15,20 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header css">background</div>
+			<div class="sub-page-header css">Import</div>
 
-			<h5>CSS background properties are used to define the background effects of an element.</h5>
-			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<h5>Imports are used to import and combine partial sass files then output as a single css file.</h5>
+			<p class="sub-page-disc">SASS code used for Import:</p>
 			<ul class="sub-page-ul css">
-				<li>background-color</li>
-				<li>background-image</li>
-				<li>background-repeat</li>
-				<li>background-attachmen</li>
-				<li>background-position</li>
-				<li>background-clip</li>
-				<li>background-origin</li>
+				<li>&#64;import: " ";</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">body {</span>
-	<span class="value">background-image: url(&quot;img_tree.png&quot;);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-	background-clip: padding-box;
-	background-origin: padding-box;</span>
-<span class="title">}</span>
+<span class="title">&#64;import: "</span> <span class="value">base/typography</span><span class="title">" ;</span>
+<span class="title">&#64;import: "</span> <span class="value">base/buttons</span><span class="title">" ;</span>
+
 </code>
 </pre>
 		</div>
@@ -47,8 +36,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also css">
-			<li><a href="#">Margin</a></li>
-			<li><a href="#">Padding</a></li>
+			<li><a href="include.php">Include</a></li>
+			<li><a href="extend.php">Extend</a></li>
 		</ul>
 		</div>
 
