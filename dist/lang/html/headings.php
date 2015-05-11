@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,7 +15,7 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">headings</div>
+			<div class="sub-page-header html">Headings</div>
 
 			<h5>Headings are important to define heirarchy on a webpage.</h5>
 			<p class="sub-page-disc">HTML code used for headings:</p>

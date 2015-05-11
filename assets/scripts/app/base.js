@@ -30,7 +30,7 @@ function baseJS() {
 			$(".language-group li a").each(function() {   
     		if (this.href.search(location.href) != -1) {
         	$(this).addClass("is-active");
-    		}
+        }
 			});
 		};
 

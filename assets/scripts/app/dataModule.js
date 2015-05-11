@@ -20,6 +20,35 @@ hackerApp.controller('langCtrl', function ($scope) {
 		{
 			name: 'style',
 			url: '../lang/html/style.php'
+		},
+		{
+			name: 'code',
+			url: '../lang/html/code.php'
+		},
+		{
+			name: 'comment',
+			url: '../lang/html/comment.php'
+		},{
+			name: 'links',
+			url: '../lang/html/links.php'
+		},{
+			name: 'images',
+			url: '../lang/html/images.php'
+		},{
+			name: 'tables',
+			url: '../lang/html/tables.php'
+		},{
+			name: 'lists',
+			url: '../lang/html/lists.php'
+		},{
+			name: 'block',
+			url: '../lang/html/block.php'
+		},{
+			name: 'classes',
+			url: '../lang/html/classes.php'
+		},{
+			name: 'iframe',
+			url: '../lang/html/iframe.php'
 		}
 	];
 	$scope.cssLang = [

@@ -15,31 +15,26 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Style / Css</div>
+			<div class="sub-page-header html">Block</div>
 
-			<h5>Styles allow you to write css inside of your HTML.</h5>
-			<p class="sub-page-disc">HTML code used for paragraphs:</p>
+			<h5>Block elements define block areas of html</h5>
+			<p class="sub-page-disc">HTML code used for blocks:</p>
 			<ul class="sub-page-ul html">
-				<li>style="property:value"</li>
-				<li>&lt;style&gt; &lt;/style&gt;</li>
+				<li>&lt;div&gt; &lt;/div&gt;</li>
+				<li>&lt;span&gt; &lt;/span&gt;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
-<span class="title">&lt;head&gt;</span>
-<span class="title">&lt;style&gt;</span>
-<span class="value">
-	margin: 0;
-	padding: 0;
-	background: LightGray;
-</span>
-<span class="title">&lt;/style&gt;</span>
-<span class="title">&lt;/head&gt;</span>
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
-	&lt;h1 style="background: red;"&gt; Header &lt;/h1&gt;
-	&lt;p style="color: #333;"&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit id ipsum est modi ullam, quo harum dolor soluta magni, magnam ipsa ex dolorum, impedit aut nisi. Itaque molestias ex, soluta. &lt;/p&gt;
+	&lt;div&gt;
+		&lt;h2&gt;Heading&lt;/h2&gt;
+		&lt;p&gt;A paragraph will go here&lt;/p&gt;
+	&lt;/div&gt;
+
+	&lt;h1&gt;&lt;span&gt;Styled&lt;/span&gt; Differently&lt;/h1&gt;
 	</span>
 <span class="title">&lt;/body&gt;</span>
 </code>
@@ -49,8 +44,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="headings.php">Heading</a></li>
-			<li><a href="quotes_citations.php">Quotes & Citations</a></li>
+			<li><a href="formatting.php">Formatting</a></li>
+			<li><a href="paragraph.php">Paragraph</a></li>
 		</ul>
 		</div>
 

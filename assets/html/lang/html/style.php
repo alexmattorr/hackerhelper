@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,17 +15,27 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Style</div>
+			<div class="sub-page-header html">Style / Css</div>
 
 			<h5>Styles allow you to write css inside of your HTML.</h5>
 			<p class="sub-page-disc">HTML code used for paragraphs:</p>
 			<ul class="sub-page-ul html">
 				<li>style="property:value"</li>
+				<li>&lt;style&gt; &lt;/style&gt;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
+<span class="title">&lt;head&gt;</span>
+<span class="title">&lt;style&gt;</span>
+<span class="value">
+	margin: 0;
+	padding: 0;
+	background: LightGray;
+</span>
+<span class="title">&lt;/style&gt;</span>
+<span class="title">&lt;/head&gt;</span>
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
 	&lt;h1 style="background: red;"&gt; Header &lt;/h1&gt;

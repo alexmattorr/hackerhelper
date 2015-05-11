@@ -15,31 +15,42 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Style / Css</div>
+			<div class="sub-page-header html">Tables</div>
 
-			<h5>Styles allow you to write css inside of your HTML.</h5>
-			<p class="sub-page-disc">HTML code used for paragraphs:</p>
+			<h5>Tables are used to create tables in html</h5>
+			<p class="sub-page-disc">HTML code used for tables:</p>
 			<ul class="sub-page-ul html">
-				<li>style="property:value"</li>
-				<li>&lt;style&gt; &lt;/style&gt;</li>
+				<li>&lt;table&gt; &lt;/table&gt;</li>
+				<li>&lt;tr&gt; Table Row &lt;/tr&gt;</li>
+				<li>&lt;td&gt; Table Data &lt;/td&gt;</li>
+				<li>&lt;th&gt; Table Head  &lt;/th&gt;</li>
 			</ul>
-
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
-<span class="title">&lt;head&gt;</span>
-<span class="title">&lt;style&gt;</span>
-<span class="value">
-	margin: 0;
-	padding: 0;
-	background: LightGray;
-</span>
-<span class="title">&lt;/style&gt;</span>
-<span class="title">&lt;/head&gt;</span>
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
-	&lt;h1 style="background: red;"&gt; Header &lt;/h1&gt;
-	&lt;p style="color: #333;"&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit id ipsum est modi ullam, quo harum dolor soluta magni, magnam ipsa ex dolorum, impedit aut nisi. Itaque molestias ex, soluta. &lt;/p&gt;
+	&lt;table&gt;
+		&lt;tr&gt;
+			&lt;th&gt; Name &lt;/th&gt;
+			&lt;th&gt; Job &lt;/th&gt;
+		&lt;/tr&gt;
+
+		&lt;tr&gt;
+			&lt;th&gt; Minnie &lt;/th&gt;
+			&lt;th&gt; UX / UI Developer &lt;/th&gt;
+		&lt;/tr&gt;
+
+		&lt;tr&gt;
+			&lt;th&gt; Alex &lt;/th&gt;
+			&lt;th&gt; Developer &lt;/th&gt;
+		&lt;/tr&gt;
+
+		&lt;tr&gt;
+			&lt;th&gt; Ryan &lt;/th&gt;
+			&lt;th&gt; Designer &lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
 	</span>
 <span class="title">&lt;/body&gt;</span>
 </code>
@@ -49,8 +60,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="headings.php">Heading</a></li>
-			<li><a href="quotes_citations.php">Quotes & Citations</a></li>
+			<li><a href="headings.php">headings</a></li>
+			<li><a href="style.php">style</a></li>
 		</ul>
 		</div>
 
