@@ -15,26 +15,21 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Media</div>
+			<div class="sub-page-header html">SVG</div>
 
-			<h5>Media allows you to embed videos inside of html</h5>
-			<p class="sub-page-disc">HTML code used for media:</p>
+			<h5>SVGs are are graphics for the web</h5>
+			<p class="sub-page-disc">HTML code used for SVG's:</p>
 			<ul class="sub-page-ul html">
-				<li>&lt;video&gt; &lt;/video&gt;</li>
-				<li>&lt;audio&gt; &lt;/audio&gt;</li>
-				<li>&lt;object&gt; &lt;/object&gt;</li>
-				<li>&lt;iframe&gt; &lt;/iframe&gt;</li>
+				<li>&lt;svg&gt; &lt;/svg&gt;</li>
 			</ul>
-
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
-	&lt;video&gt;
-		&lt;h2&gt;Heading&lt;/h2&gt;
-		&lt;p&gt;A paragraph will go here&lt;/p&gt;
-	&lt;/video&gt;
+	&lt;svg&gt;
+		&lt;rect x="10" y="10" height="100" width="100" style="stroke:#ff0000; fill: #0000ff"/&gt;
+	&lt;/svg&gt;
 	</span>
 <span class="title">&lt;/body&gt;</span>
 </code>
@@ -44,8 +39,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="formatting.php">Formatting</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+			<li><a href="code.php">code</a></li>
+			<li><a href="links.php">links</a></li>
 		</ul>
 		</div>
 

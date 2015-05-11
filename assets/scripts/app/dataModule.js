@@ -70,6 +70,9 @@ hackerApp.controller('langCtrl', function ($scope) {
 		},{
 			name: 'svg',
 			url: '../lang/html/svg.php'
+		},{
+			name: 'block (html5)',
+			url: '../lang/html/block_html5.php'
 		}
 
 	];
