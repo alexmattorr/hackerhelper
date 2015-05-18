@@ -73,16 +73,62 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}
 
 	];
-	$scope.cssLang = [
+	$scope.cssLang = [	
+		// css3
 		{
-			name: 'background',
-			url: '../lang/css/css-test.php'
+			name: 'rounded corner',
+			url: '../lang/css/roundedcorner.php'
+		},{
+			name: 'border images',
+			url: '../lang/css/borderimages.php'
+		},{
+			name: 'gradients',
+			url: '../lang/css/gradients.php'
+		},{
+			name: 'shadows',
+			url: '../lang/css/shadows.php'
+		},{
+			name: '2D transforms',
+			url: '../lang/css/2Dtransforms.php'
+		},{
+			name: '3D transforms',
+			url: '../lang/css/3Dtransforms.php'
+		},{
+			name: 'transitions',
+			url: '../lang/css/transitions.php'
+		},{
+			name: 'animations',
+			url: '../lang/css/animations.php'
+		},{
+			name: 'multiple columns',
+			url: '../lang/css/multiplecolumns.php'
+		},{
+			name: 'resize',
+			url: '../lang/css/resize.php'
+		},{
+			name: 'outline offset',
+			url: '../lang/css/outlineoffset.php'
+		},{
+			name: 'box sizing',
+			url: '../lang/css/boxsizing.php'
 		}
 	];
 	$scope.sassLang = [
 		{
-			name: ':active',
-			url: '../lang/sass/sass-test.php'
+			name: 'variables',
+			url: '../lang/sass/variables.php'
+		},{
+			name: 'mixins',
+			url: '../lang/sass/mixins.php'
+		},{
+			name: 'include',
+			url: '../lang/sass/include.php'
+		},{
+			name: 'import',
+			url: '../lang/sass/import.php'
+		},{
+			name: 'extend',
+			url: '../lang/sass/extend.php'
 		}
 	];
 	$scope.jsLang = [
