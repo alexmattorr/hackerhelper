@@ -15,35 +15,52 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">headings</div>
+			<div class="sub-page-header js">Variables</div>
 
-			<h5>Comments allow you to remove a block of code or leave a comment.</h5>
-			<p class="sub-page-disc">HTML code used for comments:</p>
-			<ul class="sub-page-ul html">
-				<li>&lt;!-- --&gt;</li>
+			<h5>Variables are used to store data in javascript</h5>
+			<p class="sub-page-disc">How to assign a variable:</p>
+			<ul class="sub-page-ul js">
+				<li>var x = ("something")</li>
+				<li>var y = x;</li>
+				<li>var z = 26;</li>
 			</ul>
 
 		<div class="code-block">
-		<pre class="code html">
-<code data-lang="html">
-<span class="title">&lt;body&gt;</span>
+		<pre class="code js">
+<code data-lang="js">
 	<span class="value">
-	<span class="code-comment">&lt;!-- This is a comment --&gt;</span>
+	var a = "Hello";
 	
-	<span class="code-comment">&lt;!-- if IE 9 &gt;
-	IE 9 Conditional code here.
-	&lt; --&gt;</span>
+	var fName = "John",
+	var mName = "Q",
+	var lName = "Adams";
+
+	var fullName = fName + " " + mName + " " + lName;
+
+	var firstValue = 14;
+	var secondValue = 22;
+	var totalValue = firstValue + secondValue;
+
+	var numbers = 12 + 21 + totalValue;
+
+
+	var carName;
+	var carType;
+
+	carName = "Toyota";
+	carType = "Corolla";
+
+
 	</span>
-<span class="title">&lt;/body&gt;</span>
 </code>
 </pre>
 		</div>
 
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
-			<li><a href="code.php">code</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+		<ul class="button see-also js">
+			<li><a href="statements.php">Statements</a></li>
+			<li><a href="syntax.php">Syntax</a></li>
 		</ul>
 		</div>
 

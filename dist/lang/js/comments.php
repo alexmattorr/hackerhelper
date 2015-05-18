@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,31 +15,38 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header js">background</div>
+			<div class="sub-page-header js">Comments</div>
 
-			<h5>CSS background properties are used to define the background effects of an element.</h5>
-			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<h5>Comments are used to explain blocks of code.</h5>
+			<p class="sub-page-disc">How to comment in JavaScript</p>
 			<ul class="sub-page-ul js">
-				<li>background-color</li>
-				<li>background-image</li>
-				<li>background-repeat</li>
-				<li>background-attachmen</li>
-				<li>background-position</li>
-				<li>background-clip</li>
-				<li>background-origin</li>
+				<li>//</li>
+				<li>/* */</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code js">
 <code data-lang="js">
-<span class="title">body {</span>
-	<span class="value">background-image: url(&quot;img_tree.png&quot;);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-	background-clip: padding-box;
-	background-origin: padding-box;</span>
-<span class="title">}</span>
+	<span class="value">
+
+	<span class="code-comment">// User first name</span>
+	var fName = "John";
+
+	<span class="code-comment">// var mName = "Quincy";</span>
+
+	<span class="code-comment">// User last name</span>
+	var lName = "Doe";
+
+	<span class="code-comment">
+	/*
+	This calls the document, finds the element by ID.
+	After calling document and finding element, this will output:
+	Hello [first name][last name]!
+	*/
+	</span>
+
+	document.getElementById("username").innerHTML = "Hello " fName + lName + "!";
+	</span>
 </code>
 </pre>
 		</div>
@@ -47,8 +54,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also js">
-			<li><a href="#">Margin</a></li>
-			<li><a href="#">Padding</a></li>
+			<li><a href="statements.php">Statements</a></li>
+			<li><a href="variables.php">Variables</a></li>
 		</ul>
 		</div>
 
