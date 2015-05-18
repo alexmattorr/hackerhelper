@@ -4,28 +4,22 @@ hackerApp.controller('langCtrl', function ($scope) {
 		{
 			name: 'formatting',
 			url: '../lang/html/formatting.php'
-		},
-		{
+		},{
 			name: 'headings',
 			url: '../lang/html/headings.php'
-		},
-		{
+		},{
 			name: 'paragraph',
 			url: '../lang/html/paragraph.php'
-		},
-		{
+		},{
 			name: 'quotes & citations',
 			url: '../lang/html/quotes_citations.php'
-		},
-		{
+		},{
 			name: 'style',
 			url: '../lang/html/style.php'
-		},
-		{
+		},{
 			name: 'code',
 			url: '../lang/html/code.php'
-		},
-		{
+		},{
 			name: 'comment',
 			url: '../lang/html/comment.php'
 		},{
@@ -76,10 +70,8 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}
 
 	];
-	$scope.cssLang = [	
-		// css3
+	$scope.cssLang = [
 		{
-<<<<<<< HEAD
 			name: 'rounded corner',
 			url: '../lang/css/roundedcorner.php'
 		},{
@@ -115,7 +107,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 		},{
 			name: 'box sizing',
 			url: '../lang/css/boxsizing.php'
-=======
+		},{
 			name: 'background',
 			url: '../lang/css/background.php'
 		},{
@@ -157,7 +149,6 @@ hackerApp.controller('langCtrl', function ($scope) {
 		},{
 			name: 'positioning',
 			url: '../lang/css/positioning.php'
->>>>>>> 51b6558be15d392104a97ce0774d465fd9009112
 		}
 	];
 	$scope.sassLang = [
