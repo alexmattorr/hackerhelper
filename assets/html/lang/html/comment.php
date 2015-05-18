@@ -28,10 +28,11 @@
 <code data-lang="html">
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
-	&lt;!-- This is a comment --&gt;
-	&lt;!-- if IE 9 &gt;
+	<span class="code-comment">&lt;!-- This is a comment --&gt;</span>
+	
+	<span class="code-comment">&lt;!-- if IE 9 &gt;
 	IE 9 Conditional code here.
-	&lt; --&gt;
+	&lt; --&gt;</span>
 	</span>
 <span class="title">&lt;/body&gt;</span>
 </code>

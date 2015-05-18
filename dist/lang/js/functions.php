@@ -15,37 +15,42 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Media</div>
+			<div class="sub-page-header js">Functions</div>
 
-			<h5>Media allows you to embed videos inside of html</h5>
-			<p class="sub-page-disc">HTML code used for media:</p>
-			<ul class="sub-page-ul html">
-				<li>&lt;video&gt; &lt;/video&gt;</li>
-				<li>&lt;audio&gt; &lt;/audio&gt;</li>
-				<li>&lt;object&gt; &lt;/object&gt;</li>
-				<li>&lt;iframe&gt; &lt;/iframe&gt;</li>
-			</ul>
+			<h5>Functions are created and used to preform a particular task</h5>
+			<p class="sub-page-disc">How to write a function:</p>
 
 		<div class="code-block">
-		<pre class="code html">
-<code data-lang="html">
-<span class="title">&lt;body&gt;</span>
+		<pre class="code js">
+<code data-lang="js">
 	<span class="value">
-	&lt;video&gt;
-		&lt;h2&gt;Heading&lt;/h2&gt;
-		&lt;p&gt;A paragraph will go here&lt;/p&gt;
-	&lt;/video&gt;
+	function name(parameter, parameter, parameter) {
+	 <span class="code-comment">// code to be executed.</span>
+	}
+
+	function yourFunction(p1, p2) {
+		return p1 + p2;
+	}
+
+	var x = document.getElementByID("hello").innerHTML();
+	var y = "world";
+
+	function helloWorld() {
+	 x + y;
+	 return;
+	}
+
+	helloWorld();
 	</span>
-<span class="title">&lt;/body&gt;</span>
 </code>
 </pre>
 		</div>
 
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
-			<li><a href="formatting.php">Formatting</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+		<ul class="button see-also js">
+			<li><a href="operators.php">Operators</a></li>
+			<li><a href="variables.php">Variables</a></li>
 		</ul>
 		</div>
 

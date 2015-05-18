@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>Margin</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,30 +15,29 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header css">background</div>
+			<div class="sub-page-header css">Margin</div>
 
-			<h5>CSS background properties are used to define the background effects of an element.</h5>
-			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<h5>CSS margin specifies the space around elements.</h5>
+			<p class="sub-page-disc">CSS properties used for the margin:</p>
 			<ul class="sub-page-ul css">
-				<li>background-color</li>
-				<li>background-image</li>
-				<li>background-repeat</li>
-				<li>background-attachmen</li>
-				<li>background-position</li>
-				<li>background-clip</li>
-				<li>background-origin</li>
+				<li>margin</li>
+				<li>margin-top</li>
+				<li>margin-right</li>
+				<li>margin-bottom</li>
+				<li>margin-left</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">body {</span>
-	<span class="value">background-image: url(&quot;img_tree.png&quot;);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-	background-clip: padding-box;
-	background-origin: padding-box;</span>
+<span class="title">div {</span>
+	<span class="value">margin: 50px 100px 25px 80px;</span>
+<span class="title">}</span><br>
+<span class="title">p {</span>
+	<span class="value">margin-top: 50px;
+	margin-right: 100px;
+	margin-bottom: 25px;
+	margin-left: 80px;</span>
 <span class="title">}</span>
 </code>
 </pre>
@@ -47,8 +46,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also css">
-			<li><a href="#">Margin</a></li>
-			<li><a href="#">Padding</a></li>
+			<li><a href="boxmodel.php">Box Model</a></li>
+			<li><a href="padding.php">Padding</a></li>
 		</ul>
 		</div>
 

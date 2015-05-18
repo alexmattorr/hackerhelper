@@ -2,6 +2,11 @@
 	background: $white;
 	text-transform: uppercase;
 	text-align: center;
+	@include phone-l() {
+		padding-top: 75px;
+		position: fixed;
+		width: 90%;
+	}
 
 	input:focus {outline: none;}
 	input[placeholder] { color: $coal; }

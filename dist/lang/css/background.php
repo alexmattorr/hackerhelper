@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>hackerhelper</title>
+	<title>Background</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,37 +15,50 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Block</div>
+			<div class="sub-page-header css">background</div>
 
-			<h5>Block elements define block areas of html</h5>
-			<p class="sub-page-disc">HTML code used for blocks:</p>
-			<ul class="sub-page-ul html">
-				<li>&lt;div&gt; &lt;/div&gt;</li>
-				<li>&lt;span&gt; &lt;/span&gt;</li>
+			<h5>CSS background properties are used to control the background of an element.</h5>
+			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<ul class="sub-page-ul css">
+				<li>background-color</li>
+				<li>background-image</li>
+				<li>background-repeat</li>
+				<li>background-attachmen</li>
+				<li>background-position</li>
+				<li>background-clip</li>
+				<li>background-origin</li>
+			</ul>
+			<br>
+			<p class="sub-page-disc">CSS3 properties used for background effects:</p>
+			<ul class="sub-page-ul css">
+				<li>background-size</li>
+				<li>background-origin</li>
+				<li>background-clip</li>
 			</ul>
 
 		<div class="code-block">
-		<pre class="code html">
-<code data-lang="html">
-<span class="title">&lt;body&gt;</span>
-	<span class="value">
-	&lt;div&gt;
-		&lt;h2&gt;Heading&lt;/h2&gt;
-		&lt;p&gt;A paragraph will go here&lt;/p&gt;
-	&lt;/div&gt;
-
-	&lt;h1&gt;&lt;span&gt;Styled&lt;/span&gt; Differently&lt;/h1&gt;
-	</span>
-<span class="title">&lt;/body&gt;</span>
+		<pre class="code css">
+<code data-lang="css">
+<span class="title">body {</span>
+	<span class="value">background-image: url(&quot;img_tree.png&quot;);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-clip: padding-box;
+	background-origin: padding-box;
+	background-size: 150px 100px;
+	background-origin: content-box;
+	background-clip: content-box;</span>
+<span class="title">}</span>
 </code>
 </pre>
 		</div>
 
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
-			<li><a href="formatting.php">Formatting</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+		<ul class="button see-also css">
+			<li><a href="#">Margin</a></li>
+			<li><a href="#">Padding</a></li>
 		</ul>
 		</div>
 
