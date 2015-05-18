@@ -79,7 +79,46 @@ hackerApp.controller('langCtrl', function ($scope) {
 	$scope.cssLang = [
 		{
 			name: 'background',
-			url: '../lang/css/css-test.php'
+			url: '../lang/css/background.php'
+		},{
+			name: 'text',
+			url: '../lang/css/text.php'
+		},{
+			name: 'border',
+			url: '../lang/css/border.php'
+		},{
+			name: 'font',
+			url: '../lang/css/font.php'
+		},{
+			name: 'link',
+			url: '../lang/css/link.php'
+		},{
+			name: 'list',
+			url: '../lang/css/list.php'
+		},{
+			name: 'tables',
+			url: '../lang/css/tables.php'
+		},{
+			name: 'box model',
+			url: '../lang/css/boxmodel.php'
+		},{
+			name: 'outline',
+			url: '../lang/css/outline.php'
+		},{
+			name: 'margin',
+			url: '../lang/css/margin.php'
+		},{
+			name: 'padding',
+			url: '../lang/css/padding.php'
+		},{
+			name: 'dimension',
+			url: '../lang/css/dimension.php'
+		},{
+			name: 'display',
+			url: '../lang/css/display.php'
+		},{
+			name: 'positioning',
+			url: '../lang/css/positioning.php'
 		}
 	];
 	$scope.sassLang = [
