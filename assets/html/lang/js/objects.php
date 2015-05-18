@@ -15,35 +15,36 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">headings</div>
+			<div class="sub-page-header js">Objects</div>
 
-			<h5>Comments allow you to remove a block of code or leave a comment.</h5>
-			<p class="sub-page-disc">HTML code used for comments:</p>
-			<ul class="sub-page-ul html">
-				<li>&lt;!-- --&gt;</li>
-			</ul>
+			<h5>Objects are everything in Javascript</h5>
+			<p class="sub-page-disc">Objects contain properties, methods, values, functions.</p>
 
 		<div class="code-block">
-		<pre class="code html">
-<code data-lang="html">
-<span class="title">&lt;body&gt;</span>
+		<pre class="code js">
+<code data-lang="js">
 	<span class="value">
-	<span class="code-comment">&lt;!-- This is a comment --&gt;</span>
-	
-	<span class="code-comment">&lt;!-- if IE 9 &gt;
-	IE 9 Conditional code here.
-	&lt; --&gt;</span>
+	var car = "mustang";
+
+	var mustang = {
+		year: "2015",
+		type: "sport",
+		model: "shelby-gt 500",
+		color: "black",
+		mph: 662
+	};
+
+	console.log( mustang.type() );
 	</span>
-<span class="title">&lt;/body&gt;</span>
 </code>
 </pre>
 		</div>
 
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
-			<li><a href="code.php">code</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+		<ul class="button see-also js">
+			<li><a href="functions.php">Functions</a></li>
+			<li><a href="variables.php">Variables</a></li>
 		</ul>
 		</div>
 
