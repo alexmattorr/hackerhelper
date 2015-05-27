@@ -4,28 +4,22 @@ hackerApp.controller('langCtrl', function ($scope) {
 		{
 			name: 'formatting',
 			url: '../lang/html/formatting.php'
-		},
-		{
+		},{
 			name: 'headings',
 			url: '../lang/html/headings.php'
-		},
-		{
+		},{
 			name: 'paragraph',
 			url: '../lang/html/paragraph.php'
-		},
-		{
+		},{
 			name: 'quotes & citations',
 			url: '../lang/html/quotes_citations.php'
-		},
-		{
+		},{
 			name: 'style',
 			url: '../lang/html/style.php'
-		},
-		{
+		},{
 			name: 'code',
 			url: '../lang/html/code.php'
-		},
-		{
+		},{
 			name: 'comment',
 			url: '../lang/html/comment.php'
 		},{
@@ -76,8 +70,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}
 
 	];
-	$scope.cssLang = [	
-		// css3
+	$scope.cssLang = [
 		{
 			name: 'rounded corner',
 			url: '../lang/css/roundedcorner.php'

@@ -34,8 +34,8 @@
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">li {</span>
-	<span class="value">display: inline;</span>
+<span class="title">img {</span>
+	<span class="value">bottom: 10px;</span>
 <span class="title">}</span>
 </code>
 </pre>
