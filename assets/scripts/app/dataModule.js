@@ -4,22 +4,28 @@ hackerApp.controller('langCtrl', function ($scope) {
 		{
 			name: 'formatting',
 			url: '../lang/html/formatting.php'
-		},{
+		},
+		{
 			name: 'headings',
 			url: '../lang/html/headings.php'
-		},{
+		},
+		{
 			name: 'paragraph',
 			url: '../lang/html/paragraph.php'
-		},{
+		},
+		{
 			name: 'quotes & citations',
 			url: '../lang/html/quotes_citations.php'
-		},{
+		},
+		{
 			name: 'style',
 			url: '../lang/html/style.php'
-		},{
+		},
+		{
 			name: 'code',
 			url: '../lang/html/code.php'
-		},{
+		},
+		{
 			name: 'comment',
 			url: '../lang/html/comment.php'
 		},{
@@ -70,7 +76,8 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}
 
 	];
-	$scope.cssLang = [
+	$scope.cssLang = [	
+		// css3
 		{
 			name: 'rounded corner',
 			url: '../lang/css/roundedcorner.php'
@@ -234,11 +241,11 @@ hackerApp.controller('langCtrl', function ($scope) {
 			name: 'typeconversion',
 			url: '../lang/js/typeconversion.php'
 		}, {
-			name: 'regexp',
+			name: 'regular expressions',
 			url: '../lang/js/regexp.php'
 		}, {
-			name: 'errors',
-			url: '../lang/js/errors.php'
+			name: 'error',
+			url: '../lang/js/error.php'
 		}, {
 			name: 'debugging',
 			url: '../lang/js/debugging.php'
@@ -248,11 +255,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'strictmode',
 			url: '../lang/js/strictmode.php'
-		}, {
-			name: 'json',
-			url: '../lang/js/json.php'
 		}
-
 	];
 	$scope.jqLang = [
 		{
