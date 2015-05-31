@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Positioning</title>
+	<title>Float</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,34 +15,21 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header css">Positioning</div>
+			<div class="sub-page-header css">Float</div>
 
-			<h5>CSS positioning properties allow you to position an element specifically.</h5>
-			<p class="sub-page-disc">CSS properties used for positioning:</p>
+			<h5>CSS float allows an element tp be pushed left or right, allowing other elements to wrap around it.</h5>
+			<p class="sub-page-disc">CSS properties used for float:</p>
 			<ul class="sub-page-ul css">
-				<li>bottom</li>
-				<li>clip</li>
-				<li>cursor</li>
-				<li>left</li>
-				<li>overflow</li>
-				<li>position</li>
-				<li>right</li>
-				<li>top</li>
-				<li>z-index</li>
+				<li>float</li>
+				<li>clear</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">img {</span>
-	<span class="value">bottom: 10px;
-	clip: auto;
-	cursor: pointer;
-	left: inherit;
-	position: fixed;
-	right: auto;
-	top: auto;
-	z-index: inherit;</span>
+<span class="title">div {</span>
+	<span class="value">float: right;
+	clear: both;</span>
 <span class="title">}</span>
 </code>
 </pre>
@@ -51,8 +38,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also css">
-			<li><a href="dimension.php">Dimension</a></li>
-			<li><a href="padding.php">Padding</a></li>
+			<li><a href="display.php">Display</a></li>
+			<li><a href="positioning.php">Positioning</a></li>
 		</ul>
 		</div>
 
