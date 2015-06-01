@@ -4,28 +4,22 @@ hackerApp.controller('langCtrl', function ($scope) {
 		{
 			name: 'formatting',
 			url: '../lang/html/formatting.php'
-		},
-		{
+		},{
 			name: 'headings',
 			url: '../lang/html/headings.php'
-		},
-		{
+		},{
 			name: 'paragraph',
 			url: '../lang/html/paragraph.php'
-		},
-		{
+		},{
 			name: 'quotes & citations',
 			url: '../lang/html/quotes_citations.php'
-		},
-		{
+		},{
 			name: 'style',
 			url: '../lang/html/style.php'
-		},
-		{
+		},{
 			name: 'code',
 			url: '../lang/html/code.php'
-		},
-		{
+		},{
 			name: 'comment',
 			url: '../lang/html/comment.php'
 		},{
@@ -74,7 +68,6 @@ hackerApp.controller('langCtrl', function ($scope) {
 			name: 'block (html5)',
 			url: '../lang/html/block_html5.php'
 		}
-
 	];
 	$scope.cssLang = [	
 		// css3
@@ -217,7 +210,6 @@ hackerApp.controller('langCtrl', function ($scope) {
 			name: 'events',
 			url: '../lang/js/events.php'
 		}, {
-<<<<<<< HEAD
 			name: 'arrays',
 			url: '../lang/js/arrays.php'
 		}, {
@@ -241,7 +233,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'dates',
 			url: '../lang/js/dates.php'
-=======
+		}, {
 			name: 'booleans',
 			url: '../lang/js/booleans.php'
 		}, {
@@ -283,7 +275,6 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'error',
 			url: '../lang/js/error.php'
-<<<<<<< HEAD
 		}, {
 			name: 'debugging',
 			url: '../lang/js/debugging.php'
@@ -293,9 +284,6 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'strictmode',
 			url: '../lang/js/strictmode.php'
->>>>>>> 5070b3dbf3a571ca40e773a2d4aa82d58aa9d9f4
-=======
->>>>>>> 840fb1c4a3c2285d5f49d13b3c05749080cf5c0f
 		}
 	];
 	$scope.jqLang = [
