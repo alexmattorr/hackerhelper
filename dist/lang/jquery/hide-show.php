@@ -3,7 +3,7 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header js">Animate</div>
+			<div class="sub-page-header js">Hide Show</div>
 
 			<h5>Hide and show allow you to do just that, hide and show!.</h5>
 			<p class="sub-page-disc">Example of hide and show:</p>

@@ -5,8 +5,8 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Code</div>
 
-			<h5>Code tages allow you to write code into your html with some formatting</h5>
-			<p class="sub-page-disc">HTML code used for code tages:</p>
+			<h5>Code tages allow you to write code into your html with some formatting.</h5>
+			<p class="sub-page-disc">HTML code used for code tags:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;kbd&gt; &lt;/kbd&gt;</li>
 				<li>&lt;samp&gt; &lt;/samp&gt;</li>

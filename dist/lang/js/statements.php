@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Statements</div>
 
-			<h5>Statements tell the browser to do something</h5>
+			<h5>Statements tell the browser to do something.</h5>
 
 		<div class="code-block">
 		<pre class="code js">

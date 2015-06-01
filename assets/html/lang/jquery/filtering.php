@@ -16,6 +16,7 @@
 		<div class="code-block">
 		<pre class="code js">
 <code data-lang="js">
+	<span class="value">
 	$("ul li").last();
 	</span>
 </code>

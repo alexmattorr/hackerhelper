@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Block</div>
 
-			<h5>Block elements define block areas of html</h5>
+			<h5>Block elements define block areas of html.</h5>
 			<p class="sub-page-disc">HTML code used for blocks:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;div&gt; &lt;/div&gt;</li>

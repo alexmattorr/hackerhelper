@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Regular Expressions</div>
 
-			<h5>Regular Expressions are patterns that can be used to match characters in string. You can use regular expressions with string methods</h5>
+			<h5>Regular Expressions are patterns that can be used to match characters in string. You can use regular expressions with string methods.</h5>
 			<p class="sub-page-disc">Regular Expressions operator syntax is:</p>
 			<ul class="sub-page-ul js">
 				<li>/pattern/modifiers;</li>

@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Lists</div>
 
-			<h5>Lists allow you to add items to a list of similiar information</h5>
+			<h5>Lists allow you to add items to a list of similiar information.</h5>
 			<p class="sub-page-disc">HTML code used for lists:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;ul&gt;Unordered List&lt;/ul&gt;</li>
@@ -45,7 +45,7 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="styles.php">styles</a></li>
+			<li><a href="styles.php">Styles</a></li>
 			<li><a href="paragraph.php">Paragraph</a></li>
 		</ul>
 		</div>

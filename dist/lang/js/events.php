@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Events</div>
 
-			<h5>Events tell the browser to do something</h5>
+			<h5>Events tell the browser to do something.</h5>
 			<p class="sub-page-disc">Common events:</p>
 			<ul class="sub-page-ul js">
 				<li>onchange</li>
