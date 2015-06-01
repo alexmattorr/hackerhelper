@@ -4,22 +4,28 @@ hackerApp.controller('langCtrl', function ($scope) {
 		{
 			name: 'formatting',
 			url: '../lang/html/formatting.php'
-		},{
+		},
+		{
 			name: 'headings',
 			url: '../lang/html/headings.php'
-		},{
+		},
+		{
 			name: 'paragraph',
 			url: '../lang/html/paragraph.php'
-		},{
+		},
+		{
 			name: 'quotes & citations',
 			url: '../lang/html/quotes_citations.php'
-		},{
+		},
+		{
 			name: 'style',
 			url: '../lang/html/style.php'
-		},{
+		},
+		{
 			name: 'code',
 			url: '../lang/html/code.php'
-		},{
+		},
+		{
 			name: 'comment',
 			url: '../lang/html/comment.php'
 		},{
@@ -70,7 +76,8 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}
 
 	];
-	$scope.cssLang = [
+	$scope.cssLang = [	
+		// css3
 		{
 			name: 'rounded corner',
 			url: '../lang/css/roundedcorner.php'
@@ -210,6 +217,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 			name: 'events',
 			url: '../lang/js/events.php'
 		}, {
+<<<<<<< HEAD
 			name: 'arrays',
 			url: '../lang/js/arrays.php'
 		}, {
@@ -233,13 +241,106 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'dates',
 			url: '../lang/js/dates.php'
+=======
+			name: 'booleans',
+			url: '../lang/js/booleans.php'
+		}, {
+			name: 'comparisons',
+			url: '../lang/js/comparisons.php'
+		}, {
+			name: 'logical',
+			url: '../lang/js/logical.php'
+		}, {
+			name: 'ternary',
+			url: '../lang/js/ternary.php'
+		}, {
+			name: 'bitwise',
+			url: '../lang/js/bitwise.php'
+		},{
+			name: 'conditions',
+			url: '../lang/js/conditions.php'
+		}, {
+			name: 'switch',
+			url: '../lang/js/switch.php'
+		}, {
+			name: 'for loop',
+			url: '../lang/js/forloop.php'
+		}, {
+			name: 'while loop',
+			url: '../lang/js/whileloop.php'
+		}, {
+			name: 'break',
+			url: '../lang/js/break.php'
+		}, {
+			name: 'continue',
+			url: '../lang/js/continue.php'
+		}, {
+			name: 'typeconversion',
+			url: '../lang/js/typeconversion.php'
+		}, {
+			name: 'regular expressions',
+			url: '../lang/js/regexp.php'
+		}, {
+			name: 'error',
+			url: '../lang/js/error.php'
+		}, {
+			name: 'debugging',
+			url: '../lang/js/debugging.php'
+		}, {
+			name: 'hoisting',
+			url: '../lang/js/hoisting.php'
+		}, {
+			name: 'strictmode',
+			url: '../lang/js/strictmode.php'
+>>>>>>> 5070b3dbf3a571ca40e773a2d4aa82d58aa9d9f4
 		}
-
 	];
 	$scope.jqLang = [
 		{
-			name: ':active',
-			url: '../lang/jquery/jquery-test.php'
+			name: 'add',
+			url: '../lang/jquery/add.php'
+		}, {
+			name: 'ajax',
+			url: '../lang/jquery/ajax.php'
+		}, {
+			name: 'ancestors',
+			url: '../lang/jquery/ancestors.php'
+		}, {
+			name: 'animate',
+			url: '../lang/jquery/animate.php'
+		}, {
+			name: 'chaining',
+			url: '../lang/jquery/chaining.php'
+		}, {
+			name: 'classes',
+			url: '../lang/jquery/classes.php'
+		}, {
+			name: 'descendants',
+			url: '../lang/jquery/descendants.php'
+		}, {
+			name: 'dimensions',
+			url: '../lang/jquery/dimensions.php'
+		}, {
+			name: 'fade',
+			url: '../lang/jquery/fade.php'
+		}, {
+			name: 'filtering',
+			url: '../lang/jquery/filtering.php'
+		}, {
+			name: 'get-set',
+			url: '../lang/jquery/get-set.php'
+		}, {
+			name: 'hide-show',
+			url: '../lang/jquery/hide-show.php'
+		}, {
+			name: 'remove',
+			url: '../lang/jquery/remove.php'
+		}, {
+			name: 'siblings',
+			url: '../lang/jquery/siblings.php'
+		}, {
+			name: 'stop',
+			url: '../lang/jquery/stop.php'
 		}
 	];
 });

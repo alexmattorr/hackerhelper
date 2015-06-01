@@ -15,37 +15,34 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">Block</div>
+			<div class="sub-page-header js">While Loop</div>
 
-			<h5>Block elements define block areas of html</h5>
-			<p class="sub-page-disc">HTML code used for blocks:</p>
-			<ul class="sub-page-ul html">
-				<li>&lt;div&gt; &lt;/div&gt;</li>
-				<li>&lt;span&gt; &lt;/span&gt;</li>
+			<h5>While Loop is used to execute a group of code as long as the condition is true.</h5>
+			<p class="sub-page-disc">While loop structure is:</p>
+			<ul class="sub-page-ul js">
+				<li>while (condition) {</li> 
+    			<li>statements;</li>
+    			<li>}</li>
+				
 			</ul>
 
 		<div class="code-block">
-		<pre class="code html">
+		<pre class="code js">
 <code data-lang="html">
-<span class="title">&lt;body&gt;</span>
-	<span class="value">
-	&lt;div&gt;
-		&lt;h2&gt;Heading&lt;/h2&gt;
-		&lt;p&gt;A paragraph will go here&lt;/p&gt;
-	&lt;/div&gt;
-
-	&lt;h1&gt;&lt;span&gt;Styled&lt;/span&gt; Differently&lt;/h1&gt;
-	</span>
-<span class="title">&lt;/body&gt;</span>
+<span class="title">var</span><span class="value"> x = 1</span><span class="title">;</span>
+<span class="title">while</span><span class="value">(i &lt; 20)</span><span class="title"> {</span>
+	<span class="value">document.write(i + "&lt;br&gt;");</span>
+	<span class="value">i++;</span>
+<span class="title">}</span>
 </code>
 </pre>
 		</div>
 
 		<h5>See Also</h5>
 
-		<ul class="button see-also html">
-			<li><a href="formatting.php">Formatting</a></li>
-			<li><a href="paragraph.php">Paragraph</a></li>
+		<ul class="button see-also js">
+			<li><a href="forloop.php">For Loop</a></li>
+			<li><a href="logical.php">Logical</a></li>
 		</ul>
 		</div>
 

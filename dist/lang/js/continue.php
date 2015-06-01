@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,30 +15,22 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header js">background</div>
+			<div class="sub-page-header js">Continue</div>
 
-			<h5>CSS background properties are used to define the background effects of an element.</h5>
-			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<h5>Continue is used to skip one iteration of the loop in case we assigned a condition.</h5>
+			<p class="sub-page-disc">Continue syntax is:</p>
 			<ul class="sub-page-ul js">
-				<li>background-color</li>
-				<li>background-image</li>
-				<li>background-repeat</li>
-				<li>background-attachmen</li>
-				<li>background-position</li>
-				<li>background-clip</li>
-				<li>background-origin</li>
+				<li>continue;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code js">
-<code data-lang="js">
-<span class="title">body {</span>
-	<span class="value">background-image: url(&quot;img_tree.png&quot;);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-	background-clip: padding-box;
-	background-origin: padding-box;</span>
+<code data-lang="html">
+<span class="title">var</span><span class="value"> i = 1</span><span class="title">;</span>
+<span class="title">while</span><span class="value">(i &lt; 20)</span><span class="title"> {</span>
+	<span class="value">i++;</span>
+	<span class="title">if (i == 10) { continue; }
+	<span class="value">document.write(i + "&lt;br&gt;");</span><span class="code-comment">// it will skip outputting number 10 and continue with 11</span>
 <span class="title">}</span>
 </code>
 </pre>
@@ -47,8 +39,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also js">
-			<li><a href="#">Margin</a></li>
-			<li><a href="#">Padding</a></li>
+			<li><a href="break.php">Break</a></li>
+			<li><a href="whileloop.php">While Loop</a></li>
 		</ul>
 		</div>
 

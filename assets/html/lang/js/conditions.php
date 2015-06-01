@@ -15,31 +15,27 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header js">Output</div>
+			<div class="sub-page-header js">Conditions</div>
 
-			<h5>Output displays data in different ways</h5>
-			<p class="sub-page-disc">To output data:</p>
+			<h5>Conditional statements will excecute statements according to a condition.</h5>
+			<p class="sub-page-disc">Conditional statement syntax is:</p>
 			<ul class="sub-page-ul js">
-				<li>.alert()</li>
-				<li>.write()</li>
-				<li>.innerHTML()</li>
-				<li>console.log()</li>
+				<li>if(condition1) { statement1 }</li>
+				<li>else if (condition2) { statement2 }</li>
+				<li>else { statement3 }</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code js">
-<code data-lang="js">
-	<span class="value">
-	window.alert("Hello! This alerts the browser.");
-
-	document.write("&lt;h1&gt;This outputs text on the document&lt;/h1&gt;");
-
-	document.getElementById("header").innerHTML("hello" + fname);
-
-	console.log("This is displayed in the console.");
-
-
-	</span>
+<code data-lang="html">
+<span class="title">var</span><span class="value"> x = 20</span><span class="title">;</span>
+<span class="title">if</span><span class="value">(x &gt; 20) {
+	document.write("x is greater than 20");
+} else if(x &lt; 20) {
+	document.write("x is less than 20");
+} else {
+	document.write("x is 20");
+}</span>
 </code>
 </pre>
 		</div>
@@ -47,8 +43,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also js">
-			<li><a href="statements.php">Statements</a></li>
-			<li><a href="variables.php">Variables</a></li>
+			<li><a href="ternary.php">Ternary</a></li>
+			<li><a href="comparisons.php">Comparisons</a></li>
 		</ul>
 		</div>
 

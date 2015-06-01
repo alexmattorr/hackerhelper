@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Test Page</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,30 +15,24 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header js">background</div>
+			<div class="sub-page-header js">While Loop</div>
 
-			<h5>CSS background properties are used to define the background effects of an element.</h5>
-			<p class="sub-page-disc">CSS properties used for background effects:</p>
+			<h5>While Loop is used to execute a group of code as long as the condition is true.</h5>
+			<p class="sub-page-disc">While loop structure is:</p>
 			<ul class="sub-page-ul js">
-				<li>background-color</li>
-				<li>background-image</li>
-				<li>background-repeat</li>
-				<li>background-attachmen</li>
-				<li>background-position</li>
-				<li>background-clip</li>
-				<li>background-origin</li>
+				<li>while (condition) {</li> 
+    			<li>statements;</li>
+    			<li>}</li>
+				
 			</ul>
 
 		<div class="code-block">
 		<pre class="code js">
-<code data-lang="js">
-<span class="title">body {</span>
-	<span class="value">background-image: url(&quot;img_tree.png&quot;);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-attachment: fixed;
-	background-clip: padding-box;
-	background-origin: padding-box;</span>
+<code data-lang="html">
+<span class="title">var</span><span class="value"> x = 1</span><span class="title">;</span>
+<span class="title">while</span><span class="value">(i &lt; 20)</span><span class="title"> {</span>
+	<span class="value">document.write(i + "&lt;br&gt;");</span>
+	<span class="value">i++;</span>
 <span class="title">}</span>
 </code>
 </pre>
@@ -47,8 +41,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also js">
-			<li><a href="#">Margin</a></li>
-			<li><a href="#">Padding</a></li>
+			<li><a href="forloop.php">For Loop</a></li>
+			<li><a href="logical.php">Logical</a></li>
 		</ul>
 		</div>
 

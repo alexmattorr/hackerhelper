@@ -8,7 +8,10 @@
 		display: none;
 		height: 80%;
 		overflow: scroll;
-		@include phone-l() { height: auto; }
+		@include phone-l() { 
+			height: auto;
+			margin-top: 195px;
+		}
 		&.is-active {
 			display: block;
 		}
