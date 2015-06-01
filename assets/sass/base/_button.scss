@@ -25,9 +25,15 @@
 }
 
 .paypal {
+	background:url(../svg/paypal.svg) no-repeat center;
+	background-size:contain;
+	background-size:200px;
+	margin:40px auto auto;
 	border: solid 1px $blue;
 	border-radius: 5px;
-	width: 280px;
-	padding: 20px;
-	&:hover { background: $blue; }
+	width: 220px;
+	padding: 25px;
+	&:hover { 
+		border: solid 2px $blue; 
+	}
 }

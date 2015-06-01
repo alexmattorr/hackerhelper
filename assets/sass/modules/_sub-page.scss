@@ -1,8 +1,5 @@
 .sub-page {
 	padding-bottom: 25px;
-	@include phone-l() {
-		margin-top: 65px;
-	}
 	.sub-page-header {
 		width: 100%;
 		float: left;
