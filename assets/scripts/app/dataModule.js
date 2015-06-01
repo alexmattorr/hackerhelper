@@ -283,6 +283,7 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'error',
 			url: '../lang/js/error.php'
+<<<<<<< HEAD
 		}, {
 			name: 'debugging',
 			url: '../lang/js/debugging.php'
@@ -293,6 +294,8 @@ hackerApp.controller('langCtrl', function ($scope) {
 			name: 'strictmode',
 			url: '../lang/js/strictmode.php'
 >>>>>>> 5070b3dbf3a571ca40e773a2d4aa82d58aa9d9f4
+=======
+>>>>>>> 840fb1c4a3c2285d5f49d13b3c05749080cf5c0f
 		}
 	];
 	$scope.jqLang = [

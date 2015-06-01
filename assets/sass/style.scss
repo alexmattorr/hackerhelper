@@ -9,7 +9,7 @@
 @import "base/base";
 @import "base/font-awesome";
 @import "base/button";
-// @import "base/typography";
+@import "base/typography";
 
 // components
 @import "components/search-filter";
@@ -25,3 +25,5 @@
 @import "modules/main";
 @import "modules/contact-form";
 @import "modules/sub-page";
+@import "modules/columns";
+@import "modules/about";

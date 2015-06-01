@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Scope</title>
+	<title>hackerhelper</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,18 +15,20 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header js">Scope</div>
+			<div class="sub-page-header js">Callback</div>
 
-			<h5>Scope is the set of variables, objects, and functions you have access to.</h5>
-			<p class="sub-page-disc">The scope changes inside of functions.</p>
+			<h5>Callback functons are used to delegate event effects.</h5>
+			<p class="sub-page-disc">Example of callback:</p>
 
 		<div class="code-block">
 		<pre class="code js">
 <code data-lang="js">
 	<span class="value">
-	function myFunction() {
-		var mustang = "mustang";
-	}
+	$("button").click(function() {
+		$("article").fadeIn("slow", function() {
+			console.log("faded in article");
+		});
+	});
 	</span>
 </code>
 </pre>
@@ -35,15 +37,15 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also js">
+<!-- 		
 			<li><a href="functions.php">Functions</a></li>
-			<li><a href="arrays.php">Arrays</a></li>
+			<li><a href="operators.php">Operators</a></li>
+-->
 		</ul>
 		</div>
 
 			</article>
 		</section>
-		<!-- <header><i class="fa fa-chevron-left go-back"></i><h2>Background</h2></header>  -->
-
 	</div>
 </body>
 </html>
