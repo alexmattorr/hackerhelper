@@ -31,9 +31,8 @@
 	padding: 10px;
 	margin:5px 5px;</span>
 <span class="title"> }</span>
+
 <span class="title">.box2 {</span> <span class="value">@extend .box1;</span><span class="title"> }</span>
-
-
 </code>
 </pre>
 		</div>

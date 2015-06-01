@@ -38,8 +38,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="lists.php">lists</a></li>
-			<li><a href="block.php">block</a></li>
+			<li><a href="lists.php">Lists</a></li>
+			<li><a href="block.php">Block</a></li>
 		</ul>
 		</div>
 

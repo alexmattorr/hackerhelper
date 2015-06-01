@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header css">Gradients</div>
 
-			<h5>Gradients allows you to create continuious transition between colors.</h5>
+			<h5>Gradients allow you to create continuious transition between colors.</h5>
 			<p class="sub-page-disc">CSS code used for Gradients:</p>
 			<ul class="sub-page-ul css">
 				<li>linear-gradient( )</li>

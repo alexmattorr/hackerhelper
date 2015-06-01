@@ -36,7 +36,6 @@
     transition-timing-function: ease-in-out;
     transition-delay: 2s;</span>
 <span class="title"> }</span>
-<span class="title">button { </span><span class="value"></span>transition: 	width 5s ease-in-out 2s;<span class="title"> }</span>
 </code>
 </pre>
 		</div>

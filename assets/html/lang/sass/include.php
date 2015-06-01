@@ -28,8 +28,6 @@
 <code data-lang="css">
 <span class="title">.box1 {</span> <span class="value">@include border-radius(20px);</span><span class="title"> }</span>
 <span class="title">.box2 {</span> <span class="value">@include border-radius(5px);</span><span class="title"> }</span>
-
-
 </code>
 </pre>
 		</div>

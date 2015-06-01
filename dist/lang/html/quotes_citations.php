@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Quotes & Citations</div>
 
-			<h5>Quote and citation tags allow you to indent and declare quotes and citations</h5>
+			<h5>Quote and citation tags allow you to indent and declare quotes and citations.</h5>
 			<p class="sub-page-disc">HTML code used for quotes and citations:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;q&gt; &lt;/q&gt;</li>

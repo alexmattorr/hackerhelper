@@ -15,7 +15,7 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header html">headings</div>
+			<div class="sub-page-header html">Comments</div>
 
 			<h5>Comments allow you to remove a block of code or leave a comment.</h5>
 			<p class="sub-page-disc">HTML code used for comments:</p>
@@ -42,7 +42,7 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="code.php">code</a></li>
+			<li><a href="code.php">Code</a></li>
 			<li><a href="paragraph.php">Paragraph</a></li>
 		</ul>
 		</div>

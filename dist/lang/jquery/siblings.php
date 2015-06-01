@@ -32,6 +32,7 @@
 		<div class="code-block">
 		<pre class="code js">
 <code data-lang="js">
+	<span class="value">
 	$("div").siblings();
 	$("h2").next();
 	</span>

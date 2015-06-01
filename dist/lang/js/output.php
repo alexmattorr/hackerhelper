@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Output</div>
 
-			<h5>Output displays data in different ways</h5>
+			<h5>Output displays data in different ways.</h5>
 			<p class="sub-page-disc">To output data:</p>
 			<ul class="sub-page-ul js">
 				<li>.alert()</li>

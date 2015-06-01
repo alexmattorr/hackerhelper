@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Media</div>
 
-			<h5>Media allows you to embed videos inside of html</h5>
+			<h5>Media allows you to embed videos inside of html.</h5>
 			<p class="sub-page-disc">HTML code used for media:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;video&gt; &lt;/video&gt;</li>

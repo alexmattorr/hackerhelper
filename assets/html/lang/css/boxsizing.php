@@ -20,7 +20,10 @@
 			<h5>Box Sizing is used to define width and height of an element that the browser should include.</h5>
 			<p class="sub-page-disc">CSS code used for Box Sizing:</p>
 			<ul class="sub-page-ul css">
-				<li>box-sixing: ;</li>
+				<li>box-sizing</li>
+				<li>boarder-box</li>
+				<li>initial</li>
+				<li>inherit</li>
 			</ul>
 
 		<div class="code-block">
