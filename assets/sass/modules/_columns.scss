@@ -1,0 +1,30 @@
+.columns {
+  margin:40px auto;
+  display:table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.column {
+  display: table-cell;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 5em;
+  img {
+    width:230px;
+  }
+  @include respond-to($tablet) {
+        display: block;
+        width: 100%;
+  }
+}
+
+
+
+/* .column-photo { 
+  &:nth-child(1) {background-image:url(assets/img/alex.png)  no-repeat top center; }
+  &:nth-child(2) {background-image:url(assets/img/alex.png)  no-repeat top center; }
+  &:nth-child(3) {background-image:url(assets/img/alex.png)  no-repeat top center; }
+	//background-size:contain;
+	//height:400px;
+} */
