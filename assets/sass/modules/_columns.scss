@@ -8,14 +8,18 @@
 .column {
   display: table-cell;
   text-align: center;
-  vertical-align:middle;
+  vertical-align:top;
   line-height: 5em;
   img {
     width:230px;
   }
   @include respond-to($tablet) {
-        display: block;
-        width: 100%;
+    display: block;
+    width: 100%;
+    img {
+      margin:15px auto 5px auto;
+    }
+        
   }
 }
 
