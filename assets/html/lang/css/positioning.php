@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header css">Positioning</div>
 
-			<h5>CSS positioning properties allow you to position an element.</h5>
+			<h5>CSS positioning properties allow you to position an element specifically.</h5>
 			<p class="sub-page-disc">CSS properties used for positioning:</p>
 			<ul class="sub-page-ul css">
 				<li>bottom</li>
@@ -34,8 +34,15 @@
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">li {</span>
-	<span class="value">display: inline;</span>
+<span class="title">img {</span>
+	<span class="value">bottom: 10px;
+	clip: auto;
+	cursor: pointer;
+	left: inherit;
+	position: fixed;
+	right: auto;
+	top: auto;
+	z-index: inherit;</span>
 <span class="title">}</span>
 </code>
 </pre>

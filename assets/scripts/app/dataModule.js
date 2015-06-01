@@ -156,6 +156,18 @@ hackerApp.controller('langCtrl', function ($scope) {
 		},{
 			name: 'positioning',
 			url: '../lang/css/positioning.php'
+		},{
+			name: 'float',
+			url: '../lang/css/float.php'
+		},{
+			name: 'combinators',
+			url: '../lang/css/combinators.php'
+		},{
+			name: 'opacity',
+			url: '../lang/css/opacity.php'
+		},{
+			name: 'media',
+			url: '../lang/css/media.php'
 		}
 	];
 	$scope.sassLang = [
@@ -205,6 +217,31 @@ hackerApp.controller('langCtrl', function ($scope) {
 			name: 'events',
 			url: '../lang/js/events.php'
 		}, {
+<<<<<<< HEAD
+			name: 'arrays',
+			url: '../lang/js/arrays.php'
+		}, {
+			name: 'scope',
+			url: '../lang/js/scope.php'
+		}, {
+			name: 'strings',
+			url: '../lang/js/strings.php'
+		}, {
+			name: 'string methods',
+			url: '../lang/js/stringMethods.php'
+		}, {
+			name: 'numbers',
+			url: '../lang/js/numbers.php'
+		}, {
+			name: 'number methods',
+			url: '../lang/js/numberMethods.php'
+		}, {
+			name: 'math',
+			url: '../lang/js/math.php'
+		}, {
+			name: 'dates',
+			url: '../lang/js/dates.php'
+=======
 			name: 'booleans',
 			url: '../lang/js/booleans.php'
 		}, {
@@ -246,6 +283,19 @@ hackerApp.controller('langCtrl', function ($scope) {
 		}, {
 			name: 'error',
 			url: '../lang/js/error.php'
+<<<<<<< HEAD
+		}, {
+			name: 'debugging',
+			url: '../lang/js/debugging.php'
+		}, {
+			name: 'hoisting',
+			url: '../lang/js/hoisting.php'
+		}, {
+			name: 'strictmode',
+			url: '../lang/js/strictmode.php'
+>>>>>>> 5070b3dbf3a571ca40e773a2d4aa82d58aa9d9f4
+=======
+>>>>>>> 840fb1c4a3c2285d5f49d13b3c05749080cf5c0f
 		}
 	];
 	$scope.jqLang = [

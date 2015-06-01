@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Positioning</title>
+	<title>Opacity</title>
 	<link rel="stylesheet" href="../../assets/css/style.css">
 	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
 	<script src="../../assets/js/app.min.js"></script>
@@ -15,44 +15,35 @@
 		<section class="content">
 			<article>
 		<div class="main sub-page">
-			<div class="sub-page-header css">Positioning</div>
+			<div class="sub-page-header css">Opacity</div>
 
-			<h5>CSS positioning properties allow you to position an element specifically.</h5>
-			<p class="sub-page-disc">CSS properties used for positioning:</p>
+			<h5>CSS3 property for transparency is opacity.</h5>
+			<p class="sub-page-disc">CSS3 properties used for opacity:</p>
 			<ul class="sub-page-ul css">
-				<li>bottom</li>
-				<li>clip</li>
-				<li>cursor</li>
-				<li>left</li>
-				<li>overflow</li>
-				<li>position</li>
-				<li>right</li>
-				<li>top</li>
-				<li>z-index</li>
+				<li>opacity</li>
+				<li>filter</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
 <span class="title">img {</span>
-	<span class="value">bottom: 10px;
-	clip: auto;
-	cursor: pointer;
-	left: inherit;
-	position: fixed;
-	right: auto;
-	top: auto;
-	z-index: inherit;</span>
+	<span class="value">opacity: 0.3;
+	filter: alpha(opacity=30);</span>
+<span class="title">}</span><br>
+<span class="title">img:hover {</span>
+	<span class="value">opacity: 1.0;
+	filter: alpha(opacity=100);</span>
 <span class="title">}</span>
 </code>
 </pre>
-		</div>
+		</div>	
 
 		<h5>See Also</h5>
 
 		<ul class="button see-also css">
-			<li><a href="dimension.php">Dimension</a></li>
-			<li><a href="padding.php">Padding</a></li>
+			<li><a href="animations.php">Animations</a></li>
+			<li><a href="transitions.php">Transitions</a></li>
 		</ul>
 		</div>
 
