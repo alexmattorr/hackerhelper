@@ -1,15 +1,10 @@
 .contact-form {
-	width: 80%;
-	margin:20px auto;
-	@include respond-to($phone-l) {
-        width: 95%;
-  	}
 	input:focus {outline: none;}
 	input[placeholder] { color: $coal; }
 	input[type=text] {
 	width: 85%;
 	float: left;
-	margin:10px auto;
+	margin-bottom: 15px;
 	padding-left: 10px;
 	height: 40px;
 	background: $white;
@@ -23,9 +18,8 @@
 		}
 	}
 	button {
-		margin-top:10px;
 		width: 100%;
-		height: 60px;
+		height: 40px;
 		background: $dark-coal;
 		color: $white;
 		font-size: 20px;
@@ -38,7 +32,6 @@
 		&:hover { background: $coal; }
 	}
 	.fa {
-		margin-top:10px;
 		width: 15%;
 		float: left;
 		padding: 10px 0;
