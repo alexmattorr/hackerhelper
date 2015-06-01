@@ -9,14 +9,17 @@
 								<div class="column">
 									<img src="assets/img/alex.png"/>
 									<h5>Alexander Orr</h5>
+									<p>Developer / Team lead</p>
 								</div>
 								<div class="column">
 									<img src="assets/img/alex.png"/>
 									<h5>Minnie Tantiphipop</h5>
+									<p>UX & UI Developer / Designer</p>
 								</div>
 								<div class="column">
 									<img src="assets/img/alex.png"/>
-									<h5>Ryan Coughlin</h5>	
+									<h5>Ryan Coughlin</h5>
+									<p>UX & UI Developer / Designer</p>
 								</div>
 							</div>
 		
