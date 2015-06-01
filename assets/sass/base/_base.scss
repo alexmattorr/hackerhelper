@@ -6,6 +6,10 @@ body {
 	font-weight: $site-light;
 	letter-spacing: 1px;
 	-webkit-font-smoothing: antialiased;
+	@include scrollbars(4px, $coal, $white);
+	&.page-html { @include scrollbars(4px, $orange, $white); }
+	&.page-css { @include scrollbars(4px, $blue, $white); }
+	&.page-js { @include scrollbars(4px, $yellow, $white); }
 }
 .cf {
 	overflow: auto;

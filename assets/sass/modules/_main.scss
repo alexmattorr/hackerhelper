@@ -1,4 +1,8 @@
 .main {
+	@include scrollbars(4px, $white, $white);
+	&.page-html { @include scrollbars(4px, $orange, $white); }
+	&.page-css { @include scrollbars(4px, $blue, $white); }
+	&.page-js { @include scrollbars(4px, $yellow, $white); }
 	h2 {
 		font-size: 45px;
 		font-weight: bold;
@@ -7,8 +11,11 @@
 	.lang-items {
 		display: none;
 		height: 80%;
-		overflow: scroll;
-		@include phone-l() { height: auto; }
+		overflow-y: scroll;
+		@include phone-l() {
+			height: auto; 
+			margin-top: 195px;
+		}
 		&.is-active {
 			display: block;
 		}

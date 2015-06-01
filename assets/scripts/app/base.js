@@ -3,6 +3,7 @@ function baseJS() {
 
 		(function init(){
 			changeTab();
+			scrollBar();
 			disableClick();
 			// activePage();
 			aside();
@@ -17,6 +18,24 @@ function baseJS() {
 			});
 			$(".html").off();
 		};
+
+		function scrollBar() {
+			var url = window.location.href;
+			if (url.indexOf("index") >= 0) {
+				$(".main").addClass("page-html");
+			} else if (url.indexOf("css") >= 0) {
+				$(".main").addClass("page-css");
+			} else if (url.indexOf("js") >= 0) {
+				$(".main").addClass("page-js");
+			}
+
+/*
+			if( path.indexOf('/js/') > -1 ) {
+        $(".main").addClass("page-js");
+        console.log("working");
+     	}
+*/
+		}
 
 		function disableClick() {
 			$('#tabmenu a').click(function(e) {

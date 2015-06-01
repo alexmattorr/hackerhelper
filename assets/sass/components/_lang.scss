@@ -8,27 +8,44 @@
 	font-weight: $site-med;
 	text-align: center;
 	cursor: pointer;
+	transition-property: background;
+	transition-duration: .3s;
 	&.html {
 		width: 100%;
 		background: $orange;
 		cursor: auto;
 		&.is-active { 
 			background: $dark-orange; 
-			cursor: auto; 
+			cursor: auto;
+			// &:hover { background: $dark-orange; } 
+		}
+		&:hover { 
+			background: lighten($orange, 10%); 
+			// .orange-tri-content { background: lighten($orange, 10%); } 
 		}
 	}
 	&.css {
 		background: $blue;
 		&.is-active { 
 			background: $dark-blue; 
-			cursor: auto; 
+			cursor: auto;
+			&:hover { background: $dark-blue; } 
+		}
+		&:hover { 
+			// background: lighten($blue, 10%);
+			// .orange-tri-content { background: lighten($blue, 10%); }
 		}
 	}
 	&.js {
 		background: $yellow;
 		&.is-active { 
 			background: $dark-yellow; 
-			cursor: auto; 
+			cursor: auto;
+			&:hover { background: $dark-yellow; } 
+		}
+		&:hover { 
+			// background: lighten($yellow, 10%); 
+			// .orange-tri-content { background: lighten($yellow, 10%); } 
 		}
 	}
 }

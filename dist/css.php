@@ -1,15 +1,3 @@
-<html ng-app="hackerApp">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hacker Helper</title>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<script src="assets/js/jquery-2.1.1.min.js"></script>
-	<script src="assets/js/angular.min.js"></script>
-	<script src="assets/js/app.min.js"></script>
-</head>
-<body>
-	<div class="container" ng-controller="langCtrl">
 			<?php include 'components/header.php';?>
 			<?php include 'components/sidebar.php';?>
 			<section class="content">

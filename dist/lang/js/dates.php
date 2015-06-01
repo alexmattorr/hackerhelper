@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dates</title>
-	<link rel="stylesheet" href="../../assets/css/style.css">
-	<script src="../../assets/js/jquery-2.1.1.min.js"></script>
-	<script src="../../assets/js/app.min.js"></script>
-</head>
-<body>
-	<div class="container">
 		<?php include '../../components/lang-header.php';?>
 		<?php include '../../components/lang-sidebar.php';?>
 		<section class="content">
