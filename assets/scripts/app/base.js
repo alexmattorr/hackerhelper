@@ -1,44 +1,58 @@
 function baseJS() {
 	$(document).ready(function() {
 
+		(function init(){
+			changeTab();
+			disableClick();
+			// activePage();
+			aside();
+		})()
+
 		function changeTab() {
 			$(".lang").click(function() {
 				if($(this).hasClass("is-active")) {
 					preventDefault();
-					console.log("stopping click");
 				}
-				$(".lang").toggleClass("is-active");
-				$(".lang-items").toggleClass("is-active");
-				
+				$(".lang, .lang-items, .lang-tri-content").toggleClass("is-active");
 			});
 			$(".html").off();
 		};
-		function sideBar() {
-			$(document).on("click", '.fa-bars', function() {
-	  		$("aside").addClass("is-active");
-	  		$(".sidebar").addClass("is-active");
-			});
-			$(document).on("click", '.sidebar-close', function() {
-	  		$("aside").removeClass("is-active");
-	  		$(".sidebar").removeClass("is-active");
-			});
-		}
 
-		function goBack() {
-			$(".go-back").on("click", function() {
-	  		window.history.back()
+		function disableClick() {
+			$('#tabmenu a').click(function(e) {
+    		if($(this).hasClass('disabled')) {
+    			e.preventDefault();
+    		}
 			});
-		}
+		};
 
-		changeTab();
-		sideBar();
-		goBack();
+		function activePage() {
+			$(".language-group li a").each(function() {   
+    		if (this.href.search(location.href) != -1) {
+        	$(this).addClass("is-active");
+        }
+			});
+		};
+
+		function aside() {
+			$('.fa-bars').click(function() {
+				$('aside, .aside-bg').toggleClass('is-active');
+				asideToggle();
+			});
+
+			$('.aside-bg').click(function() {
+				$('aside, .aside-bg').removeClass('is-active');
+				asideToggle();
+			});
+
+			function asideToggle() {
+				$('.aside-toggle').toggleClass('fa-bars');
+				$('.aside-toggle').toggleClass('fa-times');
+				$('.content').toggleClass('menu-active');
+			};
+		};
+		
 	});
 };
 
 baseJS();
-
-$('#tabmenu a').click(function(e) {
-    if($(this).hasClass('disabled'))
-        e.preventDefault();
-});

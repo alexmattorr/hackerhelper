@@ -24,4 +24,10 @@ $media-style: max-width;
 	transition-timing-function: ease-in-out;
 }
 
+@mixin totalTransition() {
+	transition-property: background,color;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
 

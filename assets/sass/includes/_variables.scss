@@ -7,17 +7,23 @@
 // html
 $orange: #F1672C;
 $dark-orange: #E55126;
+$light-orange: #F2A892;
+.light-orange { background: $light-orange; }
 .orange{ color: $orange; }
 
 // css
 $blue: #30A9DC;
 $dark-blue: #0C73B8;
+$light-blue: #77B1D7;
+.light-blue { background: $light-blue; }
 .blue{ color: $blue; }
 
 // js
 $yellow: #F1BF26;
 $dark-yellow: #E5A228;
+$light-yellow: #F1CB87;
 .yellow{ color: $yellow; }
+.light-yellow { background: $light-yellow; }
 
 $white: #ffffff;
 
@@ -25,6 +31,7 @@ $coal: #333333;
 $dark-coal: #222222;
 
 $grey: lighten($coal, 5%);
+$l-grey: lighten($coal, 25%);
 
 
 $site-font: 'Lato', sans-serif;

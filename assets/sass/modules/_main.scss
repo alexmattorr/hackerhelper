@@ -1,44 +1,32 @@
 .main {
-	max-width: $phone;
-	width: 85%;
-	padding: 200px 0 20px 0;
-	margin: 0 auto;
-
 	h2 {
 		font-size: 45px;
 		font-weight: bold;
 	}
 
-	&.sub-page {
-		padding-top: 85px;
-		h4 {
-			font-size: 23px;
-			font-weight: bold;
-			text-align: center;
-		}
-		h5 {
-			font-size: 20px;	
-			margin-bottom: 20px;
-		}
-	}
-
 	.lang-items {
 		display: none;
-		max-height: 400px;
-
+		height: 80%;
+		overflow: scroll;
+		@include phone-l() { height: auto; }
 		&.is-active {
 			display: block;
 		}
 		li {
-			padding: 10px 5px;
 			color: $coal;
 			background: $white;
 			// border-bottom: 1px solid $blue;
 			text-overflow: ellipsis;
 			a {
+				padding: 10px 5px;
 				display: block;
 				text-decoration: none;
 				color: inherit;
+				@include totalTransition();
+				&:hover {
+					background: $coal;
+					color: $white;
+				}
 			}
 			&.html-border { border-bottom: 1px solid $orange; }
 			&.css-border { border-bottom: 1px solid $blue; }

@@ -9,12 +9,12 @@
 @import "base/base";
 @import "base/font-awesome";
 @import "base/button";
-
-// layout
-
+@import "base/typography";
 
 // components
 @import "components/search-filter";
+@import "components/lang";
+@import "components/lang-tri";
 @import "components/additional-group";
 @import "components/language-group";
 @import "components/code-snippets.scss";
@@ -24,6 +24,6 @@
 @import "modules/sidebar";
 @import "modules/main";
 @import "modules/contact-form";
-
-// pages
-@import "pages/home";
+@import "modules/sub-page";
+@import "modules/columns";
+@import "modules/about";

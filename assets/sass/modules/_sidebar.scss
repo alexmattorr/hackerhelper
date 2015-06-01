@@ -1,55 +1,74 @@
 aside {
-	position: absolute;
-	opacity: 0;
-	width: 0;
-	height: 0;
-	z-index: -1;
-	background: rgba($dark-coal, 0.5); 
-	&.is-active {
-		width: 100%;
-		height: 100%;
-		z-index: 100;
-		opacity: 1;
-	}
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	float: left;
 }
 
 .sidebar {
-	width: 0px;
 	height: 100%;
+	width: 100%;
 	float: left;
 	background: $dark-coal;
-	transition-property: width;
-	transition-duration: .3s;
-	transition-timing-function: ease-in;
 	ul {
-		width: 80%;
 		margin: 0 auto;
-		padding: 70px 0 20px 0;
+		padding: 75px 0 20px 0;
 		li {
-			padding-bottom: 15px;
-			margin-bottom: 15px;
 			border-bottom: 1px solid $grey;
 			a {
+				padding: 15px 0 16px 15px;
 				display: block;
 				text-decoration: none;
+				@include totalTransition();
+				&:hover,
+				&.is-active {
+					background: $coal;
+					color: $white;
+					&.orange { background: $orange; }
+					&.blue { background: $blue; }
+					&.yellow { background: $yellow; }
+				}
 			}
 		}
 	}
-	&.is-active {
-		width: 70%;
-		transition-property: width;
-		transition-duration: .3s;
-		transition-timing-function: ease-out;
+}
+
+.aside-bg {
+	position: fixed;
+	z-index: -1;
+	width: 0;
+	opacity: 0;
+	background: rgba($dark-coal, 0.8);
+}
+
+@include phone-l() {
+	aside {
+		z-index: -1;
+		opacity: 0;
+		width: 0;
+		transition-property: opacity, width;
+		transition-duration: .2s;
+		transition-timing-function: ease-in-out;
+		&.is-active {
+			opacity: 1;
+			width: 250px;
+			z-index: 98;
+		}
+	}
+
+	.aside-bg {
+		transition-property: opacity;
+		transition-duration: .1s;
+		transition-timing-function: ease-in-out;
+		&.is-active {
+			z-index: 90;
+			opacity: 1;
+			width: 100%;
+			height: 100vh;
+			cursor: pointer;
+		}
 	}
 }
-
-.sidebar-close {
-	width: 30%;
-	height: 100%;
-	float: left;
-}
-
-
 
 
 
