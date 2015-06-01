@@ -250,50 +250,8 @@ hackerApp.controller('langCtrl', function ($scope) {
 	];
 	$scope.jqLang = [
 		{
-			name: 'add',
-			url: '../lang/jquery/add.php'
-		}, {
-			name: 'ajax',
-			url: '../lang/jquery/ajax.php'
-		}, {
-			name: 'ancestors',
-			url: '../lang/jquery/ancestors.php'
-		}, {
-			name: 'animate',
-			url: '../lang/jquery/animate.php'
-		}, {
-			name: 'chaining',
-			url: '../lang/jquery/chaining.php'
-		}, {
-			name: 'classes',
-			url: '../lang/jquery/classes.php'
-		}, {
-			name: 'descendants',
-			url: '../lang/jquery/descendants.php'
-		}, {
-			name: 'dimensions',
-			url: '../lang/jquery/dimensions.php'
-		}, {
-			name: 'fade',
-			url: '../lang/jquery/fade.php'
-		}, {
-			name: 'filtering',
-			url: '../lang/jquery/filtering.php'
-		}, {
-			name: 'get-set',
-			url: '../lang/jquery/get-set.php'
-		}, {
-			name: 'hide-show',
-			url: '../lang/jquery/hide-show.php'
-		}, {
-			name: 'remove',
-			url: '../lang/jquery/remove.php'
-		}, {
-			name: 'siblings',
-			url: '../lang/jquery/siblings.php'
-		}, {
-			name: 'stop',
-			url: '../lang/jquery/stop.php'
+			name: ':active',
+			url: '../lang/jquery/jquery-test.php'
 		}
 	];
 });
