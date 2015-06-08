@@ -8,12 +8,12 @@
 			<h5>CSS font properties are used to specifie the font family, size, boldness, and style of text.</h5>
 			<p class="sub-page-disc">CSS properties used for font properties:</p>
 			<ul class="sub-page-ul css">
-				<li>font</li>
-				<li>font-family</li>
-				<li>font-size</li>
-				<li>font-style</li>
-				<li>font-variant</li>
-				<li>font-weight</li>
+				<li>font: ;</li>
+				<li>font-family: ;</li>
+				<li>font-size: ;</li>
+				<li>font-style: ;</li>
+				<li>font-variant: ;</li>
+				<li>font-weight: ;</li>
 			</ul>
 
 		<div class="code-block">

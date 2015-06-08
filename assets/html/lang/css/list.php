@@ -8,10 +8,10 @@
 			<h5>CSS list properties are used to set diffrent list item markers for ordered and unordered lists and to set an image as the list item marker.</h5>
 			<p class="sub-page-disc">CSS properties used for list properties:</p>
 			<ul class="sub-page-ul css">
-				<li>list-style</li>
-				<li>list-style-image</li>
-				<li>list-style-position</li>
-				<li>list-style-type</li>
+				<li>list-style: ;</li>
+				<li>list-style-image: ;</li>
+				<li>list-style-position: ;</li>
+				<li>list-style-type: ;</li>
 			</ul>
 
 		<div class="code-block">

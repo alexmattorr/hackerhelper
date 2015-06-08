@@ -8,20 +8,20 @@
 			<h5>CSS background properties are used to control the background of an element.</h5>
 			<p class="sub-page-disc">CSS properties used for background effects:</p>
 			<ul class="sub-page-ul css">
-				<li>background-color</li>
-				<li>background-image</li>
-				<li>background-repeat</li>
-				<li>background-attachmen</li>
-				<li>background-position</li>
-				<li>background-clip</li>
-				<li>background-origin</li>
+				<li>background-color: ;</li>
+				<li>background-image: ;</li>
+				<li>background-repeat: ;</li>
+				<li>background-attachment: ;</li>
+				<li>background-position: ;</li>
+				<li>background-clip: ;</li>
+				<li>background-origin: ;</li>
 			</ul>
 			<br>
 			<p class="sub-page-disc">CSS3 properties used for background effects:</p>
 			<ul class="sub-page-ul css">
-				<li>background-size</li>
-				<li>background-origin</li>
-				<li>background-clip</li>
+				<li>background-size: ;</li>
+				<li>background-origin: ;</li>
+				<li>background-clip: ;</li>
 			</ul>
 
 		<div class="code-block">

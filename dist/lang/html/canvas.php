@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Canvas</div>
 
-			<h5>Canvas allows you to output 2d shapes with html5 and javascript</h5>
+			<h5>Canvas allows you to output 2d shapes with html5 and javascript.</h5>
 			<p class="sub-page-disc">HTML code used for canvas:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;canvas&gt; &lt;/canvas&gt;</li>

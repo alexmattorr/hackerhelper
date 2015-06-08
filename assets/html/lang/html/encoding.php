@@ -18,8 +18,7 @@
 <span class="title">&lt;html&gt;</span>
 <span class="title">&lt;head&gt;</span>
 <span class="title">&lt;meta charset="UTF-8"&gt;</span>
-<span class="title">&lt;meta name="viewport" content="width=device-width, initial-scale=1">
-&gt;</span>
+<span class="title">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</span>
 <span class="title">&lt;/head&gt;</span>
 <span class="title">&lt;body&gt;</span>
 

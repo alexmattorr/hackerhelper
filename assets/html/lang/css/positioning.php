@@ -8,15 +8,15 @@
 			<h5>CSS positioning properties allow you to position an element specifically.</h5>
 			<p class="sub-page-disc">CSS properties used for positioning:</p>
 			<ul class="sub-page-ul css">
-				<li>bottom</li>
-				<li>clip</li>
-				<li>cursor</li>
-				<li>left</li>
-				<li>overflow</li>
-				<li>position</li>
-				<li>right</li>
-				<li>top</li>
-				<li>z-index</li>
+				<li>bottom: ;</li>
+				<li>clip: ;</li>
+				<li>cursor: ;</li>
+				<li>left: ;</li>
+				<li>overflow: ;</li>
+				<li>position: ;</li>
+				<li>right: ;</li>
+				<li>top: ;</li>
+				<li>z-index: ;</li>
 			</ul>
 
 		<div class="code-block">

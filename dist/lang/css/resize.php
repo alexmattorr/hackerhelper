@@ -14,8 +14,13 @@
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">.container { </span><span class="value">
-    resize: horizontal; // allows element to be resized by user only horizontally</span>
+<span class="title">.container { </span>
+	<span class="value">resize: none;</span><span class="code-comment">// Doesn't allows element to be resized</span>
+	<span class="value">resize: vertical;</span><span class="code-comment">// allows elemen's height to be resized</span>
+	<span class="value">resize: horizontal;</span><span class="code-comment">// allows element's width to be resized</span>
+	<span class="value">resize: both;</span><span class="code-comment">// allows both width and height of the element to be resized</span>
+	<span class="value">resize: initial;</span><span class="code-comment">// allows element to be resized according to it's default value</span>
+	<span class="value">resize: inherit;</span><span class="code-comment">// allows element to be resized according to it's parent element</span>
 <span class="title"> }</span>
 </code>
 </pre>

@@ -8,12 +8,12 @@
 			<h5>CSS dimension allows you to specifie the height and width of an element.</h5>
 			<p class="sub-page-disc">CSS properties used for dimensions:</p>
 			<ul class="sub-page-ul css">
-				<li>height</li>
-				<li>max-height</li>
-				<li>min-height</li>
-				<li>width</li>
-				<li>max-width</li>
-				<li>min-width</li>
+				<li>height: ;</li>
+				<li>max-height: ;</li>
+				<li>min-height: ;</li>
+				<li>width: ;</li>
+				<li>max-width: ;</li>
+				<li>min-width: ;</li>
 			</ul>
 
 		<div class="code-block">

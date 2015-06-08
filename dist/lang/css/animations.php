@@ -5,10 +5,10 @@
 		<div class="main sub-page">
 			<div class="sub-page-header css">Animations</div>
 
-			<h5>Animations allows you to animate HTML elements without using object oriented scripting languages. </h5>
+			<h5>Animations allows you to animate HTML elements without using object oriented scripting languages.</h5>
 			<p class="sub-page-disc">CSS code used for Animations:</p>
 			<ul class="sub-page-ul css">
-				<li>@keyframes</li>
+				<li>@keyframes { }</li>
 				<li>animation: ;</li>
     			<li>animation-delay: ;</li>
 			    <li>animation-direction: ;</li>

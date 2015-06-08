@@ -8,19 +8,17 @@
 			<h5>CSS padding specifies the space between the element border and the element content.</h5>
 			<p class="sub-page-disc">CSS properties used for the padding:</p>
 			<ul class="sub-page-ul css">
-				<li>padding</li>
-				<li>padding-top</li>
-				<li>padding-right</li>
-				<li>padding-bottom</li>
-				<li>padding-left</li>
+				<li>padding: ;</li>
+				<li>padding-top: ;</li>
+				<li>padding-right: ;</li>
+				<li>padding-bottom: ;</li>
+				<li>padding-left: ;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">div {</span>
-	<span class="value">padding: 50px 100px 25px 80px;</span>
-<span class="title">}</span><br>
+<span class="title">div {</span> <span class="value">padding: 50px 100px 25px 80px;</span> <span class="title">}</span><br>
 <span class="title">p {</span>
 	<span class="value">padding-top: 50px;
 	padding-right: 100px;

@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">SVG</div>
 
-			<h5>SVGs are are graphics for the web</h5>
+			<h5>SVGs are are graphics for the web.</h5>
 			<p class="sub-page-disc">HTML code used for SVG's:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;svg&gt; &lt;/svg&gt;</li>

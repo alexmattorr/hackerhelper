@@ -8,8 +8,8 @@
 			<h5>CSS float allows an element tp be pushed left or right, allowing other elements to wrap around it.</h5>
 			<p class="sub-page-disc">CSS properties used for float:</p>
 			<ul class="sub-page-ul css">
-				<li>float</li>
-				<li>clear</li>
+				<li>float: ;</li>
+				<li>clear: ;</li>
 			</ul>
 
 		<div class="code-block">
