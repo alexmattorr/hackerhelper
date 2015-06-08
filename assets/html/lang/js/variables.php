@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Variables</div>
 
-			<h5>Variables are used to store data in javascript.</h5>
+			<h5>Variables are used to store data in javascript</h5>
 			<p class="sub-page-disc">How to assign a variable:</p>
 			<ul class="sub-page-ul js">
 				<li>var x = ("something")</li>

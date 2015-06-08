@@ -10,25 +10,17 @@
   text-align: center;
   vertical-align:top;
   line-height: 5em;
+  &.middle { vertical-align:middle;}
   img {
+    border-radius:200px;
     width:230px;
   }
+  @include respond-to($tablet-l) { img {width:180px;} }
   @include respond-to($tablet) {
     display: block;
     width: 100%;
-    img {
-      margin:15px auto 5px auto;
-    }
-        
+    img { margin:15px auto 5px auto; }      
   }
 }
 
 
-
-/* .column-photo { 
-  &:nth-child(1) {background-image:url(assets/img/alex.png)  no-repeat top center; }
-  &:nth-child(2) {background-image:url(assets/img/alex.png)  no-repeat top center; }
-  &:nth-child(3) {background-image:url(assets/img/alex.png)  no-repeat top center; }
-	//background-size:contain;
-	//height:400px;
-} */

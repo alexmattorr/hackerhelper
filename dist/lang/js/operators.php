@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Operators</div>
 
-			<h5>Operators are used to preform mathematics on literals or variables.</h5>
+			<h5>Operators are used to preform mathematics on literals or variables</h5>
 
 			<p class="sub-page-disc">Mathematic Operators</p>
 			<ul class="sub-page-ul js">

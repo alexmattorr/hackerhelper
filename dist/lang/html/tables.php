@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Tables</div>
 
-			<h5>Tables are used to create tables in html.</h5>
+			<h5>Tables are used to create tables in html</h5>
 			<p class="sub-page-disc">HTML code used for tables:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;table&gt; &lt;/table&gt;</li>
@@ -48,8 +48,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="headings.php">Headings</a></li>
-			<li><a href="style.php">Style</a></li>
+			<li><a href="headings.php">headings</a></li>
+			<li><a href="style.php">style</a></li>
 		</ul>
 		</div>
 

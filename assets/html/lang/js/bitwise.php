@@ -4,7 +4,7 @@
 			<article>
 		<div class="main sub-page">
 			<div class="sub-page-header js">Bitwise</div>
-			<h5>Bitwise operator treats numeric operands as a set of 32 bits in binary system (0 and 1).</h5>
+			<h5>Bitwise operator treats numeric operands as a set of 32 bits in binary system (0 and 1)</h5>
 			<p class="sub-page-disc">Bitwise operators are:</p>
 			<ul class="sub-page-ul js">
 				<li>&amp;&amp;  AND</li>

@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Functions</div>
 
-			<h5>Functions are created and used to preform a particular task.</h5>
+			<h5>Functions are created and used to preform a particular task</h5>
 			<p class="sub-page-disc">How to write a function:</p>
 
 		<div class="code-block">

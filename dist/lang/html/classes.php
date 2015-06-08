@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Classes</div>
 
-			<h5>Classes define elements for CSS, Javscript, and other front-end technologies.</h5>
+			<h5>Classes define elements for CSS, Javscript, and other front-end technologies</h5>
 			<p class="sub-page-disc">HTML code used for classes:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;div&gt; class="comment" &lt;/div&gt;</li>

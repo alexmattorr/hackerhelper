@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Objects</div>
 
-			<h5>Objects are everything in Javascript.</h5>
+			<h5>Objects are everything in Javascript</h5>
 			<p class="sub-page-disc">Objects contain properties, methods, values, functions.</p>
 
 		<div class="code-block">

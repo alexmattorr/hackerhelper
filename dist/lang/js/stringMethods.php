@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">String Methods</div>
 
-			<h5>String Methods help you to work with strings.</h5>
+			<h5>String Methods help you to work with strings</h5>
 			<p class="sub-page-disc">Popular string methods include:</p>
 			<ul class="sub-page-ul js">
 				<li>indexOf()</li>

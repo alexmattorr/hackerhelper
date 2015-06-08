@@ -6,7 +6,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Syntax</div>
 
-			<h5>Syntax is the way you write javascript.</h5>
+			<h5>Syntax is the way you write javascript</h5>
 			<p class="sub-page-disc">Some Javascript Syntax:</p>
 			<ul class="sub-page-ul js">
 				<li>Literals:</li>

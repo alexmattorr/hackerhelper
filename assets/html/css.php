@@ -3,7 +3,7 @@
 			<section class="content">
 				<article>
 					<div class="search-filter cf">
-						<input type="text" placeholder="search" id="query" data-ng-model="query" /><i class="fa fa-search"></i>
+						<input type="text" placeholder="search" id="query" ng-model="query" /><i class="fa fa-search"></i>
 						<div class="filter cf">
 							<div class="lang css is-active">css</div>
 							<div class="lang css">scss</div>

@@ -16,7 +16,6 @@
 		<div class="code-block">
 		<pre class="code js">
 <code data-lang="js">
-	<span class="value">
 	$("div").load("test.txt");
 
 	$(".submit").click(function() {

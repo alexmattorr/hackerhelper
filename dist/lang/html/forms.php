@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Forms</div>
 
-			<h5>Forms allow users to input information and send it to a server.</h5>
+			<h5>Forms allow users to input information and send it to a server</h5>
 			<p class="sub-page-disc">HTML code used for forms:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;form&gt; &lt;/form&gt;</li>
@@ -49,7 +49,7 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="styles.php">Styles</a></li>
+			<li><a href="styles.php">styles</a></li>
 			<li><a href="paragraph.php">Paragraph</a></li>
 		</ul>
 		</div>

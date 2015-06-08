@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">formatting</div>
 
-			<h5>Formatting allows you to apply generic styles to html.</h5>
+			<h5>Formatting allows you to apply generic styles to html</h5>
 			<p class="sub-page-disc">HTML code used for formatting:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;b&gt; &lt;/b&gt;</li>

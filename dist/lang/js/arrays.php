@@ -5,7 +5,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Arrays</div>
 
-			<h5>Arrays are used to store values in a single variable.</h5>
+			<h5>Arrays are used to store values in a single variable</h5>
 			<p class="sub-page-disc">In this tutorial we will use a script to display arrays inside a paragraph element with an id="demo"</p>
 
 		<div class="code-block">

@@ -11,7 +11,7 @@
 	float: left;
 	margin:10px auto;
 	padding-left: 10px;
-	height: 40px;
+	height: 50px;
 	background: $white;
 	border: 2px solid $dark-coal;
 	border-radius: 5px;
@@ -38,10 +38,11 @@
 		&:hover { background: $coal; }
 	}
 	.fa {
+		height:20px;
 		margin-top:10px;
 		width: 15%;
 		float: left;
-		padding: 10px 0;
+		padding: 15px 0;
 		background: $dark-coal;
 		font-size: 20px;
 		text-align: center;

@@ -5,8 +5,8 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Links</div>
 
-			<h5>Links are used to define absolute or local URLs.</h5>
-			<p class="sub-page-disc">HTML code used for link tags:</p>
+			<h5>Links are used to define absolute or local URLs</h5>
+			<p class="sub-page-disc">HTML code used for link tages:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;a&gt; href="#/"&gt; &lt;/a&gt;</li>
 			</ul>
@@ -30,8 +30,8 @@
 		<h5>See Also</h5>
 
 		<ul class="button see-also html">
-			<li><a href="images.php">Images</a></li>
-			<li><a href="formatting.php">Formatting</a></li>
+			<li><a href="images.php">images</a></li>
+			<li><a href="formatting.php">formatting</a></li>
 		</ul>
 		</div>
 

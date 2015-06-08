@@ -7,9 +7,9 @@
 		</ul>
 
 		<ul class="additional-group">
-			<li><a href="about.php"><i class="fa fa-info"></i></i>about</a></li>
-			<li><a href="about.php"><i class="fa fa-envelope-o"></i></i>contact</a></li>
-			<li><a href="about.php"><i class="fa fa-usd"></i>donate</a></li>
+			<li><a href="about.php#about"><i class="fa fa-info"></i></i>about</a></li>
+			<li><a href="about.php#contact"><i class="fa fa-envelope-o"></i></i>contact</a></li>
+			<li><a href="about.php#donate"><i class="fa fa-usd"></i>donate</a></li>
 		</ul>
 	</div>
 </aside>
