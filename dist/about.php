@@ -43,7 +43,7 @@
 						<div id="donate">
 							<div class="columns">
 								<div class="column">
-									<img src="assets/svg/coffeecup.svg"/>
+									<?php include 'components/coffee-cup.php';?>
 								</div>
 								<div class="column middle">
 									<h4>&lt;LIKE OUR WEB APP?&#47;&gt;</h4>	

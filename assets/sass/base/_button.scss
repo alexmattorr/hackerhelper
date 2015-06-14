@@ -3,6 +3,7 @@
 	@include bgTransition();
 	margin-top: 40px;
 	text-align: center;
+	cursor: pointer;
 }
 
 .see-also {
@@ -34,6 +35,7 @@
 	width: 220px;
 	padding: 25px;
 	&:hover { 
+		margin-top: 39px;
 		border: solid 2px $blue; 
 	}
 }
