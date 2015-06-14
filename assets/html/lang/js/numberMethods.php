@@ -17,7 +17,7 @@
 		<div class="main sub-page">
 			<div class="sub-page-header js">Number Methods</div>
 
-			<h5>In JavaScript, number methods hlp you work with numbers.</h5>
+			<h5>In JavaScript, number methods help you work with numbers.</h5>
 			<p class="sub-page-disc">Global functions can be used in all JS data types:</p>
 			<ul class="sub-page-ul js">
 				<li>Number()</li>
