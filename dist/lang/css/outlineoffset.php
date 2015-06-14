@@ -14,9 +14,7 @@
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">.container { </span><span class="value">
-    outline-offet: 20px;</span>
-<span class="title"> }</span>
+<span class="title">.container { </span> <span class="value">outline-offet: 20px;</span> <span class="title"> }</span>
 </code>
 </pre>
 		</div>

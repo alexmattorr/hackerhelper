@@ -17,7 +17,8 @@
 <span class="title">.container { </span><span class="value">
     width: 450px;
     height: 500px;
-    box-sizing: content-box;</span>
+    box-sizing: border-box;<span class="code-comment"> // an element padding and border are included in the width and height</span>
+    box-sizing: content-box;</span><span class="code-comment"> // an element padding and border are not included in the width and height</span></span>
 <span class="title"> }</span>
 </code>
 </pre>

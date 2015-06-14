@@ -8,19 +8,17 @@
 			<h5>CSS margin specifies the space around elements.</h5>
 			<p class="sub-page-disc">CSS properties used for the margin:</p>
 			<ul class="sub-page-ul css">
-				<li>margin</li>
-				<li>margin-top</li>
-				<li>margin-right</li>
-				<li>margin-bottom</li>
-				<li>margin-left</li>
+				<li>margin: ;</li>
+				<li>margin-top: ;</li>
+				<li>margin-right: ;</li>
+				<li>margin-bottom: ;</li>
+				<li>margin-left: ;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">div {</span>
-	<span class="value">margin: 50px 100px 25px 80px;</span>
-<span class="title">}</span><br>
+<span class="title">div {</span> <span class="value">margin: 50px 100px 25px 80px;</span> <span class="title">}</span><br>
 <span class="title">p {</span>
 	<span class="value">margin-top: 50px;
 	margin-right: 100px;

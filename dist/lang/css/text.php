@@ -8,19 +8,19 @@
 			<h5>CSS background properties are used to control the background of an element.</h5>
 			<p class="sub-page-disc">CSS properties used for text properties:</p>
 			<ul class="sub-page-ul css">
-				<li>color</li>
-				<li>direction</li>
-				<li>letter-spacing</li>
-				<li>line-height</li>
-				<li>text-align</li>
-				<li>text-decoration</li>
-				<li>text-transform</li>
-				<li>text-indent</li>
-				<li>text-shadow</li>
-				<li>unicode-bidi</li>
-				<li>vertical-align</li>
-				<li>white-space</li>
-				<li>word-spacing</li>
+				<li>color: ;</li>
+				<li>direction: ;</li>
+				<li>letter-spacing: ;</li>
+				<li>line-height: ;</li>
+				<li>text-align: ;</li>
+				<li>text-decoration: ;</li>
+				<li>text-transform: ;</li>
+				<li>text-indent: ;</li>
+				<li>text-shadow: ;</li>
+				<li>unicode-bidi: ;</li>
+				<li>vertical-align: ;</li>
+				<li>white-space: ;</li>
+				<li>word-spacing: ;</li>
 			</ul>
 
 		<div class="code-block">
@@ -48,11 +48,11 @@
 			<br>
 			<p class="sub-page-disc">CSS3 properties used for text properties:</p>
 			<ul class="sub-page-ul css">
-				<li>text-align-last</li>
-				<li>text-justify</li>
-				<li>text-overflow</li>
-				<li>word-break</li>
-				<li>word-wrap</li>
+				<li>text-align-last: ;</li>
+				<li>text-justify: ;</li>
+				<li>text-overflow: ;</li>
+				<li>word-break: ;</li>
+				<li>word-wrap: ;</li>
 			</ul>
 
 		<div class="code-block">

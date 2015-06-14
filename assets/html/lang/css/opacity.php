@@ -8,8 +8,8 @@
 			<h5>CSS3 property for transparency is opacity.</h5>
 			<p class="sub-page-disc">CSS3 properties used for opacity:</p>
 			<ul class="sub-page-ul css">
-				<li>opacity</li>
-				<li>filter</li>
+				<li>opacity: ;</li>
+				<li>filter: ;</li>
 			</ul>
 
 		<div class="code-block">

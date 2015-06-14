@@ -5,21 +5,21 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Images</div>
 
-			<h5>Images are used to bring images into html</h5>
+			<h5>Images are used to bring images into html.</h5>
 			<p class="sub-page-disc">HTML code used for link images:</p>
 			<ul class="sub-page-ul html">
-				<li>&lt;img&gt; src="#/"&gt; &lt;/img&gt;</li>
+				<li>&lt;img src="#/" /&gt;</li>
 			</ul>
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
-	&lt;img&gt; src="assets/imgs/logo.png" &lt;/img&gt;
-	&lt;img&gt; src="http://www.hackerhelper.com/assets/imgs/logo.png" &lt;/img&gt;
-	&lt;img&gt; src="assets/imgs/logo.png" alt="Company Logo" &lt;/img&gt;
-	&lt;img&gt; src="assets/imgs/logo.png" title="Company Logo" &lt;/img&gt;
-	&lt;img&gt; src="assets/imgs/logo.png" width="125" height="50" &lt;/img&gt;
+	&lt;img&gt; src="assets/imgs/logo.png" /&gt;
+	&lt;img&gt; src="http://www.hackerhelper.com/assets/imgs/logo.png" /&gt;
+	&lt;img&gt; src="assets/imgs/logo.png" alt="Company Logo" /&gt;
+	&lt;img&gt; src="assets/imgs/logo.png" title="Company Logo" /&gt;
+	&lt;img&gt; src="assets/imgs/logo.png" width="125" height="50" /&gt;
 	</span>
 <span class="title">&lt;/body&gt;</span>
 </code>

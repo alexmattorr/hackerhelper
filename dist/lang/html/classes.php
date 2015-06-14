@@ -8,7 +8,7 @@
 			<h5>Classes define elements for CSS, Javscript, and other front-end technologies</h5>
 			<p class="sub-page-disc">HTML code used for classes:</p>
 			<ul class="sub-page-ul html">
-				<li>&lt;div&gt; class="comment" &lt;/div&gt;</li>
+				<li>&lt;div class="comment"&gt;&lt;/div&gt;</li>
 			</ul>
 
 		<div class="code-block">

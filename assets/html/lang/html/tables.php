@@ -5,13 +5,13 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Tables</div>
 
-			<h5>Tables are used to create tables in html</h5>
+			<h5>Tables are used to create tables in html.</h5>
 			<p class="sub-page-disc">HTML code used for tables:</p>
 			<ul class="sub-page-ul html">
 				<li>&lt;table&gt; &lt;/table&gt;</li>
 				<li>&lt;tr&gt; Table Row &lt;/tr&gt;</li>
-				<li>&lt;td&gt; Table Data &lt;/td&gt;</li>
 				<li>&lt;th&gt; Table Head  &lt;/th&gt;</li>
+				<li>&lt;td&gt; Table Data &lt;/td&gt;</li>
 			</ul>
 		<div class="code-block">
 		<pre class="code html">
@@ -25,18 +25,18 @@
 		&lt;/tr&gt;
 
 		&lt;tr&gt;
-			&lt;th&gt; Minnie &lt;/th&gt;
-			&lt;th&gt; UX / UI Developer &lt;/th&gt;
+			&lt;td&gt; Minnie &lt;/td&gt;
+			&lt;td&gt; UX / UI Developer &lt;/td&gt;
 		&lt;/tr&gt;
 
 		&lt;tr&gt;
-			&lt;th&gt; Alex &lt;/th&gt;
-			&lt;th&gt; Developer &lt;/th&gt;
+			&lt;td&gt; Alex &lt;/td&gt;
+			&lt;td&gt; Developer &lt;/td&gt;
 		&lt;/tr&gt;
 
 		&lt;tr&gt;
-			&lt;th&gt; Ryan &lt;/th&gt;
-			&lt;th&gt; Designer &lt;/th&gt;
+			&lt;td&gt; Ryan &lt;/td&gt;
+			&lt;td&gt; Designer &lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/table&gt;
 	</span>

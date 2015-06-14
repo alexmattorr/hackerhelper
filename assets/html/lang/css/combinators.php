@@ -9,26 +9,18 @@
 			<p class="sub-page-disc">There are four diffrent CSS3 combinators:</p>
 			<ul class="sub-page-ul css">
 				<li>descentant selector</li>
-				<li>child selector</li>
-				<li>adjacent sibling selector</li>
-				<li>general sibling selector</li>
+				<li>child selector (>)</li>
+				<li>adjacent sibling selector (+)</li>
+				<li>general sibling selector (~)</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">div p {</span>
-	<span class="value">background-color: blue;	//descentant selector</span>
-<span class="title">}</span><br>
-<span class="title">div > p {</span>
-	<span class="value">background-color: blue;	//child selector</span>
-<span class="title">}</span><br>
-<span class="title">div + p {</span>
-	<span class="value">background-color: blue;	//adjacent sibling selector</span>
-<span class="title">}</span><br>
-<span class="title">div ~ p {</span>
-	<span class="value">background-color: blue;	//general sibling selector</span>
-<span class="title">}</span>
+<span class="title">div p {</span> <span class="value">background-color: blue;</span><span class="code-comment"> //descentant selector</span> <span class="title">}</span><br>
+<span class="title">div > p {</span> <span class="value">background-color: blue;</span><span class="code-comment"> //child selector</span> <span class="title">}</span><br>
+<span class="title">div + p {</span> <span class="value">background-color: blue;</span><span class="code-comment"> //adjacent sibling selector</span> <span class="title">}</span><br>
+<span class="title">div ~ p {</span> <span class="value">background-color: blue;</span><span class="code-comment"> //general sibling selector</span> <span class="title">}</span>
 </code>
 </pre>
 		</div>

@@ -5,12 +5,13 @@
 		<div class="main sub-page">
 			<div class="sub-page-header css">Box Model</div>
 
-			<h5>The CSS box model is a box that wraps around HTML elements</h5>
+			<h5>The CSS box model is a box that wraps around HTML elements.</h5>
 			<p class="sub-page-disc">CSS properties used for the box model:</p>
 			<ul class="sub-page-ul css">
-				<li>margin</li>
-				<li>border</li>
-				<li>padding</li>
+				<li>width: ;</li>
+				<li>margin: ;</li>
+				<li>border: ;</li>
+				<li>padding: ;</li>
 			</ul>
 
 		<div class="code-block">

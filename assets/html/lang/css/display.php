@@ -8,19 +8,15 @@
 			<h5>CSS display allows you to specifie how an element is displayed. the visibility property specifies if an element is visible or hidden.</h5>
 			<p class="sub-page-disc">CSS properties used for dimensions:</p>
 			<ul class="sub-page-ul css">
-				<li>display</li>
-				<li>visibility</li>
+				<li>display: ;</li>
+				<li>visibility: ;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">li {</span>
-	<span class="value">display: inline;</span>
-<span class="title">}</span><br>
-<span class="title">div {</span>
-	<span class="value">visibility: hidden;</span>
-<span class="title">}</span>
+<span class="title">li {</span> <span class="value">display: inline;</span> <span class="title">}</span><br>
+<span class="title">div {</span> <span class="value">visibility: hidden;</span> <span class="title">}</span>
 </code>
 </pre>
 		</div>

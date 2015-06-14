@@ -8,9 +8,9 @@
 			<h5>The CSS outline is a line that is drawn on the outside of the border on an element.</h5>
 			<p class="sub-page-disc">CSS properties used for the outline:</p>
 			<ul class="sub-page-ul css">
-				<li>outline-color</li>
-				<li>outline-style</li>
-				<li>outline-width</li>
+				<li>outline-color: ;</li>
+				<li>outline-style: ;</li>
+				<li>outline-width: ;</li>
 			</ul>
 
 		<div class="code-block">

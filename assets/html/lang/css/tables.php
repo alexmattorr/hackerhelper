@@ -5,23 +5,23 @@
 		<div class="main sub-page">
 			<div class="sub-page-header css">Tables</div>
 
-			<h5>CSS table properties are used for styling of HTML tables</h5>
+			<h5>CSS table properties are used for styling of HTML tables.</h5>
 			<p class="sub-page-disc">CSS properties used for tables:</p>
 			<ul class="sub-page-ul css">
-				<li>color</li>
-				<li>border</li>
-				<li>border-collapse</li>
-				<li>width</li>
-				<li>height</li>
-				<li>text-align</li>
-				<li>vertical-align</li>
-				<li>padding</li>
+				<li>color: ;</li>
+				<li>border: ;</li>
+				<li>border-collapse: ;</li>
+				<li>width: ;</li>
+				<li>height: ;</li>
+				<li>text-align: ;</li>
+				<li>vertical-align: ;</li>
+				<li>padding: ;</li>
 			</ul>
 
 		<div class="code-block">
 		<pre class="code css">
 <code data-lang="css">
-<span class="title">ur {</span>
+<span class="title">table {</span>
 	<span class="value">color: 00FF00;
 	border: 1px solid #333333;
 	border-collapse: collapse;
@@ -31,6 +31,12 @@
 	vertical-align: bottom;
 	padding: 15px;</span>
 <span class="title">}</span>
+<span class="title">th, td {</span>
+	<span class="value">border: 1px solid #222222;
+	padding: 10px;</span>
+<span class="title">}</span>
+	
+
 </code>
 </pre>
 		</div>

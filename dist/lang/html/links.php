@@ -5,22 +5,22 @@
 		<div class="main sub-page">
 			<div class="sub-page-header html">Links</div>
 
-			<h5>Links are used to define absolute or local URLs</h5>
+			<h5>Links are used to define absolute or local URLs.</h5>
 			<p class="sub-page-disc">HTML code used for link tages:</p>
 			<ul class="sub-page-ul html">
-				<li>&lt;a&gt; href="#/"&gt; &lt;/a&gt;</li>
+				<li>&lt;a href="#/"&gt; &lt;/a&gt;</li>
 			</ul>
 		<div class="code-block">
 		<pre class="code html">
 <code data-lang="html">
 <span class="title">&lt;body&gt;</span>
 	<span class="value">
-	&lt;a&gt; href="contact.html" &lt;/a&gt;
-	&lt;a&gt; href="contact.html target="_blank" &lt;/a&gt;
-	&lt;a&gt; href="contact.html target="_self" &lt;/a&gt;
-	&lt;a&gt; href="contact.html target="_parent" &lt;/a&gt;
-	&lt;a&gt; href="contact.html target="_top" &lt;/a&gt;
-	&lt;a&gt; href="contact.html target="_framed" &lt;/a&gt;
+	&lt;a href="contact.html"&gt;Contact&lt;/a&gt;
+	&lt;a href="contact.html target="_blank"&gt;Contact&lt;/a&gt;
+	&lt;a href="contact.html target="_self"&gt;Contact&lt;/a&gt;
+	&lt;a href="contact.html target="_parent"&gt;Contact&lt;/a&gt;
+	&lt;a href="contact.html target="_top"&gt;Contact&lt;/a&gt;
+	&lt;a href="contact.html target="_framed"&gt;Contact&lt;/a&gt;
 	</span>
 <span class="title">&lt;/body&gt;</span>
 </code>
