@@ -5,7 +5,7 @@ function baseJS() {
 			changeTab();
 			scrollBar();
 			disableClick();
-			// activePage();
+			innerPage();
 			aside();
 			smoothscroll();
 		})()
@@ -19,6 +19,11 @@ function baseJS() {
 			});
 			$(".html").off();
 		};
+
+		function innerPage() {
+			console.log("working!");
+			$(".sub-page").parent("article").css({"padding-top": "80px"});
+		}
 
 		function scrollBar() {
 			var url = window.location.href;
