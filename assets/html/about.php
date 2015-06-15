@@ -14,12 +14,12 @@
 									<p>Developer / Team lead</p>
 								</div>
 								<div class="column">
-									<img src="assets/img/alex.png"/>
+									<img src="assets/img/minnie.png"/>
 									<h5>Minnie Tantiphipop</h5>
 									<p>UX & UI Developer / Designer</p>
 								</div>
 								<div class="column">
-									<img src="assets/img/alex.png"/>
+									<img src="assets/img/rya.jpg"/>
 									<h5>Ryan Coughlin</h5>
 									<p>UX & UI Developer</p>
 									</div>
